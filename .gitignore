@@ -1,0 +1,32 @@
+# ROS2 build artifacts
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.venv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video
+*.mp4
+*.avi
+
+# Firmware
+*.hex
+*.bin
+eeprom.bin
