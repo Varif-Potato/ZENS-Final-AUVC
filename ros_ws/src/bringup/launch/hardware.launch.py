@@ -5,7 +5,7 @@ Usage:
 """
 
 from launch import LaunchDescription
-from launch_ros.actions import Node
+from rclpy.node import Node
 
 
 def generate_launch_description():
