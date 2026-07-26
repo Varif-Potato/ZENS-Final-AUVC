@@ -1,0 +1,13 @@
+[1.402s] Invoking command in '/home/ngt/ZENS-Final-AUVC/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake /home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs -DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/install/msgs
+[1.506s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.644s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.907s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.008s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.597s] [31mCMake Error at CMakeLists.txt:7 (rosidl_generate_interfaces):
+[4.598s]   Unknown CMake command "rosidl_generate_interfaces".
+[4.603s] 
+[4.608s] [0m
+[4.609s] -- Configuring incomplete, errors occurred!
+[4.661s] Invoked command in '/home/ngt/ZENS-Final-AUVC/build/msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake /home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs -DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/install/msgs

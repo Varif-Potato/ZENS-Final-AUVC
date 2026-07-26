@@ -1,0 +1,48 @@
+[13.892s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/build/hardware/install.log --single-version-externally-managed install_data
+[18.629s] running egg_info
+[18.629s] creating ../../../build/hardware/hardware.egg-info
+[18.974s] writing ../../../build/hardware/hardware.egg-info/PKG-INFO
+[18.979s] writing dependency_links to ../../../build/hardware/hardware.egg-info/dependency_links.txt
+[18.980s] writing entry points to ../../../build/hardware/hardware.egg-info/entry_points.txt
+[18.981s] writing requirements to ../../../build/hardware/hardware.egg-info/requires.txt
+[18.982s] writing top-level names to ../../../build/hardware/hardware.egg-info/top_level.txt
+[20.650s] writing manifest file '../../../build/hardware/hardware.egg-info/SOURCES.txt'
+[21.532s] reading manifest file '../../../build/hardware/hardware.egg-info/SOURCES.txt'
+[21.538s] writing manifest file '../../../build/hardware/hardware.egg-info/SOURCES.txt'
+[21.539s] running build
+[21.540s] running build_py
+[21.541s] creating /home/ngt/ZENS-Final-AUVC/build/hardware/build
+[21.542s] creating /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib
+[21.543s] creating /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[21.544s] copying hardware/bluerov2_simulation_interface.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[21.545s] copying hardware/bluerov2_hardware_interface.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[21.545s] copying hardware/bluerov2_camera_interface.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[21.547s] copying hardware/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[21.550s] running install
+[21.586s] running install_lib
+[21.967s] creating /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware
+[21.968s] copying /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware/bluerov2_simulation_interface.py -> /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware
+[21.969s] copying /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware/bluerov2_hardware_interface.py -> /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware
+[21.970s] copying /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware/bluerov2_camera_interface.py -> /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware
+[21.972s] copying /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware/__init__.py -> /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware
+[21.975s] byte-compiling /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware/bluerov2_simulation_interface.py to bluerov2_simulation_interface.cpython-312.pyc
+[21.982s] byte-compiling /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware/bluerov2_hardware_interface.py to bluerov2_hardware_interface.cpython-312.pyc
+[21.991s] byte-compiling /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware/bluerov2_camera_interface.py to bluerov2_camera_interface.cpython-312.pyc
+[21.995s] byte-compiling /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware/__init__.py to __init__.cpython-312.pyc
+[21.997s] running install_data
+[21.999s] creating /home/ngt/ZENS-Final-AUVC/install/hardware/share/ament_index
+[21.999s] creating /home/ngt/ZENS-Final-AUVC/install/hardware/share/ament_index/resource_index
+[22.000s] creating /home/ngt/ZENS-Final-AUVC/install/hardware/share/ament_index/resource_index/packages
+[22.002s] copying resource/hardware -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/ament_index/resource_index/packages
+[22.003s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware
+[22.006s] creating /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/launch
+[22.007s] copying launch/simulation.launch.py -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/launch
+[22.008s] creating /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/config
+[22.010s] copying config/bridge.yaml -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/config
+[22.011s] running install_egg_info
+[22.523s] Copying ../../../build/hardware/hardware.egg-info to /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware-0.0.0-py3.12.egg-info
+[22.533s] running install_scripts
+[23.443s] Installing bluerov2_camera_interface script to /home/ngt/ZENS-Final-AUVC/install/hardware/bin
+[23.449s] Installing bluerov2_hardware_interface script to /home/ngt/ZENS-Final-AUVC/install/hardware/bin
+[23.452s] Installing bluerov2_simulation_interface script to /home/ngt/ZENS-Final-AUVC/install/hardware/bin
+[23.456s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/hardware/install.log'

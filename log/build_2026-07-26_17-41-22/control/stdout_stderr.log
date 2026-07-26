@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/control/control.egg-info
+writing ../../../build/control/control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/control/control.egg-info/dependency_links.txt
+writing entry points to ../../../build/control/control.egg-info/entry_points.txt
+writing requirements to ../../../build/control/control.egg-info/requires.txt
+writing top-level names to ../../../build/control/control.egg-info/top_level.txt
+writing manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+reading manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ngt/ZENS-Final-AUVC/build/control/build
+creating /home/ngt/ZENS-Final-AUVC/build/control/build/lib
+creating /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+copying control/self_arm.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+copying control/heading_pid.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+copying control/self_disarm.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+copying control/depth_pid.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+copying control/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+running install
+running install_lib
+creating /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control
+copying /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control/self_arm.py -> /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control
+copying /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control/heading_pid.py -> /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control
+copying /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control/self_disarm.py -> /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control
+copying /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control/depth_pid.py -> /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control
+copying /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control/__init__.py -> /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control/self_arm.py to self_arm.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control/heading_pid.py to heading_pid.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control/self_disarm.py to self_disarm.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control/depth_pid.py to depth_pid.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ngt/ZENS-Final-AUVC/install/control/share/ament_index
+creating /home/ngt/ZENS-Final-AUVC/install/control/share/ament_index/resource_index
+creating /home/ngt/ZENS-Final-AUVC/install/control/share/ament_index/resource_index/packages
+copying resource/control -> /home/ngt/ZENS-Final-AUVC/install/control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/control/share/control
+running install_egg_info
+Copying ../../../build/control/control.egg-info to /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing depth_pid script to /home/ngt/ZENS-Final-AUVC/install/control/bin
+Installing heading_pid script to /home/ngt/ZENS-Final-AUVC/install/control/bin
+Installing self_arm script to /home/ngt/ZENS-Final-AUVC/install/control/bin
+Installing self_disarm script to /home/ngt/ZENS-Final-AUVC/install/control/bin
+writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/control/install.log'
