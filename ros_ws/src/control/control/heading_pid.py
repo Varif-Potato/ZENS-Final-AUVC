@@ -51,7 +51,7 @@ class rotatehold(Node):
         self.get_logger().info(f"New Target Depth: {self.targetAngle:.2f} m")
     def anglePublish(self):
     
-        self.PIDController(self.targetAngle, 2.5, 0.1, 0.03)
+        self.PIDController(self.targetAngle, 1.4, 0.0, 0.65)
         self.get_logger().info(f"Published PID, angle {self.currentAngle}")
         
     def PIDController(self, target, kP, kI, kD):
