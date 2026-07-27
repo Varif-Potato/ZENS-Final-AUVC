@@ -28,6 +28,7 @@ setup(
             "image_saver_node = cv.nodes.image_saver_node:main",
             "calibrate_camera = cv.scripts.calibrate_camera:main",
             "detect_from_image = cv.scripts.detect_from_image:main",
+            "tag_heading_node = cv.nodes.tag_heading_node:main",
         ],
     },
 )

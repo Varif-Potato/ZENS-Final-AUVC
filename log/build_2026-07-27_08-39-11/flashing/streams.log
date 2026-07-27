@@ -1,0 +1,25 @@
+[21.024s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/flashing/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data
+[28.209s] running egg_info
+[28.823s] writing ../../../build/flashing/flashing.egg-info/PKG-INFO
+[28.841s] writing dependency_links to ../../../build/flashing/flashing.egg-info/dependency_links.txt
+[28.859s] writing entry points to ../../../build/flashing/flashing.egg-info/entry_points.txt
+[28.868s] writing requirements to ../../../build/flashing/flashing.egg-info/requires.txt
+[28.875s] writing top-level names to ../../../build/flashing/flashing.egg-info/top_level.txt
+[30.015s] reading manifest file '../../../build/flashing/flashing.egg-info/SOURCES.txt'
+[30.066s] writing manifest file '../../../build/flashing/flashing.egg-info/SOURCES.txt'
+[30.067s] running build
+[30.071s] running build_py
+[30.086s] copying flashing/flashing_node.py -> /home/ngt/ZENS-Final-AUVC/build/flashing/build/lib/flashing
+[30.094s] copying flashing/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/flashing/build/lib/flashing
+[30.110s] running install
+[30.338s] running install_lib
+[31.069s] running install_data
+[31.078s] copying resource/flashing -> /home/ngt/ZENS-Final-AUVC/install/flashing/share/ament_index/resource_index/packages
+[31.083s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing
+[31.096s] running install_egg_info
+[31.544s] removing '/home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages/flashing-0.0.0-py3.12.egg-info' (and everything under it)
+[31.568s] Copying ../../../build/flashing/flashing.egg-info to /home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages/flashing-0.0.0-py3.12.egg-info
+[31.618s] running install_scripts
+[32.145s] Installing flashing_node script to /home/ngt/ZENS-Final-AUVC/install/flashing/lib/flashing
+[32.153s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/flashing/install.log'
+[32.701s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/flashing/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data

@@ -1,0 +1,12 @@
+launch:
+  - node:
+      pkg: "cv"
+      exec: "apriltag_detector_node"
+      name: "apriltag_detector"
+      output: "screen"
+      emulate_tty: "true"
+      param:
+        - name: "config_dir"
+          value: "$(find-pkg-share cv)/config"
+        - name: "camera_topic"
+          value: "/camera"

@@ -1,0 +1,46 @@
+[11.538s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/cv/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[15.016s] running egg_info
+[15.317s] writing ../../../build/cv/cv.egg-info/PKG-INFO
+[15.325s] writing dependency_links to ../../../build/cv/cv.egg-info/dependency_links.txt
+[15.329s] writing entry points to ../../../build/cv/cv.egg-info/entry_points.txt
+[15.336s] writing requirements to ../../../build/cv/cv.egg-info/requires.txt
+[15.336s] writing top-level names to ../../../build/cv/cv.egg-info/top_level.txt
+[15.954s] reading manifest file '../../../build/cv/cv.egg-info/SOURCES.txt'
+[15.968s] writing manifest file '../../../build/cv/cv.egg-info/SOURCES.txt'
+[15.976s] running build
+[15.977s] running build_py
+[15.981s] copying cv/detector.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+[15.986s] copying cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+[15.991s] copying cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+[15.997s] copying cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+[16.002s] copying cv/camera.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+[16.003s] copying cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+[16.008s] copying cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+[16.009s] copying cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+[16.009s] copying cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+[16.016s] copying cv/nodes/detector_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+[16.020s] copying cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+[16.022s] copying cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+[16.025s] copying cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+[16.028s] running install
+[16.097s] running install_lib
+[16.540s] running install_data
+[16.541s] copying resource/cv -> /home/ngt/ZENS-Final-AUVC/install/cv/share/ament_index/resource_index/packages
+[16.557s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv
+[16.565s] copying launch/test_detection.launch.py -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/launch
+[16.572s] copying launch/detection.launch.py -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/launch
+[16.580s] copying launch/tag_heading.launch.py -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/launch
+[16.590s] copying config/camera_info.yaml -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/config
+[16.611s] copying config/detector_params.yaml -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/config
+[16.612s] running install_egg_info
+[17.137s] removing '/home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info' (and everything under it)
+[17.160s] Copying ../../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info
+[17.191s] running install_scripts
+[18.116s] Installing apriltag_detector_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+[18.125s] Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+[18.133s] Installing detect_from_image script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+[18.134s] Installing fake_camera_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+[18.159s] Installing image_saver_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+[18.160s] Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+[18.165s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/cv/install.log'
+[19.020s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/cv/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data

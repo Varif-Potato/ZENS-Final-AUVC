@@ -1,0 +1,16 @@
+launch:
+  - node:
+      pkg: "ros_gz_bridge"
+      exec: "parameter_bridge"
+      name: "parameter_bridge"
+      output: "screen"
+      param:
+        - name: "config_file"
+          value: "$(find-pkg-share hardware)/config/bridge.yaml"
+
+  - node:
+      pkg: "hardware"
+      exec: "bluerov2_simulation_interface"
+      name: "bluerov2_simulation_interface"
+      namespace: "rov1"
+      output: "screen"

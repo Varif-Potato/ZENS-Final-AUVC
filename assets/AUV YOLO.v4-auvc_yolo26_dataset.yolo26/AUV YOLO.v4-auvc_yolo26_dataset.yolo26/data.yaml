@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Full', 'Side', 'back', 'front']
+
+roboflow:
+  workspace: zestfest
+  project: auv-yolo-ssqex
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zestfest/auv-yolo-ssqex/dataset/4

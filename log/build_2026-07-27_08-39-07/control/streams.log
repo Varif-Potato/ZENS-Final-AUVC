@@ -1,0 +1,31 @@
+[22.973s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/control/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/build/control/build install --record /home/ngt/ZENS-Final-AUVC/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data
+[30.097s] running egg_info
+[30.670s] writing ../../../build/control/control.egg-info/PKG-INFO
+[30.702s] writing dependency_links to ../../../build/control/control.egg-info/dependency_links.txt
+[30.709s] writing entry points to ../../../build/control/control.egg-info/entry_points.txt
+[30.718s] writing requirements to ../../../build/control/control.egg-info/requires.txt
+[30.719s] writing top-level names to ../../../build/control/control.egg-info/top_level.txt
+[31.773s] reading manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+[31.812s] writing manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+[31.813s] running build
+[31.833s] running build_py
+[31.845s] copying control/self_arm.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+[31.846s] copying control/heading_pid.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+[31.858s] copying control/self_disarm.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+[31.863s] copying control/depth_pid.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+[31.867s] copying control/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/control/build/lib/control
+[31.881s] running install
+[31.956s] running install_lib
+[32.583s] running install_data
+[32.593s] copying resource/control -> /home/ngt/ZENS-Final-AUVC/install/control/share/ament_index/resource_index/packages
+[32.601s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/control/share/control
+[32.602s] running install_egg_info
+[33.214s] removing '/home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info' (and everything under it)
+[33.220s] Copying ../../../build/control/control.egg-info to /home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info
+[33.299s] running install_scripts
+[34.614s] Installing depth_pid script to /home/ngt/ZENS-Final-AUVC/install/control/lib/control
+[34.627s] Installing heading_pid script to /home/ngt/ZENS-Final-AUVC/install/control/lib/control
+[34.637s] Installing self_arm script to /home/ngt/ZENS-Final-AUVC/install/control/lib/control
+[34.651s] Installing self_disarm script to /home/ngt/ZENS-Final-AUVC/install/control/lib/control
+[34.662s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/control/install.log'
+[39.308s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/control/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/build/control/build install --record /home/ngt/ZENS-Final-AUVC/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data

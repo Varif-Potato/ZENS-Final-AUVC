@@ -1,0 +1,33 @@
+[8.504s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/hardware/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/build/hardware/install.log --install-scripts $base/lib/hardware --single-version-externally-managed install_data
+[10.183s] /home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/setuptools/_distutils/dist.py:288: UserWarning: Unknown distribution option: 'tests_require'
+[10.184s]   warnings.warn(msg)
+[12.081s] running egg_info
+[12.382s] writing ../../../build/hardware/hardware.egg-info/PKG-INFO
+[12.392s] writing dependency_links to ../../../build/hardware/hardware.egg-info/dependency_links.txt
+[12.393s] writing entry points to ../../../build/hardware/hardware.egg-info/entry_points.txt
+[12.399s] writing requirements to ../../../build/hardware/hardware.egg-info/requires.txt
+[12.406s] writing top-level names to ../../../build/hardware/hardware.egg-info/top_level.txt
+[12.725s] reading manifest file '../../../build/hardware/hardware.egg-info/SOURCES.txt'
+[12.743s] writing manifest file '../../../build/hardware/hardware.egg-info/SOURCES.txt'
+[12.753s] running build
+[12.754s] running build_py
+[12.754s] copying hardware/bluerov2_simulation_interface.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[12.763s] copying hardware/bluerov2_hardware_interface.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[12.766s] copying hardware/bluerov2_camera_interface.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[12.776s] copying hardware/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/hardware/build/lib/hardware
+[12.789s] running install
+[12.930s] running install_lib
+[13.313s] running install_data
+[13.320s] copying resource/hardware -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/ament_index/resource_index/packages
+[13.320s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware
+[13.335s] copying launch/simulation.launch.py -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/launch
+[13.345s] copying config/bridge.yaml -> /home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/config
+[13.346s] running install_egg_info
+[13.691s] removing '/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware-0.0.0-py3.12.egg-info' (and everything under it)
+[13.692s] Copying ../../../build/hardware/hardware.egg-info to /home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages/hardware-0.0.0-py3.12.egg-info
+[13.730s] running install_scripts
+[14.155s] Installing bluerov2_camera_interface script to /home/ngt/ZENS-Final-AUVC/install/hardware/lib/hardware
+[14.157s] Installing bluerov2_hardware_interface script to /home/ngt/ZENS-Final-AUVC/install/hardware/lib/hardware
+[14.160s] Installing bluerov2_simulation_interface script to /home/ngt/ZENS-Final-AUVC/install/hardware/lib/hardware
+[14.168s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/hardware/install.log'
+[14.380s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/hardware/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/build/hardware/install.log --install-scripts $base/lib/hardware --single-version-externally-managed install_data

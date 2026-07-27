@@ -1,0 +1,12 @@
+launch:
+  - node:
+      pkg: "control"
+      exec: "depth_pid"
+      name: "depth_pid"
+      output: "screen"
+
+  - node:
+      pkg: "control"
+      exec: "heading_pid"
+      name: "heading_pid"
+      output: "screen"

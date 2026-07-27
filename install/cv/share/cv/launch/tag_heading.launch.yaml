@@ -1,0 +1,43 @@
+launch:
+  - arg:
+      name: "fx"
+      default: "554.0"
+      description: "Camera focal length in pixels"
+
+  - arg:
+      name: "cx"
+      default: "320.0"
+      description: "Camera principal point x (image center)"
+
+  - arg:
+      name: "image_width"
+      default: "640"
+      description: "Image width in pixels"
+
+  - arg:
+      name: "tag_id"
+      default: "-1"
+      description: "Tag ID to track (-1 = first detected)"
+
+  - arg:
+      name: "active"
+      default: "true"
+      description: "Set false to disable heading publishing"
+
+  - node:
+      pkg: "cv"
+      exec: "tag_heading_node"
+      name: "tag_heading"
+      output: "screen"
+      emulate_tty: "true"
+      param:
+        - name: "fx"
+          value: "$(var fx)"
+        - name: "cx"
+          value: "$(var cx)"
+        - name: "image_width"
+          value: "$(var image_width)"
+        - name: "tag_id"
+          value: "$(var tag_id)"
+        - name: "active"
+          value: "$(var active)"

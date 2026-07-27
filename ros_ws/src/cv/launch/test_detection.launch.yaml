@@ -1,0 +1,21 @@
+launch:
+  - node:
+      pkg: "cv"
+      exec: "fake_camera_node"
+      name: "fake_camera"
+      param:
+        - name: "source"
+          value: "0"
+        - name: "fps"
+          value: "15.0"
+
+  - node:
+      pkg: "cv"
+      exec: "apriltag_detector_node"
+      name: "apriltag_detector"
+      output: "screen"
+      param:
+        - name: "config_dir"
+          value: "$(find-pkg-share cv)/config"
+        - name: "camera_topic"
+          value: "/camera"

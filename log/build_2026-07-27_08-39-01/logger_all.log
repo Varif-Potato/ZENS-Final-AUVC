@@ -1,0 +1,898 @@
+[1.031s] DEBUG:colcon:Command line arguments: ['/home/ngt/.virtualenvs/ardusub/bin/colcon', 'build']
+[1.032s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff81d7d2e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff81d7d0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff81d7d0a0>>)
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngt/ZENS-Final-AUVC'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['ignore', 'ignore_ament_install']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'ignore'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'ignore_ament_install'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['colcon_pkg']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'colcon_pkg'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['colcon_meta']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'colcon_meta'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['ros']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'ros'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['cmake', 'python']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'cmake'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'python'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extensions ['python_setup_py']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(analysis) by extension 'python_setup_py'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extensions ['ignore', 'ignore_ament_install']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'ignore'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'ignore_ament_install'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extensions ['colcon_pkg']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'colcon_pkg'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extensions ['colcon_meta']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'colcon_meta'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extensions ['ros']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'ros'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extensions ['cmake', 'python']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'cmake'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'python'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extensions ['python_setup_py']
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(analysis/notebooks) by extension 'python_setup_py'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['cmake', 'python']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['ignore', 'ignore_ament_install']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'ignore'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'ignore_ament_install'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['colcon_pkg']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'colcon_pkg'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['colcon_meta']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'colcon_meta'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['ros']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'ros'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['cmake', 'python']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'cmake'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'python'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['python_setup_py']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'python_setup_py'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'ignore_ament_install'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['colcon_pkg']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'colcon_meta'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['ros']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'ros'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['cmake', 'python']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'cmake'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'python'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extensions ['python_setup_py']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26) by extension 'python_setup_py'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extensions ['ignore', 'ignore_ament_install']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'ignore'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'ignore_ament_install'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extensions ['colcon_pkg']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'colcon_pkg'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extensions ['colcon_meta']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'colcon_meta'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extensions ['ros']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'ros'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extensions ['cmake', 'python']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'cmake'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'python'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extensions ['python_setup_py']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test) by extension 'python_setup_py'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extensions ['ignore', 'ignore_ament_install']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'ignore'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'ignore_ament_install'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extensions ['colcon_pkg']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'colcon_pkg'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extensions ['colcon_meta']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'colcon_meta'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extensions ['ros']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'ros'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extensions ['cmake', 'python']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'cmake'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'python'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extensions ['python_setup_py']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/images) by extension 'python_setup_py'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'ignore'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'ignore_ament_install'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extensions ['colcon_pkg']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'colcon_pkg'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extensions ['colcon_meta']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'colcon_meta'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extensions ['ros']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'ros'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extensions ['cmake', 'python']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'cmake'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'python'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extensions ['python_setup_py']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/test/labels) by extension 'python_setup_py'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extensions ['ignore', 'ignore_ament_install']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'ignore'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'ignore_ament_install'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extensions ['colcon_pkg']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'colcon_pkg'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extensions ['colcon_meta']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'colcon_meta'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extensions ['ros']
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'ros'
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extensions ['cmake', 'python']
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'cmake'
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'python'
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extensions ['python_setup_py']
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train) by extension 'python_setup_py'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extensions ['ignore', 'ignore_ament_install']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'ignore'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'ignore_ament_install'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extensions ['colcon_pkg']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'colcon_pkg'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extensions ['colcon_meta']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'colcon_meta'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extensions ['ros']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'ros'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extensions ['cmake', 'python']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'cmake'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'python'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extensions ['python_setup_py']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/images) by extension 'python_setup_py'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extensions ['ignore', 'ignore_ament_install']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'ignore'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'ignore_ament_install'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extensions ['colcon_pkg']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'colcon_pkg'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extensions ['colcon_meta']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'colcon_meta'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extensions ['ros']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'ros'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extensions ['cmake', 'python']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'cmake'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'python'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extensions ['python_setup_py']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/train/labels) by extension 'python_setup_py'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extensions ['ignore', 'ignore_ament_install']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'ignore'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'ignore_ament_install'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extensions ['colcon_pkg']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'colcon_pkg'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extensions ['colcon_meta']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'colcon_meta'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extensions ['ros']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'ros'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extensions ['cmake', 'python']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'cmake'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'python'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extensions ['python_setup_py']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid) by extension 'python_setup_py'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extensions ['ignore', 'ignore_ament_install']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'ignore'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'ignore_ament_install'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extensions ['colcon_pkg']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'colcon_pkg'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extensions ['colcon_meta']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'colcon_meta'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extensions ['ros']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'ros'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extensions ['cmake', 'python']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'cmake'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'python'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extensions ['python_setup_py']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/images) by extension 'python_setup_py'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extensions ['ignore', 'ignore_ament_install']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'ignore'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'ignore_ament_install'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extensions ['colcon_pkg']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'colcon_pkg'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extensions ['colcon_meta']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'colcon_meta'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extensions ['ros']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'ros'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extensions ['cmake', 'python']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'cmake'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'python'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extensions ['python_setup_py']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(assets/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/AUV YOLO.v4-auvc_yolo26_dataset.yolo26/valid/labels) by extension 'python_setup_py'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['ignore', 'ignore_ament_install']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'ignore'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'ignore_ament_install'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['colcon_pkg']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'colcon_pkg'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['colcon_meta']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'colcon_meta'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['ros']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'ros'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['cmake', 'python']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'cmake'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'python'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['python_setup_py']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'python_setup_py'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'ignore_ament_install'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['colcon_pkg']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'colcon_pkg'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['colcon_meta']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'colcon_meta'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['ros']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'ros'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['cmake', 'python']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'cmake'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'python'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['python_setup_py']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'python_setup_py'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extensions ['ignore', 'ignore_ament_install']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'ignore'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'ignore_ament_install'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extensions ['colcon_pkg']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'colcon_pkg'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extensions ['colcon_meta']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'colcon_meta'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extensions ['ros']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'ros'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extensions ['cmake', 'python']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'cmake'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'python'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extensions ['python_setup_py']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26) by extension 'python_setup_py'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'ignore'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'ignore_ament_install'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extensions ['colcon_pkg']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'colcon_pkg'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extensions ['colcon_meta']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'colcon_meta'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extensions ['ros']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'ros'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extensions ['cmake', 'python']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'cmake'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'python'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extensions ['python_setup_py']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight1) by extension 'python_setup_py'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'ros'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extensions ['cmake', 'python']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'cmake'
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'python'
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extensions ['python_setup_py']
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-26/flight2) by extension 'python_setup_py'
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['ignore', 'ignore_ament_install']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'ignore'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'ignore_ament_install'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['colcon_pkg']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'colcon_pkg'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['colcon_meta']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'colcon_meta'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['ros']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'ros'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['cmake', 'python']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'cmake'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'python'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['python_setup_py']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'python_setup_py'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['ignore', 'ignore_ament_install']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'ignore_ament_install'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['colcon_pkg']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'colcon_pkg'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['colcon_meta']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'colcon_meta'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'ros'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['cmake', 'python']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'cmake'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'python'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['python_setup_py']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'python_setup_py'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extensions ['ignore', 'ignore_ament_install']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'ignore_ament_install'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extensions ['colcon_pkg']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'colcon_pkg'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'colcon_meta'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extensions ['ros']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'ros'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extensions ['cmake', 'python']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'cmake'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'python'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extensions ['python_setup_py']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight2) by extension 'python_setup_py'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extensions ['ros']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'ros'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extensions ['cmake', 'python']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'cmake'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'python'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extensions ['python_setup_py']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(calibration) by extension 'python_setup_py'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extensions ['ignore', 'ignore_ament_install']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'ignore'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'ignore_ament_install'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extensions ['colcon_pkg']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'colcon_pkg'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extensions ['colcon_meta']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'colcon_meta'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extensions ['ros']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'ros'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extensions ['cmake', 'python']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'cmake'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'python'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extensions ['python_setup_py']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(notebooks) by extension 'python_setup_py'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'ignore'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'ignore_ament_install'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extensions ['colcon_pkg']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'colcon_pkg'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extensions ['colcon_meta']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'colcon_meta'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extensions ['ros']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'ros'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extensions ['cmake', 'python']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'cmake'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'python'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extensions ['python_setup_py']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws) by extension 'python_setup_py'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/build) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/build) ignored
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/install) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/install) ignored
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/log) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/log) ignored
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'ignore'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'ignore_ament_install'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extensions ['colcon_pkg']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'colcon_pkg'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extensions ['colcon_meta']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'colcon_meta'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extensions ['ros']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'ros'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extensions ['cmake', 'python']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'cmake'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'python'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extensions ['python_setup_py']
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src) by extension 'python_setup_py'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extension 'ignore'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extension 'ignore_ament_install'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extensions ['colcon_pkg']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extension 'colcon_pkg'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extensions ['colcon_meta']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extension 'colcon_meta'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extensions ['ros']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/bringup) by extension 'ros'
+[1.531s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_ws/src/bringup' with type 'ros.ament_python' and name 'bringup'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extensions ['ignore', 'ignore_ament_install']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extension 'ignore'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extension 'ignore_ament_install'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extensions ['colcon_pkg']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extension 'colcon_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extensions ['colcon_meta']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extension 'colcon_meta'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extensions ['ros']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/control) by extension 'ros'
+[1.542s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_ws/src/control' with type 'ros.ament_python' and name 'control'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extension 'ignore'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extension 'ignore_ament_install'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extensions ['colcon_pkg']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extension 'colcon_pkg'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extensions ['colcon_meta']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extension 'colcon_meta'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extensions ['ros']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/cv) by extension 'ros'
+[1.552s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_ws/src/cv' with type 'ros.ament_python' and name 'cv'
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extensions ['ignore', 'ignore_ament_install']
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extension 'ignore'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extension 'ignore_ament_install'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extensions ['colcon_pkg']
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extension 'colcon_pkg'
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extensions ['colcon_meta']
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extension 'colcon_meta'
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extensions ['ros']
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/flashing) by extension 'ros'
+[1.561s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_ws/src/flashing' with type 'ros.ament_python' and name 'flashing'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'ignore'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'ignore_ament_install'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extensions ['colcon_pkg']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'colcon_pkg'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extensions ['colcon_meta']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'colcon_meta'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extensions ['ros']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'ros'
+[1.572s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'ros_ws/src/hardware'
+[1.572s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'ros_ws/src/hardware': Error(s) in package 'ros_ws/src/hardware/package.xml':
+Error(s):
+- The generic dependency on 'cv_bridge' is redundant with: exec_depend
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extensions ['cmake', 'python']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'cmake'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'python'
+[1.574s] DEBUG:colcon.colcon_core.package_identification:Python package in 'ros_ws/src/hardware' passes arguments to the setup() function which requires a different identification extension than 'python'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extensions ['python_setup_py']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/hardware) by extension 'python_setup_py'
+[2.598s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_ws/src/hardware' with type 'python' and name 'hardware'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extension 'ignore'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extension 'ignore_ament_install'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extensions ['colcon_pkg']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extension 'colcon_pkg'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extensions ['colcon_meta']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extension 'colcon_meta'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extensions ['ros']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(ros_ws/src/msgs) by extension 'ros'
+[2.608s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_ws/src/msgs' with type 'ros.ament_cmake' and name 'msgs'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'ignore'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'ignore_ament_install'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extensions ['colcon_pkg']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'colcon_pkg'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extensions ['colcon_meta']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'colcon_meta'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extensions ['ros']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'ros'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extensions ['cmake', 'python']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'cmake'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'python'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extensions ['python_setup_py']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(simulation) by extension 'python_setup_py'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extensions ['ignore', 'ignore_ament_install']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extension 'ignore'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extension 'ignore_ament_install'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extensions ['colcon_pkg']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extension 'colcon_pkg'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extensions ['colcon_meta']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extension 'colcon_meta'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extensions ['ros']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(simulation/gazebo_bluerov2) by extension 'ros'
+[2.621s] DEBUG:colcon.colcon_core.package_identification:Package 'simulation/gazebo_bluerov2' with type 'ros.ament_cmake' and name 'gazebo_bluerov2'
+[2.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.730s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/bringup', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.733s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/control', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control', 'symlink_install': False, 'test_result_base': None}
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_args' from command line to 'None'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_target' from command line to 'None'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_clean_cache' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_clean_first' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_force_configure' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'ament_cmake_args' from command line to 'None'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'catkin_cmake_args' from command line to 'None'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.735s] DEBUG:colcon.colcon_core.verb:Building package 'cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/cv', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv', 'symlink_install': False, 'test_result_base': None}
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_args' from command line to 'None'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_target' from command line to 'None'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_clean_cache' from command line to 'False'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_clean_first' from command line to 'False'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_force_configure' from command line to 'False'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'ament_cmake_args' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'catkin_cmake_args' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.737s] DEBUG:colcon.colcon_core.verb:Building package 'flashing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/flashing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/flashing', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing', 'symlink_install': False, 'test_result_base': None}
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'cmake_args' from command line to 'None'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'cmake_target' from command line to 'None'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'cmake_clean_first' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'cmake_force_configure' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'ament_cmake_args' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bluerov2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.739s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_bluerov2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/simulation/gazebo_bluerov2', 'symlink_install': False, 'test_result_base': None}
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_args' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_target' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_clean_first' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_force_configure' from command line to 'False'
+[2.741s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'ament_cmake_args' from command line to 'None'
+[2.741s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[2.741s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.741s] DEBUG:colcon.colcon_core.verb:Building package 'hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/hardware', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware', 'symlink_install': False, 'test_result_base': None}
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_args' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.743s] DEBUG:colcon.colcon_core.verb:Building package 'msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/build/msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/install/msgs', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs', 'symlink_install': False, 'test_result_base': None}
+[2.743s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.746s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.748s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup' with build type 'ament_python'
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[2.769s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[2.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[2.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.828s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' with build type 'ament_python'
+[2.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[2.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/ament_prefix_path.ps1'
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/ament_prefix_path.dsv'
+[2.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/ament_prefix_path.sh'
+[2.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.868s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' with build type 'ament_python'
+[2.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv', 'ament_prefix_path')
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/ament_prefix_path.ps1'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/ament_prefix_path.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/ament_prefix_path.sh'
+[2.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.908s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing' with build type 'ament_python'
+[2.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('flashing', 'ament_prefix_path')
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/ament_prefix_path.ps1'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/ament_prefix_path.dsv'
+[2.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/ament_prefix_path.sh'
+[2.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.970s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup'
+[3.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.006s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control'
+[5.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.278s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv'
+[6.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing'
+[8.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.502s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, egg_info, bdist_egg, sdist, dist_info, install_headers, build_clib, build, install_lib, editable_wheel, install_egg_info, bdist_wheel, install_scripts, alias, develop, build_py, build_scripts, bdist_dumb, bdist, setopt, bdist_rpm, rotate, build_ext, clean, symlink_data, install, easy_install, saveopts, check
+[13.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/flashing/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data
+[13.583s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, egg_info, bdist_egg, sdist, dist_info, install_headers, build_clib, build, install_lib, editable_wheel, install_egg_info, bdist_wheel, install_scripts, alias, develop, build_py, build_scripts, bdist_dumb, bdist, setopt, bdist_rpm, rotate, build_ext, clean, symlink_data, install, easy_install, saveopts, check
+[13.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/control/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/build/control/build install --record /home/ngt/ZENS-Final-AUVC/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data
+[14.204s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, egg_info, bdist_egg, sdist, dist_info, install_headers, build_clib, build, install_lib, editable_wheel, install_egg_info, bdist_wheel, install_scripts, alias, develop, build_py, build_scripts, bdist_dumb, bdist, setopt, bdist_rpm, rotate, build_ext, clean, symlink_data, install, easy_install, saveopts, check
+[14.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/bringup/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data
+[15.344s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, egg_info, bdist_egg, sdist, dist_info, install_headers, build_clib, build, install_lib, editable_wheel, install_egg_info, bdist_wheel, install_scripts, alias, develop, build_py, build_scripts, bdist_dumb, bdist, setopt, bdist_rpm, rotate, build_ext, clean, symlink_data, install, easy_install, saveopts, check
+[15.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/cv/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[20.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/flashing/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data
+[20.183s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing' for CMake module files
+[20.201s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing' for CMake config files
+[20.212s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing/lib'
+[20.219s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing/bin'
+[20.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('flashing', 'path')
+[20.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/path.ps1'
+[20.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/path.dsv'
+[20.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/path.sh'
+[20.252s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing/lib/pkgconfig/flashing.pc'
+[20.259s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing/lib/python3.12/site-packages'
+[20.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('flashing', 'pythonpath')
+[20.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/pythonpath.ps1'
+[20.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/pythonpath.dsv'
+[20.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/pythonpath.sh'
+[20.322s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/flashing/bin'
+[20.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('flashing', 'pythonscriptspath')
+[20.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/pythonscriptspath.ps1'
+[20.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/pythonscriptspath.dsv'
+[20.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/hook/pythonscriptspath.sh'
+[20.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flashing)
+[20.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/package.ps1'
+[20.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/package.dsv'
+[20.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/package.sh'
+[20.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/package.bash'
+[20.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/flashing/share/flashing/package.zsh'
+[20.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/flashing/share/colcon-core/packages/flashing)
+[20.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/simulation/gazebo_bluerov2' with build type 'ament_cmake'
+[20.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngt/ZENS-Final-AUVC/simulation/gazebo_bluerov2'
+[20.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2 -- -j4 -l4
+[21.197s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control' for CMake module files
+[21.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/control/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/build/control/build install --record /home/ngt/ZENS-Final-AUVC/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data
+[21.207s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control' for CMake config files
+[21.222s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control/lib'
+[21.224s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control/bin'
+[21.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'path')
+[21.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/path.ps1'
+[21.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/path.dsv'
+[21.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/path.sh'
+[21.260s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control/lib/pkgconfig/control.pc'
+[21.266s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control/lib/python3.12/site-packages'
+[21.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[21.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/pythonpath.ps1'
+[21.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/pythonpath.dsv'
+[21.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/pythonpath.sh'
+[21.327s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/control/bin'
+[21.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonscriptspath')
+[21.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/pythonscriptspath.ps1'
+[21.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/pythonscriptspath.dsv'
+[21.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/control/share/control/hook/pythonscriptspath.sh'
+[21.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[21.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/control/share/control/package.ps1'
+[21.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/control/share/control/package.dsv'
+[21.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/control/share/control/package.sh'
+[21.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/control/share/control/package.bash'
+[21.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/control/share/control/package.zsh'
+[21.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/control/share/colcon-core/packages/control)
+[21.502s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware'
+[21.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.842s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup' for CMake module files
+[23.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/bringup/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data
+[23.856s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup' for CMake config files
+[23.873s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup/lib'
+[23.874s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup/bin'
+[23.875s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup/lib/pkgconfig/bringup.pc'
+[23.882s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages'
+[23.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[23.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/hook/pythonpath.ps1'
+[23.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/hook/pythonpath.dsv'
+[23.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/hook/pythonpath.sh'
+[23.918s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/bringup/bin'
+[23.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[23.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/package.ps1'
+[23.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/package.dsv'
+[23.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/package.sh'
+[23.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/package.bash'
+[23.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/package.zsh'
+[23.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/bringup/share/colcon-core/packages/bringup)
+[23.942s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv' for CMake module files
+[23.948s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv' for CMake config files
+[23.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/cv/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[23.972s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv/lib'
+[23.976s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv/bin'
+[23.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv', 'path')
+[23.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/path.ps1'
+[23.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/path.dsv'
+[24.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/path.sh'
+[24.015s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv/lib/pkgconfig/cv.pc'
+[24.025s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages'
+[24.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv', 'pythonpath')
+[24.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/pythonpath.ps1'
+[24.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/pythonpath.dsv'
+[24.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/pythonpath.sh'
+[24.072s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/cv/bin'
+[24.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv', 'pythonscriptspath')
+[24.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/pythonscriptspath.ps1'
+[24.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/pythonscriptspath.dsv'
+[24.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/hook/pythonscriptspath.sh'
+[24.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv)
+[24.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/package.ps1'
+[24.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/package.dsv'
+[24.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/package.sh'
+[24.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/package.bash'
+[24.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/cv/share/cv/package.zsh'
+[24.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/cv/share/colcon-core/packages/cv)
+[24.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs' with build type 'ament_cmake'
+[24.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs'
+[24.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2 -- -j4 -l4
+[24.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2
+[24.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/build/msgs -- -j4 -l4
+[25.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_bluerov2)
+[25.530s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2' for CMake module files
+[25.546s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2' for CMake config files
+[25.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bluerov2', 'cmake_prefix_path')
+[25.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/cmake_prefix_path.ps1'
+[25.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/cmake_prefix_path.dsv'
+[25.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/cmake_prefix_path.sh'
+[25.606s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/lib'
+[25.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bluerov2', 'ld_library_path_lib')
+[25.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/ld_library_path_lib.ps1'
+[25.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/ld_library_path_lib.dsv'
+[25.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/ld_library_path_lib.sh'
+[25.672s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/bin'
+[25.673s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/lib/pkgconfig/gazebo_bluerov2.pc'
+[25.699s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/lib/python3.12/site-packages'
+[25.705s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/bin'
+[25.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.ps1'
+[25.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.dsv'
+[25.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.sh'
+[25.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.bash'
+[25.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.zsh'
+[25.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/colcon-core/packages/gazebo_bluerov2)
+[25.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_bluerov2)
+[25.836s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2' for CMake module files
+[25.867s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2' for CMake config files
+[25.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bluerov2', 'cmake_prefix_path')
+[25.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/cmake_prefix_path.ps1'
+[25.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/cmake_prefix_path.dsv'
+[25.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/cmake_prefix_path.sh'
+[25.929s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/lib'
+[25.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bluerov2', 'ld_library_path_lib')
+[25.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/ld_library_path_lib.ps1'
+[25.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/ld_library_path_lib.dsv'
+[25.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/hook/ld_library_path_lib.sh'
+[25.972s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/bin'
+[25.975s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/lib/pkgconfig/gazebo_bluerov2.pc'
+[25.979s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/lib/python3.12/site-packages'
+[25.986s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/bin'
+[25.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.ps1'
+[26.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.dsv'
+[26.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.sh'
+[26.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.bash'
+[26.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/gazebo_bluerov2/package.zsh'
+[26.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2/share/colcon-core/packages/gazebo_bluerov2)
+[26.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2
+[31.016s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, egg_info, bdist_egg, sdist, dist_info, install_headers, build_clib, build, install_lib, editable_wheel, install_egg_info, bdist_wheel, install_scripts, alias, develop, build_py, build_scripts, bdist_dumb, bdist, setopt, bdist_rpm, rotate, build_ext, clean, symlink_data, install, easy_install, saveopts, check
+[31.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/hardware/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/build/hardware/install.log --install-scripts $base/lib/hardware --single-version-externally-managed install_data
+[42.747s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware' for CMake module files
+[42.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/hardware/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/build/hardware/install.log --install-scripts $base/lib/hardware --single-version-externally-managed install_data
+[42.768s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware' for CMake config files
+[42.783s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware/lib'
+[42.784s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware/bin'
+[42.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware', 'path')
+[42.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/path.ps1'
+[42.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/path.dsv'
+[42.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/path.sh'
+[42.810s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware/lib/pkgconfig/hardware.pc'
+[42.814s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware/lib/python3.12/site-packages'
+[42.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware', 'pythonpath')
+[42.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/pythonpath.ps1'
+[42.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/pythonpath.dsv'
+[42.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/pythonpath.sh'
+[42.831s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/hardware/bin'
+[42.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware', 'pythonscriptspath')
+[42.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/pythonscriptspath.ps1'
+[42.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/pythonscriptspath.dsv'
+[42.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/hook/pythonscriptspath.sh'
+[42.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware)
+[42.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/package.ps1'
+[42.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/package.dsv'
+[42.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/package.sh'
+[42.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/package.bash'
+[42.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/hardware/share/hardware/package.zsh'
+[42.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/hardware/share/colcon-core/packages/hardware)
+[54.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/build/msgs -- -j4 -l4
+[54.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/build/msgs
+[55.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[55.181s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs' for CMake module files
+[55.206s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs' for CMake config files
+[55.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[55.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[55.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/build/msgs
+[55.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[55.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[55.251s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/lib'
+[55.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[55.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[55.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[55.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[55.282s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/bin'
+[55.282s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/lib/pkgconfig/msgs.pc'
+[55.286s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/lib/python3.12/site-packages'
+[55.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'pythonpath')
+[55.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/pythonpath.ps1'
+[55.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/pythonpath.dsv'
+[55.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/pythonpath.sh'
+[55.316s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/bin'
+[55.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.ps1'
+[55.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.dsv'
+[55.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.sh'
+[55.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.bash'
+[55.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.zsh'
+[55.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/msgs/share/colcon-core/packages/msgs)
+[55.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[55.382s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs' for CMake module files
+[55.403s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs' for CMake config files
+[55.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[55.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[55.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[55.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[55.446s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/lib'
+[55.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[55.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[55.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[55.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[55.480s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/bin'
+[55.485s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/lib/pkgconfig/msgs.pc'
+[55.487s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/lib/python3.12/site-packages'
+[55.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'pythonpath')
+[55.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/pythonpath.ps1'
+[55.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/pythonpath.dsv'
+[55.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/hook/pythonpath.sh'
+[55.525s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/install/msgs/bin'
+[55.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.ps1'
+[55.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.dsv'
+[55.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.sh'
+[55.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.bash'
+[55.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/install/msgs/share/msgs/package.zsh'
+[55.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/install/msgs/share/colcon-core/packages/msgs)
+[55.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[55.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[55.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[55.595s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[55.634s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[55.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/install/local_setup.ps1'
+[55.653s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngt/ZENS-Final-AUVC/install/_local_setup_util_ps1.py'
+[55.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/install/setup.ps1'
+[55.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/install/local_setup.sh'
+[55.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngt/ZENS-Final-AUVC/install/_local_setup_util_sh.py'
+[55.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/install/setup.sh'
+[55.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/install/local_setup.bash'
+[55.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/install/setup.bash'
+[55.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/install/local_setup.zsh'
+[55.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/install/setup.zsh'

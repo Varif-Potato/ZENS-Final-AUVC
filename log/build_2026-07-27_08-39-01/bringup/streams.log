@@ -1,0 +1,29 @@
+[11.489s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/bringup/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data
+[13.951s] /home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/setuptools/_distutils/dist.py:288: UserWarning: Unknown distribution option: 'tests_require'
+[13.955s]   warnings.warn(msg)
+[16.038s] running egg_info
+[16.352s] writing ../../../build/bringup/bringup.egg-info/PKG-INFO
+[16.365s] writing dependency_links to ../../../build/bringup/bringup.egg-info/dependency_links.txt
+[16.368s] writing requirements to ../../../build/bringup/bringup.egg-info/requires.txt
+[16.369s] writing top-level names to ../../../build/bringup/bringup.egg-info/top_level.txt
+[16.771s] reading manifest file '../../../build/bringup/bringup.egg-info/SOURCES.txt'
+[16.786s] writing manifest file '../../../build/bringup/bringup.egg-info/SOURCES.txt'
+[16.787s] running build
+[16.799s] running build_py
+[16.803s] copying bringup/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/bringup/build/lib/bringup
+[16.804s] running install
+[16.866s] running install_lib
+[17.113s] running install_data
+[17.121s] copying resource/bringup -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/ament_index/resource_index/packages
+[17.128s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup
+[17.139s] copying launch/hardware.launch.py -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/launch
+[17.145s] copying launch/control.launch.py -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/launch
+[17.153s] copying launch/all_systems.launch.py -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/launch
+[17.168s] copying launch/cv.launch.py -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/launch
+[17.171s] copying config/params.yaml -> /home/ngt/ZENS-Final-AUVC/install/bringup/share/bringup/config
+[17.182s] running install_egg_info
+[17.524s] removing '/home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages/bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[17.526s] Copying ../../../build/bringup/bringup.egg-info to /home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages/bringup-0.0.0-py3.12.egg-info
+[17.538s] running install_scripts
+[18.583s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/bringup/install.log'
+[21.095s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/build/bringup/prefix_override:/home/ngt/.virtualenvs/ardusub/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data
