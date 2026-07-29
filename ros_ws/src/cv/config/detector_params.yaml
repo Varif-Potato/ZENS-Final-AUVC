@@ -2,8 +2,17 @@ apriltag_detector:
   families: tag36h11
   nthreads: 1
   quad_decimate: 1.0
-  quad_sigma: 0.0
+  quad_sigma: 0.2
   refine_edges: 1
-  decode_sharpening: 0.25
+  decode_sharpening: 0.75
   debug: 0
   tag_size: 0.05
+
+yolo_detector:
+  enabled: false
+  model_path: models/auv_detector.onnx
+  labels_path: config/auv_labels.yaml
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  input_width: 416
+  input_height: 416

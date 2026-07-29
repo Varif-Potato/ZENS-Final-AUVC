@@ -1,0 +1,81 @@
+running egg_info
+creating ../../../build/cv/cv.egg-info
+writing ../../../build/cv/cv.egg-info/PKG-INFO
+writing dependency_links to ../../../build/cv/cv.egg-info/dependency_links.txt
+writing entry points to ../../../build/cv/cv.egg-info/entry_points.txt
+writing requirements to ../../../build/cv/cv.egg-info/requires.txt
+writing top-level names to ../../../build/cv/cv.egg-info/top_level.txt
+writing manifest file '../../../build/cv/cv.egg-info/SOURCES.txt'
+reading manifest file '../../../build/cv/cv.egg-info/SOURCES.txt'
+writing manifest file '../../../build/cv/cv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ngt/ZENS-Final-AUVC/build/cv/build
+creating /home/ngt/ZENS-Final-AUVC/build/cv/build/lib
+creating /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+copying cv/detector.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+copying cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+copying cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+copying cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+copying cv/camera.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv
+creating /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+copying cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+copying cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+copying cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+copying cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+copying cv/nodes/detector_node.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes
+creating /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+copying cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+copying cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+copying cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts
+running install
+running install_lib
+creating /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/detector.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv
+creating /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/nodes/detector_node.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv
+creating /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv
+copying /home/ngt/ZENS-Final-AUVC/build/cv/build/lib/cv/camera.py -> /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/detector.py to detector.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/visualizer.py to visualizer.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes/tag_heading_node.py to tag_heading_node.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes/image_saver_node.py to image_saver_node.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes/fake_camera_node.py to fake_camera_node.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/nodes/detector_node.py to detector_node.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/video_logger.py to video_logger.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts/detect_from_image.py to detect_from_image.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts/calibrate_camera.py to calibrate_camera.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/scripts/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv/camera.py to camera.cpython-312.pyc
+running install_data
+creating /home/ngt/ZENS-Final-AUVC/install/cv/share/ament_index
+creating /home/ngt/ZENS-Final-AUVC/install/cv/share/ament_index/resource_index
+creating /home/ngt/ZENS-Final-AUVC/install/cv/share/ament_index/resource_index/packages
+copying resource/cv -> /home/ngt/ZENS-Final-AUVC/install/cv/share/ament_index/resource_index/packages
+copying package.xml -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv
+creating /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/launch
+creating /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/config
+copying config/camera_info.yaml -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/config
+copying config/detector_params.yaml -> /home/ngt/ZENS-Final-AUVC/install/cv/share/cv/config
+running install_egg_info
+Copying ../../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info
+running install_scripts
+Installing apriltag_detector_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+Installing detect_from_image script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+Installing fake_camera_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+Installing image_saver_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/install/cv/lib/cv
+writing list of installed files to '/home/ngt/ZENS-Final-AUVC/build/cv/install.log'

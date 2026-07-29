@@ -10,7 +10,7 @@ class depthhold(Node):
         super().__init__("depthhold")
         self.currentPos = 0
         self.dt = 0.1
-        self.targetPos = -1.0
+        self.targetPos = -0.0
         self.errorAcu = 0.0
         self.errorPre = 0.0
         self.meter = 0.0
@@ -56,7 +56,7 @@ class depthhold(Node):
         self.get_logger().info(f"New Target Depth: {self.targetPos:.2f} m")
     def depthPublish(self):
     
-        self.PIDController(self.targetPos, 50.0, 0.0, 0.5)
+        self.PIDController(self.targetPos, 50.0, 2.0, 10.0)
         self.get_logger().info(f"Published PID, depth {self.meter} m")
         
     def PIDController(self, target, kP, kI, kD):
@@ -69,10 +69,10 @@ class depthhold(Node):
         self.errorPre = error
         
 
-        self.processVar = (self.currentkP + self.currentkI + self.currentkD) - 100.0
+        self.processVar = (self.currentkP + self.currentkI + self.currentkD) - 10.0
         
         msg.x = self.targetSpeed * 2.5
-        msg.z = self.processVar * 2.5
+        msg.z = self.processVar
             
         
         self.manual_pub.publish(msg)

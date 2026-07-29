@@ -1,0 +1,22 @@
+[0.109s] Invoking command in '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/install/hardware:/home/ngt/ZENS-Final-AUVC/install/flashing:/home/ngt/ZENS-Final-AUVC/install/cv:/home/ngt/ZENS-Final-AUVC/install/control:/home/ngt/ZENS-Final-AUVC/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake /home/ngt/ZENS-Final-AUVC/simulation/gazebo_bluerov2 -DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2
+[1.454s] -- The C compiler identification is GNU 13.3.0
+[2.744s] -- The CXX compiler identification is GNU 13.3.0
+[2.959s] -- Detecting C compiler ABI info
+[3.936s] -- Detecting C compiler ABI info - done
+[4.039s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[4.043s] -- Detecting C compile features
+[4.054s] -- Detecting C compile features - done
+[4.184s] -- Detecting CXX compiler ABI info
+[5.449s] -- Detecting CXX compiler ABI info - done
+[5.556s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[5.563s] -- Detecting CXX compile features
+[5.567s] -- Detecting CXX compile features - done
+[5.575s] -- Downloading CPM.cmake to /home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2/cmake/CPM_0.38.2.cmake
+[8.486s] -- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.375s] [0mBuilding gazebo_bluerov2 with ament_cmake_auto[0m
+[12.441s] [31mCMake Error at CMakeLists.txt:19 (CPMAddPackage):
+[12.441s]   Unknown CMake command "CPMAddPackage".
+[12.442s] 
+[12.442s] [0m
+[12.449s] -- Configuring incomplete, errors occurred!
+[12.520s] Invoked command in '/home/ngt/ZENS-Final-AUVC/build/gazebo_bluerov2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/install/hardware:/home/ngt/ZENS-Final-AUVC/install/flashing:/home/ngt/ZENS-Final-AUVC/install/cv:/home/ngt/ZENS-Final-AUVC/install/control:/home/ngt/ZENS-Final-AUVC/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake /home/ngt/ZENS-Final-AUVC/simulation/gazebo_bluerov2 -DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/install/gazebo_bluerov2

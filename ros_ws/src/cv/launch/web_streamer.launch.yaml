@@ -1,0 +1,43 @@
+launch:
+  - arg:
+      name: "host"
+      default: "0.0.0.0"
+      description: "Flask server bind address"
+
+  - arg:
+      name: "port"
+      default: "5000"
+      description: "Flask server port"
+
+  - arg:
+      name: "topic"
+      default: "/apriltags/annotated"
+      description: "Input annotated image topic"
+
+  - arg:
+      name: "quality"
+      default: "80"
+      description: "JPEG compression quality (0-100)"
+
+  - arg:
+      name: "max_fps"
+      default: "15.0"
+      description: "Maximum stream FPS"
+
+  - node:
+      pkg: "cv"
+      exec: "web_streamer_node"
+      name: "web_streamer"
+      output: "screen"
+      emulate_tty: "true"
+      param:
+        - name: "host"
+          value: "$(var host)"
+        - name: "port"
+          value: "$(var port)"
+        - name: "topic"
+          value: "$(var topic)"
+        - name: "quality"
+          value: "$(var quality)"
+        - name: "max_fps"
+          value: "$(var max_fps)"
