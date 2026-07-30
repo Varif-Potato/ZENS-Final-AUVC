@@ -4,7 +4,6 @@ from rclpy.node import Node
 from std_msgs.msg import Int16
 from std_msgs.msg import Float32
 from std_msgs.msg import String
-import time
 
 class FinalController(Node):
     def __init__(self):
@@ -26,12 +25,16 @@ class FinalController(Node):
         self.tag_center = None
 
         """ Flashing state (non-blocking) """
-        self.flashRounds = 5               # number of on/off cycles to perform
-        self.flashing = False              # currently in flash sequence
-        self.flash_on = False              # whether lights are currently on
-        self.last_flash_time = 0.0         # last toggle time (seconds)
-        self.flash_interval = 0.25         # seconds for each on/off phase
-        self.completed_flashing = False    # once done, don't re-flash
+        self._initial_flash_rounds = 5
+        self.flashRounds = self._initial_flash_rounds
+        self.flashing = False
+        self.flash_on = False
+        self.last_flash_time = 0.0
+        self.flash_interval = 0.25
+        self.completed_flashing = False
+
+        """ configurable camera width (used to compute image center) """
+        self.camera_width = int(self.declare_parameter("camera_width", 640).value)
 
         """ ---------------- Subscribers ---------------- """
         self.yolo_sub = self.create_subscription(
@@ -89,6 +92,10 @@ class FinalController(Node):
     """ ---------------------------------------------------- """
 
     def getYOLO(self, msg):
+        """
+        Expecting JSON list of detections shaped like the repo's YOLO output:
+        { "class_id": ..., "class_name": "auv", "confidence": ..., "bbox": [x1,y1,x2,y2] }
+        """
         try:
             detections = json.loads(msg.data)
 
@@ -96,23 +103,17 @@ class FinalController(Node):
             self.auv_detection = None
 
             for detection in detections:
-                # defensive: class field may be 'class' or 'label'
-                cls = detection.get("class") or detection.get("label")
+                cls = detection.get("class_name") or detection.get("class") or detection.get("label")
                 if cls == "auv":
+                    # store the detection as-is (we compute center later)
                     self.auv_detected = True
                     self.auv_detection = detection
-
                     confidence = detection.get("confidence", 0.0)
-
-                    self.get_logger().info(
-                        f"AUV detected ({confidence:.2f})"
-                    )
+                    self.get_logger().info(f"AUV detected ({confidence:.2f})")
                     break
 
         except Exception as e:
-            self.get_logger().error(
-                f"Failed to parse YOLO: {e}"
-            )
+            self.get_logger().error(f"Failed to parse YOLO: {e}")
 
     """ ---------------------------------------------------- """
 
@@ -120,13 +121,19 @@ class FinalController(Node):
         try:
             detections = json.loads(msg.data)
 
-            self.tag_detected = False
-            self.tag_id = None
-            self.tag_distance = None
-            self.tag_translation = None
-            self.tag_center = None
-
+            # If no tags, clear tag state and reset flashing to allow future flashes
             if len(detections) == 0:
+                self.tag_detected = False
+                self.tag_id = None
+                self.tag_distance = None
+                self.tag_translation = None
+                self.tag_center = None
+                # Reset flash state so next close tag will trigger flashing again
+                self.flashRounds = self._initial_flash_rounds
+                self.flashing = False
+                self.flash_on = False
+                self.last_flash_time = 0.0
+                self.completed_flashing = False
                 return
 
             tag = detections[0]
@@ -138,14 +145,10 @@ class FinalController(Node):
             self.tag_center = tag.get("center")
 
             if self.tag_distance is not None:
-                self.get_logger().info(
-                    f"Tag {self.tag_id} at {self.tag_distance:.2f} m"
-                )
+                self.get_logger().info(f"Tag {self.tag_id} at {self.tag_distance:.2f} m")
 
         except Exception as e:
-            self.get_logger().error(
-                f"Failed to parse AprilTag: {e}"
-            )
+            self.get_logger().error(f"Failed to parse AprilTag: {e}")
 
     """ ---------------------------------------------------- """
 
@@ -168,7 +171,6 @@ class FinalController(Node):
         speed_msg = Int16()
         speed_msg.data = 0
         self.for_pub.publish(speed_msg)
-        # keep heading as-is (no new heading command)
         self.get_logger().debug("Motors stopped.")
 
     """ ---------------------------------------------------- """
@@ -177,15 +179,12 @@ class FinalController(Node):
         heading_msg = Int16()
         speed_msg = Int16()
 
-        # 1) SEARCH MODE: nothing detected
+        # 1) SEARCH MODE: nothing detected and not flashing
         if not self.tag_detected and not self.auv_detected and not self.flashing:
-            # Rotate 180 degrees from current heading
             target_heading = int((self.currentAngle + 180) % 360)
             heading_msg.data = target_heading
             self.angle_pub.publish(heading_msg)
-            self.get_logger().info(
-                f"Searching... heading {target_heading}"
-            )
+            self.get_logger().info(f"Searching... heading {target_heading}")
             return
 
         # 2) FLASHING MODE (highest priority if tag within threshold)
@@ -197,26 +196,24 @@ class FinalController(Node):
         ):
             now = self.get_clock().now().nanoseconds / 1e9
 
-            # if we are not currently in a flashing sequence, start it
             if not self.flashing:
                 self.flashing = True
                 self.flash_on = False
-                self.last_flash_time = now - self.flash_interval  # trigger immediate toggle
-                # stop motors when starting to flash
+                self.last_flash_time = now - self.flash_interval
+                # Ensure motors are stopped while flashing
                 self._stop_motors()
                 self.get_logger().info("Starting flashing sequence.")
 
             # toggle on/off based on interval
             if now - self.last_flash_time >= self.flash_interval:
                 if self.flash_on:
-                    # turn lights off (end of one on period)
+                    # end of ON phase -> turn lights off, count a round
                     self.Publights(1100)
                     self.flash_on = False
-                    # Count completed on/off cycle
                     self.flashRounds -= 1
-                    self.get_logger().info(f"Flashed ({5 - self.flashRounds}/5)")
+                    self.get_logger().info(f"Flashed ({self._initial_flash_rounds - self.flashRounds}/{self._initial_flash_rounds})")
                 else:
-                    # turn lights on
+                    # start ON phase
                     self.Publights(1900)
                     self.flash_on = True
 
@@ -226,42 +223,41 @@ class FinalController(Node):
             if self.flashRounds <= 0:
                 self.flashing = False
                 self.completed_flashing = True
-                self.Publights(1100)  # ensure lights off or default
+                self.Publights(1100)
+                # ensure motors are stopped after flashing
+                self._stop_motors()
                 self.get_logger().info("Finished flashing.")
             return
 
         # 3) AUV FOLLOW MODE (YOLO) - only if AUV detected and no AprilTag (tag has priority)
         if self.auv_detected and not self.tag_detected and not self.completed_flashing:
             det = self.auv_detection or {}
-            center = det.get("center")
+            bbox = det.get("bbox")
 
-            # if center is missing, try bbox formats:
-            # common bbox variants: [x, y, w, h] or [x1, y1, x2, y2]
-            if center is None:
-                bbox = det.get("bbox")
-                if bbox and isinstance(bbox, (list, tuple)) and len(bbox) == 4:
-                    # heuristics: detect variant
-                    x0, y0, x1, y1 = bbox
-                    # If bbox looks like x,y,w,h (w,h small compared to coords), assume that:
-                    if x1 < 1.0 and y1 < 1.0:
-                        # normalized xywh (0-1)
-                        cx = x0 + x1 / 2.0
-                    else:
-                        # assume x1,y1 are x2,y2
-                        cx = (x0 + x1) / 2.0
-                    # try to scale to pixel coordinates if normalized (assume width ~640)
-                    if cx <= 1.0:
-                        cx = int(cx * 640)
-                    center = (cx, 0)
+            center = None
+            if bbox and isinstance(bbox, (list, tuple)) and len(bbox) == 4:
+                # repo's YOLO output uses pixel bbox [x1, y1, x2, y2]
+                x1, y1, x2, y2 = bbox
+                cx = (x1 + x2) / 2.0
+                cy = (y1 + y2) / 2.0
+                center = (cx, cy)
+            else:
+                # if a 'center' is provided use that
+                _center = det.get("center")
+                if _center and isinstance(_center, (list, tuple)) and len(_center) >= 2:
+                    center = (_center[0], _center[1])
 
             if center is not None:
                 try:
-                    x, y = center
-                    error = x - 320  # assume camera width 640 px, center at 320
+                    cx, _cy = center
+                    image_center = float(self.camera_width) / 2.0
+                    error = cx - image_center
+                    # simple proportional-ish steering: adjust by sign of error, scaled step
+                    step = 20
                     if error > 20:
-                        heading_msg.data = int((self.currentAngle + 20) % 360)
+                        heading_msg.data = int((self.currentAngle + step) % 360)
                     elif error < -20:
-                        heading_msg.data = int((self.currentAngle - 20) % 360)
+                        heading_msg.data = int((self.currentAngle - step) % 360)
                     else:
                         heading_msg.data = int(self.currentAngle)
 
@@ -273,43 +269,37 @@ class FinalController(Node):
                 except Exception as e:
                     self.get_logger().error(f"Error using YOLO center: {e}")
             else:
-                # fallback: rotate slowly to search
+                # fallback: rotate slowly to search for better detection
                 target_heading = int((self.currentAngle + 30) % 360)
                 heading_msg.data = target_heading
                 self.angle_pub.publish(heading_msg)
-                self.get_logger().info("AUV detected but no center info — rotating to search.")
+                self.get_logger().info("AUV detected but no center/bbox info — rotating to search.")
             return
 
         # 4) APRILTAG APPROACH MODE
         if self.tag_detected:
-            # If tag is farther than 1m, approach
             if self.tag_distance is not None and self.tag_distance > 1.0:
                 speed_msg.data = 300
-
                 if self.tag_center is not None:
                     try:
                         x, y = self.tag_center
-                        error = x - 320
+                        image_center = float(self.camera_width) / 2.0
+                        error = x - image_center
                         if error > 20:
                             heading_msg.data = int((self.currentAngle + 20) % 360)
                         elif error < -20:
                             heading_msg.data = int((self.currentAngle - 20) % 360)
                         else:
                             heading_msg.data = int(self.currentAngle)
-
                         self.angle_pub.publish(heading_msg)
                     except Exception as e:
                         self.get_logger().error(f"Invalid tag_center: {e}")
 
                 self.for_pub.publish(speed_msg)
-
                 self.get_logger().info("Approaching AprilTag...")
                 return
 
-        # Default: if none of the above took action and we are not flashing, ensure motors are safe
-        if not self.flashing and not self.completed_flashing:
-            # no explicit command; could stop or hold; choose to do nothing here
-            pass
+        # Default: nothing matched — safe no-op (motors remain at last commanded state)
 
 def main(args=None):
     rclpy.init(args=args)
