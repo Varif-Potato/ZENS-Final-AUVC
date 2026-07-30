@@ -1,11 +1,12 @@
 import numpy as np
 import cv2
 import onnxruntime as ort
+import time
 
 
 class YOLODetector:
     def __init__(self, model_path, class_names, conf_threshold=0.25,
-                 iou_threshold=0.45, input_size=(416, 416)):
+                 iou_threshold=0.45, input_size=(320, 320)):
         self.class_names = class_names
         self.num_classes = len(class_names)
         self.conf_threshold = conf_threshold
@@ -13,7 +14,10 @@ class YOLODetector:
         self.input_w, self.input_h = input_size
 
         providers = ["CPUExecutionProvider"]
-        self.session = ort.InferenceSession(model_path, providers=providers)
+        sess_options = ort.SessionOptions()
+        sess_options.intra_op_num_threads = 4
+        sess_options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+        self.session = ort.InferenceSession(model_path, sess_options=sess_options, providers=providers)
 
         inp = self.session.get_inputs()[0]
         self.input_name = inp.name
@@ -28,12 +32,18 @@ class YOLODetector:
         self.output_names = [o.name for o in self.session.get_outputs()]
 
     def detect(self, frame):
+        t0 = time.perf_counter()
         preprocessed, scale, pad_left, pad_top = self._preprocess(frame)
+        t1 = time.perf_counter()
         outputs = self.session.run(
             self.output_names, {self.input_name: preprocessed}
         )
-        return self._postprocess(outputs, scale, pad_left, pad_top,
-                                 frame.shape[1], frame.shape[0])
+        t2 = time.perf_counter()
+        result = self._postprocess(outputs, scale, pad_left, pad_top,
+                                frame.shape[1], frame.shape[0])
+        t3 = time.perf_counter()
+        print(f"preprocess={t1-t0:.3f}s inference={t2-t1:.3f}s postprocess={t3-t2:.3f}s")
+        return result
 
     def _preprocess(self, frame):
         h, w = frame.shape[:2]

@@ -1,0 +1,497 @@
+[1.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.049s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb5acd8e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb5acd430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb5acd430>>, mixin_verb=('build',))
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.428s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngt/ZENS-Final-AUVC/ros_ws'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['ignore', 'ignore_ament_install']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'ignore'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'ignore_ament_install'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['colcon_pkg']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'colcon_pkg'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['colcon_meta']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'colcon_meta'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['ros']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'ros'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['cmake', 'python']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'cmake'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'python'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extensions ['python_setup_py']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot) by extension 'python_setup_py'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['ignore', 'ignore_ament_install']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'ignore'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'ignore_ament_install'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['colcon_pkg']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'colcon_pkg'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['colcon_meta']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'colcon_meta'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['ros']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'ros'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['cmake', 'python']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'cmake'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'python'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extensions ['python_setup_py']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs) by extension 'python_setup_py'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['ignore', 'ignore_ament_install']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['colcon_pkg']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['colcon_meta']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'colcon_meta'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'ros'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'cmake'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'python'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extensions ['python_setup_py']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27) by extension 'python_setup_py'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['ignore', 'ignore_ament_install']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'ignore'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'ignore_ament_install'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['colcon_pkg']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'colcon_pkg'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['colcon_meta']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'colcon_meta'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['ros']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'ros'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['cmake', 'python']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'cmake'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'python'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extensions ['python_setup_py']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-27/flight1) by extension 'python_setup_py'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extensions ['ignore', 'ignore_ament_install']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'ignore_ament_install'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extensions ['colcon_pkg']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'colcon_pkg'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extensions ['colcon_meta']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'colcon_meta'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extensions ['ros']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'ros'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extensions ['cmake', 'python']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'cmake'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'python'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extensions ['python_setup_py']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28) by extension 'python_setup_py'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extensions ['ignore', 'ignore_ament_install']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'ignore_ament_install'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extensions ['colcon_pkg']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'colcon_pkg'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extensions ['colcon_meta']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'colcon_meta'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extensions ['ros']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'ros'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extensions ['cmake', 'python']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'cmake'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'python'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extensions ['python_setup_py']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(bwsibot/logs/2026-07-28/flight1) by extension 'python_setup_py'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[1.753s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_python' and name 'bringup'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[1.767s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extensions ['ignore', 'ignore_ament_install']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extension 'ignore_ament_install'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extensions ['colcon_pkg']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extension 'colcon_pkg'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extensions ['colcon_meta']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extension 'colcon_meta'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extensions ['ros']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv) by extension 'ros'
+[1.781s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv' with type 'ros.ament_python' and name 'cv'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extensions ['ignore', 'ignore_ament_install']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extension 'ignore'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extension 'ignore_ament_install'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extensions ['colcon_pkg']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extension 'colcon_pkg'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extensions ['colcon_meta']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extension 'colcon_meta'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extensions ['ros']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/flashing) by extension 'ros'
+[1.795s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flashing' with type 'ros.ament_python' and name 'flashing'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'ignore'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'ignore_ament_install'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['colcon_pkg']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'colcon_pkg'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['colcon_meta']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'colcon_meta'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['ros']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'ros'
+[1.807s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware' with type 'ros.ament_python' and name 'hardware'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ignore'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ignore_ament_install'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['colcon_pkg']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'colcon_pkg'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['colcon_meta']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'colcon_meta'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['ros']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ros'
+[1.823s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msgs' with type 'ros.ament_cmake' and name 'msgs'
+[1.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.971s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ngt/ZENS-Final-AUVC/ros_ws/install
+[1.975s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ngt/auvc_ws/install
+[1.978s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ngt/cv_ws/install
+[1.982s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ngt/pid_ws/install
+[1.985s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ngt/auv_dancing/install
+[1.999s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 262 installed packages in /opt/ros/jazzy
+[2.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.559s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[2.560s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[2.560s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.560s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.562s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.563s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[2.566s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[2.567s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[2.567s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[2.570s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.570s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.572s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control', 'symlink_install': False, 'test_result_base': None}
+[2.574s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_args' from command line to 'None'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_target' from command line to 'None'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_clean_cache' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_clean_first' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'cmake_force_configure' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'ament_cmake_args' from command line to 'None'
+[2.577s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'catkin_cmake_args' from command line to 'None'
+[2.577s] Level 5:colcon.colcon_core.verb:set package 'cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.577s] DEBUG:colcon.colcon_core.verb:Building package 'cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv', 'symlink_install': False, 'test_result_base': None}
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_target' from command line to 'None'
+[2.580s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.581s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_clean_cache' from command line to 'False'
+[2.581s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_clean_first' from command line to 'False'
+[2.581s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'cmake_force_configure' from command line to 'False'
+[2.582s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'ament_cmake_args' from command line to 'None'
+[2.582s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'catkin_cmake_args' from command line to 'None'
+[2.582s] Level 5:colcon.colcon_core.verb:set package 'flashing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.582s] DEBUG:colcon.colcon_core.verb:Building package 'flashing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing', 'symlink_install': False, 'test_result_base': None}
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_args' from command line to 'None'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_target' from command line to 'None'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_clean_first' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'cmake_force_configure' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'ament_cmake_args' from command line to 'None'
+[2.587s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[2.587s] Level 5:colcon.colcon_core.verb:set package 'hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.587s] DEBUG:colcon.colcon_core.verb:Building package 'hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware', 'symlink_install': False, 'test_result_base': None}
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_args' from command line to 'None'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target' from command line to 'None'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.593s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.593s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.593s] DEBUG:colcon.colcon_core.verb:Building package 'msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs', 'merge_install': False, 'path': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs', 'symlink_install': False, 'test_result_base': None}
+[2.596s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.605s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup' with build type 'ament_python'
+[2.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[2.632s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[2.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[2.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.761s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' with build type 'ament_python'
+[2.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/hook/ament_prefix_path.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/hook/ament_prefix_path.dsv'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/hook/ament_prefix_path.sh'
+[2.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.851s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' with build type 'ament_python'
+[2.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv', 'ament_prefix_path')
+[2.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/hook/ament_prefix_path.ps1'
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/hook/ament_prefix_path.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/hook/ament_prefix_path.sh'
+[2.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.928s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing' with build type 'ament_python'
+[2.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('flashing', 'ament_prefix_path')
+[2.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/hook/ament_prefix_path.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/hook/ament_prefix_path.dsv'
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/hook/ament_prefix_path.sh'
+[2.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.053s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup'
+[8.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.595s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control'
+[12.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.215s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv'
+[16.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.903s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing'
+[18.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.261s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, dist_info, compile_catalog, build, build_py, install_scripts, symlink_data, sdist, install, install_data, bdist_dumb, extract_messages, bdist_wheel, alias, check, upload_docs, bdist_rpm, build_clib, setopt, clean, register, install_egg_info, test, bdist, upload, install_headers, update_catalog, build_scripts, build_ext, editable_wheel, install_lib, saveopts, easy_install, init_catalog, bdist_egg, rotate, develop
+[41.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[41.430s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, dist_info, compile_catalog, build, build_py, install_scripts, symlink_data, sdist, install, install_data, bdist_dumb, extract_messages, bdist_wheel, alias, check, upload_docs, bdist_rpm, build_clib, setopt, clean, register, install_egg_info, test, bdist, upload, install_headers, update_catalog, build_scripts, build_ext, editable_wheel, install_lib, saveopts, easy_install, init_catalog, bdist_egg, rotate, develop
+[41.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data
+[43.806s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, dist_info, compile_catalog, build, build_py, install_scripts, symlink_data, sdist, install, install_data, bdist_dumb, extract_messages, bdist_wheel, alias, check, upload_docs, bdist_rpm, build_clib, setopt, clean, register, install_egg_info, test, bdist, upload, install_headers, update_catalog, build_scripts, build_ext, editable_wheel, install_lib, saveopts, easy_install, init_catalog, bdist_egg, rotate, develop
+[43.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data
+[43.902s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, dist_info, compile_catalog, build, build_py, install_scripts, symlink_data, sdist, install, install_data, bdist_dumb, extract_messages, bdist_wheel, alias, check, upload_docs, bdist_rpm, build_clib, setopt, clean, register, install_egg_info, test, bdist, upload, install_headers, update_catalog, build_scripts, build_ext, editable_wheel, install_lib, saveopts, easy_install, init_catalog, bdist_egg, rotate, develop
+[43.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data
+[73.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[73.854s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv' for CMake module files
+[73.889s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv' for CMake config files
+[73.964s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib'
+[73.965s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/bin'
+[73.966s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/pkgconfig/cv.pc'
+[73.988s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages'
+[73.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv', 'pythonpath')
+[74.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/hook/pythonpath.ps1'
+[74.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/hook/pythonpath.dsv'
+[74.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/hook/pythonpath.sh'
+[74.097s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/bin'
+[74.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv)
+[74.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/package.ps1'
+[74.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/package.dsv'
+[74.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/package.sh'
+[74.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/package.bash'
+[74.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/package.zsh'
+[74.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/colcon-core/packages/cv)
+[74.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware' with build type 'ament_python'
+[74.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware', 'ament_prefix_path')
+[74.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/hook/ament_prefix_path.ps1'
+[74.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/hook/ament_prefix_path.dsv'
+[74.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/hook/ament_prefix_path.sh'
+[74.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[74.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[74.695s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control' for CMake module files
+[74.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data
+[74.712s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control' for CMake config files
+[74.741s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib'
+[74.742s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/bin'
+[74.742s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/pkgconfig/control.pc'
+[74.762s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages'
+[74.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[74.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/hook/pythonpath.ps1'
+[74.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/hook/pythonpath.dsv'
+[74.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/hook/pythonpath.sh'
+[74.823s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/bin'
+[74.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[74.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/package.ps1'
+[74.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/package.dsv'
+[74.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/package.sh'
+[74.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/package.bash'
+[74.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control/package.zsh'
+[74.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/colcon-core/packages/control)
+[74.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs' with build type 'ament_cmake'
+[74.928s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs'
+[74.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[74.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[81.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware'
+[81.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[81.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[82.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs -- -j4 -l4
+[82.240s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing' for CMake module files
+[82.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data
+[82.251s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing' for CMake config files
+[82.260s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib'
+[82.269s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/bin'
+[82.270s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/pkgconfig/flashing.pc'
+[82.271s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages'
+[82.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('flashing', 'pythonpath')
+[82.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/hook/pythonpath.ps1'
+[82.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/hook/pythonpath.dsv'
+[82.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/hook/pythonpath.sh'
+[82.350s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/bin'
+[82.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flashing)
+[82.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/package.ps1'
+[82.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/package.dsv'
+[82.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/package.sh'
+[82.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/package.bash'
+[82.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing/package.zsh'
+[82.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/colcon-core/packages/flashing)
+[82.510s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup' for CMake module files
+[82.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data
+[82.530s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup' for CMake config files
+[82.571s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib'
+[82.571s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/bin'
+[82.572s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/pkgconfig/bringup.pc'
+[82.579s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages'
+[82.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[82.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/hook/pythonpath.ps1'
+[82.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/hook/pythonpath.dsv'
+[82.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/hook/pythonpath.sh'
+[82.671s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/bin'
+[82.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[82.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/package.ps1'
+[82.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/package.dsv'
+[82.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/package.sh'
+[82.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/package.bash'
+[82.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/package.zsh'
+[82.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/colcon-core/packages/bringup)
+[110.240s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, dist_info, compile_catalog, build, build_py, install_scripts, symlink_data, sdist, install, install_data, bdist_dumb, extract_messages, bdist_wheel, alias, check, upload_docs, bdist_rpm, build_clib, setopt, clean, register, install_egg_info, test, bdist, upload, install_headers, update_catalog, build_scripts, build_ext, editable_wheel, install_lib, saveopts, easy_install, init_catalog, bdist_egg, rotate, develop
+[110.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/install.log --install-scripts $base/lib/hardware --single-version-externally-managed install_data
+[113.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs -- -j4 -l4
+[114.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs
+[115.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[115.972s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs' for CMake module files
+[115.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs
+[116.000s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs' for CMake config files
+[116.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[116.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[116.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[116.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[116.073s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib'
+[116.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[116.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[116.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[116.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[116.118s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/bin'
+[116.118s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/pkgconfig/msgs.pc'
+[116.129s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages'
+[116.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'pythonpath')
+[116.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/pythonpath.ps1'
+[116.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/pythonpath.dsv'
+[116.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/pythonpath.sh'
+[116.196s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/bin'
+[116.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.ps1'
+[116.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.dsv'
+[116.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.sh'
+[116.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.bash'
+[116.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.zsh'
+[116.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/colcon-core/packages/msgs)
+[116.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[116.337s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs' for CMake module files
+[116.371s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs' for CMake config files
+[116.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[116.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[116.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[116.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[116.406s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib'
+[116.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[116.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[116.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[116.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[116.419s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/bin'
+[116.419s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/pkgconfig/msgs.pc'
+[116.424s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages'
+[116.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'pythonpath')
+[116.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/pythonpath.ps1'
+[116.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/pythonpath.dsv'
+[116.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/hook/pythonpath.sh'
+[116.454s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/bin'
+[116.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.ps1'
+[116.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.dsv'
+[116.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.sh'
+[116.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.bash'
+[116.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.zsh'
+[116.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/colcon-core/packages/msgs)
+[133.672s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware' for CMake module files
+[133.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hardware build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/install.log --install-scripts $base/lib/hardware --single-version-externally-managed install_data
+[133.702s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware' for CMake config files
+[133.734s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib'
+[133.736s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/bin'
+[133.750s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/pkgconfig/hardware.pc'
+[133.751s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages'
+[133.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware', 'pythonpath')
+[133.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/hook/pythonpath.ps1'
+[133.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/hook/pythonpath.dsv'
+[133.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/hook/pythonpath.sh'
+[133.820s] Level 1:colcon.colcon_core.environment:checking '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/bin'
+[133.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware)
+[133.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/package.ps1'
+[133.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/package.dsv'
+[133.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/package.sh'
+[133.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/package.bash'
+[133.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/hardware/package.zsh'
+[133.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/share/colcon-core/packages/hardware)
+[133.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[133.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[133.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[133.897s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[133.907s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[133.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/local_setup.ps1'
+[133.926s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngt/ZENS-Final-AUVC/ros_ws/install/_local_setup_util_ps1.py'
+[133.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/setup.ps1'
+[133.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/local_setup.sh'
+[133.991s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngt/ZENS-Final-AUVC/ros_ws/install/_local_setup_util_sh.py'
+[134.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/setup.sh'
+[134.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/local_setup.bash'
+[134.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/setup.bash'
+[134.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/local_setup.zsh'
+[134.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngt/ZENS-Final-AUVC/ros_ws/install/setup.zsh'

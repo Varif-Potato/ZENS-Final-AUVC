@@ -1,0 +1,30 @@
+[16.682s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[19.578s] running egg_info
+[19.792s] writing ../../build/cv/cv.egg-info/PKG-INFO
+[19.795s] writing dependency_links to ../../build/cv/cv.egg-info/dependency_links.txt
+[19.798s] writing entry points to ../../build/cv/cv.egg-info/entry_points.txt
+[19.799s] writing requirements to ../../build/cv/cv.egg-info/requires.txt
+[19.799s] writing top-level names to ../../build/cv/cv.egg-info/top_level.txt
+[21.102s] reading manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[21.108s] writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[21.110s] running build
+[21.113s] running build_py
+[21.118s] copying cv/nodes/detection_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[21.132s] running install
+[21.175s] running install_lib
+[21.395s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/detection_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[21.403s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/detection_node.py to detection_node.cpython-312.pyc
+[21.421s] running install_data
+[21.425s] running install_egg_info
+[21.670s] removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info' (and everything under it)
+[21.678s] Copying ../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info
+[21.697s] running install_scripts
+[22.666s] Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.673s] Installing detect_from_image script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.678s] Installing detection_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.680s] Installing fake_camera_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.689s] Installing image_saver_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.690s] Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.700s] Installing web_streamer_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[22.719s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log'
+[23.369s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data

@@ -1,0 +1,649 @@
+[0.000000] (-) TimerEvent: {}
+[0.000953] (-) JobUnselected: {'identifier': 'bringup'}
+[0.001833] (-) JobUnselected: {'identifier': 'control'}
+[0.002392] (-) JobUnselected: {'identifier': 'cv'}
+[0.002474] (-) JobUnselected: {'identifier': 'flashing'}
+[0.002552] (hardware) JobQueued: {'identifier': 'hardware', 'dependencies': OrderedDict()}
+[0.002660] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.003420] (hardware) JobStarted: {'identifier': 'hardware'}
+[0.053921] (msgs) JobStarted: {'identifier': 'msgs'}
+[0.099179] (-) TimerEvent: {}
+[0.200084] (-) TimerEvent: {}
+[0.301034] (-) TimerEvent: {}
+[0.402114] (-) TimerEvent: {}
+[0.502770] (-) TimerEvent: {}
+[0.603437] (-) TimerEvent: {}
+[0.704134] (-) TimerEvent: {}
+[0.804759] (-) TimerEvent: {}
+[0.905378] (-) TimerEvent: {}
+[1.006099] (-) TimerEvent: {}
+[1.106892] (-) TimerEvent: {}
+[1.207489] (-) TimerEvent: {}
+[1.308360] (-) TimerEvent: {}
+[1.399907] (msgs) JobProgress: {'identifier': 'msgs', 'progress': 'cmake'}
+[1.402400] (msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs', '-DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC/ros_ws', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy'}), 'shell': False}
+[1.408471] (-) TimerEvent: {}
+[1.510812] (-) TimerEvent: {}
+[1.614752] (-) TimerEvent: {}
+[1.719098] (-) TimerEvent: {}
+[1.820450] (-) TimerEvent: {}
+[1.914069] (msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.920739] (-) TimerEvent: {}
+[2.022175] (-) TimerEvent: {}
+[2.123051] (-) TimerEvent: {}
+[2.225060] (-) TimerEvent: {}
+[2.326565] (-) TimerEvent: {}
+[2.333731] (msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.426779] (-) TimerEvent: {}
+[2.478741] (msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.527078] (-) TimerEvent: {}
+[2.627767] (-) TimerEvent: {}
+[2.728613] (-) TimerEvent: {}
+[2.829372] (-) TimerEvent: {}
+[2.930131] (-) TimerEvent: {}
+[3.030818] (-) TimerEvent: {}
+[3.078952] (msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.117485] (msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[3.119230] (msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.120786] (msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.131020] (-) TimerEvent: {}
+[3.198031] (msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.231191] (-) TimerEvent: {}
+[3.334797] (-) TimerEvent: {}
+[3.435497] (-) TimerEvent: {}
+[3.536199] (-) TimerEvent: {}
+[3.636896] (-) TimerEvent: {}
+[3.737666] (-) TimerEvent: {}
+[3.821771] (msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.837779] (-) TimerEvent: {}
+[3.862293] (msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[3.863451] (msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.865550] (msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.935933] (msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.937908] (-) TimerEvent: {}
+[4.038549] (-) TimerEvent: {}
+[4.139312] (-) TimerEvent: {}
+[4.240090] (-) TimerEvent: {}
+[4.340771] (-) TimerEvent: {}
+[4.441454] (-) TimerEvent: {}
+[4.542332] (-) TimerEvent: {}
+[4.643511] (-) TimerEvent: {}
+[4.744346] (-) TimerEvent: {}
+[4.845132] (-) TimerEvent: {}
+[4.945806] (-) TimerEvent: {}
+[5.046781] (-) TimerEvent: {}
+[5.074823] (msgs) StdoutLine: {'line': b'-- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.146933] (-) TimerEvent: {}
+[5.247597] (-) TimerEvent: {}
+[5.348294] (-) TimerEvent: {}
+[5.448965] (-) TimerEvent: {}
+[5.549711] (-) TimerEvent: {}
+[5.650735] (-) TimerEvent: {}
+[5.751710] (-) TimerEvent: {}
+[5.852434] (-) TimerEvent: {}
+[5.953978] (-) TimerEvent: {}
+[6.033157] (hardware) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hardware', 'build', '--build-base', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/build', 'install', '--record', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/install.log', '--install-scripts', '$base/lib/hardware', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/hardware', 'env': {'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC/ros_ws', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.054033] (-) TimerEvent: {}
+[6.154750] (-) TimerEvent: {}
+[6.255449] (-) TimerEvent: {}
+[6.356194] (-) TimerEvent: {}
+[6.456963] (-) TimerEvent: {}
+[6.475380] (msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[6.557209] (-) TimerEvent: {}
+[6.657891] (-) TimerEvent: {}
+[6.758878] (-) TimerEvent: {}
+[6.859859] (-) TimerEvent: {}
+[6.960860] (-) TimerEvent: {}
+[7.061486] (-) TimerEvent: {}
+[7.162219] (-) TimerEvent: {}
+[7.187098] (msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[7.262395] (-) TimerEvent: {}
+[7.363132] (-) TimerEvent: {}
+[7.415428] (msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[7.463295] (-) TimerEvent: {}
+[7.563970] (-) TimerEvent: {}
+[7.652888] (msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.664165] (-) TimerEvent: {}
+[7.764830] (-) TimerEvent: {}
+[7.837844] (hardware) StdoutLine: {'line': b'running egg_info\n'}
+[7.864975] (-) TimerEvent: {}
+[7.902805] (msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.965179] (-) TimerEvent: {}
+[7.975661] (hardware) StdoutLine: {'line': b'writing ../../build/hardware/hardware.egg-info/PKG-INFO\n'}
+[7.977024] (hardware) StdoutLine: {'line': b'writing dependency_links to ../../build/hardware/hardware.egg-info/dependency_links.txt\n'}
+[7.978808] (hardware) StdoutLine: {'line': b'writing entry points to ../../build/hardware/hardware.egg-info/entry_points.txt\n'}
+[7.980099] (hardware) StdoutLine: {'line': b'writing requirements to ../../build/hardware/hardware.egg-info/requires.txt\n'}
+[7.981248] (hardware) StdoutLine: {'line': b'writing top-level names to ../../build/hardware/hardware.egg-info/top_level.txt\n'}
+[8.065344] (-) TimerEvent: {}
+[8.165951] (-) TimerEvent: {}
+[8.266960] (-) TimerEvent: {}
+[8.270231] (msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[8.367128] (-) TimerEvent: {}
+[8.468073] (-) TimerEvent: {}
+[8.569083] (-) TimerEvent: {}
+[8.628859] (msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.669256] (-) TimerEvent: {}
+[8.770245] (-) TimerEvent: {}
+[8.870982] (-) TimerEvent: {}
+[8.971780] (-) TimerEvent: {}
+[9.027118] (hardware) StdoutLine: {'line': b"reading manifest file '../../build/hardware/hardware.egg-info/SOURCES.txt'\n"}
+[9.032450] (hardware) StdoutLine: {'line': b"writing manifest file '../../build/hardware/hardware.egg-info/SOURCES.txt'\n"}
+[9.033101] (hardware) StdoutLine: {'line': b'running build\n'}
+[9.033559] (hardware) StdoutLine: {'line': b'running build_py\n'}
+[9.035234] (hardware) StdoutLine: {'line': b'running install\n'}
+[9.062778] (hardware) StdoutLine: {'line': b'running install_lib\n'}
+[9.071950] (-) TimerEvent: {}
+[9.172598] (-) TimerEvent: {}
+[9.235873] (hardware) StdoutLine: {'line': b'running install_data\n'}
+[9.237162] (hardware) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.272769] (-) TimerEvent: {}
+[9.373410] (-) TimerEvent: {}
+[9.427109] (hardware) StdoutLine: {'line': b"removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages/hardware-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[9.429134] (hardware) StdoutLine: {'line': b'Copying ../../build/hardware/hardware.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages/hardware-0.0.0-py3.12.egg-info\n'}
+[9.436172] (hardware) StdoutLine: {'line': b'running install_scripts\n'}
+[9.473688] (-) TimerEvent: {}
+[9.574727] (-) TimerEvent: {}
+[9.675358] (-) TimerEvent: {}
+[9.776161] (-) TimerEvent: {}
+[9.870095] (hardware) StdoutLine: {'line': b'Installing bluerov2_camera_interface script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/hardware\n'}
+[9.871093] (hardware) StdoutLine: {'line': b'Installing bluerov2_hardware_interface script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/hardware\n'}
+[9.874131] (hardware) StdoutLine: {'line': b'Installing bluerov2_simulation_interface script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/hardware\n'}
+[9.876107] (hardware) StdoutLine: {'line': b"writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/hardware/install.log'\n"}
+[9.876997] (-) TimerEvent: {}
+[9.978155] (-) TimerEvent: {}
+[10.056395] (hardware) CommandEnded: {'returncode': 0}
+[10.078829] (-) TimerEvent: {}
+[10.127133] (hardware) JobEnded: {'identifier': 'hardware', 'rc': 0}
+[10.179022] (-) TimerEvent: {}
+[10.279710] (-) TimerEvent: {}
+[10.380317] (-) TimerEvent: {}
+[10.481033] (-) TimerEvent: {}
+[10.581850] (-) TimerEvent: {}
+[10.682972] (-) TimerEvent: {}
+[10.783829] (-) TimerEvent: {}
+[10.884774] (-) TimerEvent: {}
+[10.985484] (-) TimerEvent: {}
+[11.086424] (-) TimerEvent: {}
+[11.187707] (-) TimerEvent: {}
+[11.288284] (-) TimerEvent: {}
+[11.389017] (-) TimerEvent: {}
+[11.490065] (-) TimerEvent: {}
+[11.591015] (-) TimerEvent: {}
+[11.691767] (-) TimerEvent: {}
+[11.792530] (-) TimerEvent: {}
+[11.893342] (-) TimerEvent: {}
+[11.994080] (-) TimerEvent: {}
+[12.094806] (-) TimerEvent: {}
+[12.195410] (-) TimerEvent: {}
+[12.296151] (-) TimerEvent: {}
+[12.397557] (-) TimerEvent: {}
+[12.498216] (-) TimerEvent: {}
+[12.598968] (-) TimerEvent: {}
+[12.688772] (msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[12.699070] (-) TimerEvent: {}
+[12.799699] (-) TimerEvent: {}
+[12.900333] (-) TimerEvent: {}
+[13.001016] (-) TimerEvent: {}
+[13.101827] (-) TimerEvent: {}
+[13.202695] (-) TimerEvent: {}
+[13.303343] (-) TimerEvent: {}
+[13.404244] (-) TimerEvent: {}
+[13.505369] (-) TimerEvent: {}
+[13.605991] (-) TimerEvent: {}
+[13.706934] (-) TimerEvent: {}
+[13.807741] (-) TimerEvent: {}
+[13.908367] (-) TimerEvent: {}
+[14.009073] (-) TimerEvent: {}
+[14.109733] (-) TimerEvent: {}
+[14.210361] (-) TimerEvent: {}
+[14.311151] (-) TimerEvent: {}
+[14.411951] (-) TimerEvent: {}
+[14.512532] (-) TimerEvent: {}
+[14.613186] (-) TimerEvent: {}
+[14.713992] (-) TimerEvent: {}
+[14.815052] (-) TimerEvent: {}
+[14.915706] (-) TimerEvent: {}
+[15.016478] (-) TimerEvent: {}
+[15.117327] (-) TimerEvent: {}
+[15.218086] (-) TimerEvent: {}
+[15.318941] (-) TimerEvent: {}
+[15.419777] (-) TimerEvent: {}
+[15.520402] (-) TimerEvent: {}
+[15.621066] (-) TimerEvent: {}
+[15.721823] (-) TimerEvent: {}
+[15.823087] (-) TimerEvent: {}
+[15.923739] (-) TimerEvent: {}
+[16.024430] (-) TimerEvent: {}
+[16.125192] (-) TimerEvent: {}
+[16.225931] (-) TimerEvent: {}
+[16.326606] (-) TimerEvent: {}
+[16.427339] (-) TimerEvent: {}
+[16.528059] (-) TimerEvent: {}
+[16.628790] (-) TimerEvent: {}
+[16.729499] (-) TimerEvent: {}
+[16.830221] (-) TimerEvent: {}
+[16.930945] (-) TimerEvent: {}
+[17.032175] (-) TimerEvent: {}
+[17.133264] (-) TimerEvent: {}
+[17.233881] (-) TimerEvent: {}
+[17.334565] (-) TimerEvent: {}
+[17.435356] (-) TimerEvent: {}
+[17.536051] (-) TimerEvent: {}
+[17.636752] (-) TimerEvent: {}
+[17.737398] (-) TimerEvent: {}
+[17.838191] (-) TimerEvent: {}
+[17.939263] (-) TimerEvent: {}
+[17.991857] (msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.039455] (-) TimerEvent: {}
+[18.140143] (-) TimerEvent: {}
+[18.240789] (-) TimerEvent: {}
+[18.341413] (-) TimerEvent: {}
+[18.442034] (-) TimerEvent: {}
+[18.542753] (-) TimerEvent: {}
+[18.643502] (-) TimerEvent: {}
+[18.744132] (-) TimerEvent: {}
+[18.844859] (-) TimerEvent: {}
+[18.945892] (-) TimerEvent: {}
+[19.046506] (-) TimerEvent: {}
+[19.147260] (-) TimerEvent: {}
+[19.248070] (-) TimerEvent: {}
+[19.348719] (-) TimerEvent: {}
+[19.449420] (-) TimerEvent: {}
+[19.550122] (-) TimerEvent: {}
+[19.650738] (-) TimerEvent: {}
+[19.751400] (-) TimerEvent: {}
+[19.852150] (-) TimerEvent: {}
+[19.952795] (-) TimerEvent: {}
+[20.053561] (-) TimerEvent: {}
+[20.073337] (msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.136643] (msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[20.153781] (-) TimerEvent: {}
+[20.254444] (-) TimerEvent: {}
+[20.355097] (-) TimerEvent: {}
+[20.455780] (-) TimerEvent: {}
+[20.556433] (-) TimerEvent: {}
+[20.657087] (-) TimerEvent: {}
+[20.757786] (-) TimerEvent: {}
+[20.858407] (-) TimerEvent: {}
+[20.959020] (-) TimerEvent: {}
+[21.059672] (-) TimerEvent: {}
+[21.094271] (msgs) StdoutLine: {'line': b'-- Found PythonExtra: /home/ngt/.virtualenvs/ardusub/bin/python3  \n'}
+[21.159808] (-) TimerEvent: {}
+[21.260462] (-) TimerEvent: {}
+[21.361153] (-) TimerEvent: {}
+[21.461738] (-) TimerEvent: {}
+[21.562535] (-) TimerEvent: {}
+[21.663681] (-) TimerEvent: {}
+[21.764285] (-) TimerEvent: {}
+[21.865121] (-) TimerEvent: {}
+[21.965915] (-) TimerEvent: {}
+[22.066523] (-) TimerEvent: {}
+[22.167258] (-) TimerEvent: {}
+[22.268191] (-) TimerEvent: {}
+[22.368910] (-) TimerEvent: {}
+[22.469682] (-) TimerEvent: {}
+[22.570312] (-) TimerEvent: {}
+[22.671061] (-) TimerEvent: {}
+[22.771768] (-) TimerEvent: {}
+[22.872402] (-) TimerEvent: {}
+[22.973137] (-) TimerEvent: {}
+[23.073781] (-) TimerEvent: {}
+[23.174416] (-) TimerEvent: {}
+[23.275197] (-) TimerEvent: {}
+[23.376215] (-) TimerEvent: {}
+[23.476845] (-) TimerEvent: {}
+[23.577554] (-) TimerEvent: {}
+[23.678484] (-) TimerEvent: {}
+[23.779433] (-) TimerEvent: {}
+[23.861001] (msgs) StdoutLine: {'line': b'-- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[23.879455] (-) TimerEvent: {}
+[23.980089] (-) TimerEvent: {}
+[24.080930] (-) TimerEvent: {}
+[24.182064] (-) TimerEvent: {}
+[24.282722] (-) TimerEvent: {}
+[24.373884] (msgs) StdoutLine: {'line': b'-- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[24.382925] (-) TimerEvent: {}
+[24.429753] (msgs) StdoutLine: {'line': b'-- Configuring done (22.9s)\n'}
+[24.483106] (-) TimerEvent: {}
+[24.583737] (-) TimerEvent: {}
+[24.653387] (msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[24.683956] (-) TimerEvent: {}
+[24.723001] (msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs\n'}
+[24.755181] (msgs) CommandEnded: {'returncode': 0}
+[24.763012] (msgs) JobProgress: {'identifier': 'msgs', 'progress': 'build'}
+[24.763808] (msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', '--', '-j4', '-l4'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC/ros_ws', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy'}), 'shell': False}
+[24.784219] (-) TimerEvent: {}
+[24.885221] (-) TimerEvent: {}
+[24.987882] (-) TimerEvent: {}
+[25.091315] (-) TimerEvent: {}
+[25.185835] (msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[25.189790] (msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[25.191478] (-) TimerEvent: {}
+[25.259127] (msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_msgs\n'}
+[25.298858] (-) TimerEvent: {}
+[25.399615] (-) TimerEvent: {}
+[25.500453] (-) TimerEvent: {}
+[25.601298] (-) TimerEvent: {}
+[25.703097] (-) TimerEvent: {}
+[25.806104] (-) TimerEvent: {}
+[25.907009] (-) TimerEvent: {}
+[26.009063] (-) TimerEvent: {}
+[26.112015] (-) TimerEvent: {}
+[26.213285] (-) TimerEvent: {}
+[26.318712] (-) TimerEvent: {}
+[26.371177] (msgs) StdoutLine: {'line': b'[  5%] Built target msgs__rosidl_generator_type_description\n'}
+[26.418902] (-) TimerEvent: {}
+[26.462499] (msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[26.520856] (-) TimerEvent: {}
+[26.632187] (-) TimerEvent: {}
+[26.637420] (msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[26.732841] (-) TimerEvent: {}
+[26.833585] (-) TimerEvent: {}
+[26.864829] (msgs) StdoutLine: {'line': b'[ 11%] Built target msgs__rs\n'}
+[26.935797] (-) TimerEvent: {}
+[27.036475] (-) TimerEvent: {}
+[27.138770] (-) TimerEvent: {}
+[27.239435] (-) TimerEvent: {}
+[27.342763] (-) TimerEvent: {}
+[27.380805] (msgs) StdoutLine: {'line': b'running egg_info\n'}
+[27.385869] (msgs) StdoutLine: {'line': b'creating msgs.egg-info\n'}
+[27.444781] (-) TimerEvent: {}
+[27.545508] (-) TimerEvent: {}
+[27.621302] (msgs) StdoutLine: {'line': b'writing msgs.egg-info/PKG-INFO\n'}
+[27.623816] (msgs) StdoutLine: {'line': b'writing dependency_links to msgs.egg-info/dependency_links.txt\n'}
+[27.628815] (msgs) StdoutLine: {'line': b'writing top-level names to msgs.egg-info/top_level.txt\n'}
+[27.645781] (-) TimerEvent: {}
+[27.749268] (-) TimerEvent: {}
+[27.850561] (-) TimerEvent: {}
+[27.953133] (-) TimerEvent: {}
+[28.057873] (-) TimerEvent: {}
+[28.159229] (-) TimerEvent: {}
+[28.263218] (-) TimerEvent: {}
+[28.365792] (-) TimerEvent: {}
+[28.399815] (msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/msgs__rosidl_generator_c.dir/rosidl_generator_c/msgs/msg/detail/target_depth__description.c.o\x1b[0m\n'}
+[28.468813] (-) TimerEvent: {}
+[28.508587] (msgs) StdoutLine: {'line': b'[ 14%] Built target msgs__cpp\n'}
+[28.520933] (msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/msgs__rosidl_generator_c.dir/rosidl_generator_c/msgs/msg/detail/target_depth__type_support.c.o\x1b[0m\n'}
+[28.547738] (msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/msgs__rosidl_generator_c.dir/rosidl_generator_c/msgs/msg/detail/target_depth__functions.c.o\x1b[0m\n'}
+[28.570994] (-) TimerEvent: {}
+[28.672841] (-) TimerEvent: {}
+[28.774384] (-) TimerEvent: {}
+[28.875435] (-) TimerEvent: {}
+[28.960833] (msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmsgs__rosidl_generator_c.so\x1b[0m\n'}
+[28.976812] (-) TimerEvent: {}
+[28.978168] (msgs) StdoutLine: {'line': b"writing manifest file 'msgs.egg-info/SOURCES.txt'\n"}
+[29.078852] (-) TimerEvent: {}
+[29.179709] (-) TimerEvent: {}
+[29.280494] (-) TimerEvent: {}
+[29.309651] (msgs) StdoutLine: {'line': b'[ 22%] Built target msgs__rosidl_generator_c\n'}
+[29.383780] (-) TimerEvent: {}
+[29.425920] (msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.430514] (msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.482858] (msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[29.483811] (-) TimerEvent: {}
+[29.587040] (-) TimerEvent: {}
+[29.687785] (-) TimerEvent: {}
+[29.791115] (-) TimerEvent: {}
+[29.892010] (-) TimerEvent: {}
+[29.995439] (-) TimerEvent: {}
+[30.038052] (msgs) StdoutLine: {'line': b"reading manifest file 'msgs.egg-info/SOURCES.txt'\n"}
+[30.042545] (msgs) StdoutLine: {'line': b"writing manifest file 'msgs.egg-info/SOURCES.txt'\n"}
+[30.097357] (-) TimerEvent: {}
+[30.204865] (-) TimerEvent: {}
+[30.305931] (-) TimerEvent: {}
+[30.326791] (msgs) StdoutLine: {'line': b'[ 31%] Built target ament_cmake_python_build_msgs_egg\n'}
+[30.408804] (-) TimerEvent: {}
+[30.428113] (msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[30.510820] (-) TimerEvent: {}
+[30.611895] (-) TimerEvent: {}
+[30.717806] (-) TimerEvent: {}
+[30.819349] (-) TimerEvent: {}
+[30.925554] (-) TimerEvent: {}
+[31.033777] (-) TimerEvent: {}
+[31.137820] (-) TimerEvent: {}
+[31.217185] (msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs/msg/detail/target_depth__type_support.c.o\x1b[0m\n'}
+[31.237981] (-) TimerEvent: {}
+[31.278046] (msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs/msg/detail/dds_fastrtps/target_depth__type_support.cpp.o\x1b[0m\n'}
+[31.332219] (msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking C shared library libmsgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[31.341252] (-) TimerEvent: {}
+[31.404395] (msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[31.410857] (msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs/msg/detail/target_depth__type_support_c.cpp.o\x1b[0m\n'}
+[31.443801] (-) TimerEvent: {}
+[31.544590] (-) TimerEvent: {}
+[31.549973] (msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[31.647891] (-) TimerEvent: {}
+[31.661562] (msgs) StdoutLine: {'line': b'[ 51%] Built target msgs__rosidl_typesupport_introspection_c\n'}
+[31.749933] (-) TimerEvent: {}
+[31.783976] (msgs) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[31.855915] (-) TimerEvent: {}
+[31.917552] (msgs) StdoutLine: {'line': b'[ 54%] Built target msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[31.957902] (-) TimerEvent: {}
+[32.026833] (msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.058134] (-) TimerEvent: {}
+[32.060579] (msgs) StdoutLine: {'line': b'[ 57%] Built target msgs__rosidl_typesupport_fastrtps_c\n'}
+[32.077058] (msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs/msg/target_depth__type_support.cpp.o\x1b[0m\n'}
+[32.158316] (-) TimerEvent: {}
+[32.185537] (msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[32.259842] (-) TimerEvent: {}
+[32.360720] (-) TimerEvent: {}
+[32.463308] (-) TimerEvent: {}
+[32.511111] (msgs) StdoutLine: {'line': b'[ 62%] Built target msgs__rosidl_typesupport_c\n'}
+[32.563488] (-) TimerEvent: {}
+[32.664210] (-) TimerEvent: {}
+[32.764998] (-) TimerEvent: {}
+[32.865735] (-) TimerEvent: {}
+[32.966602] (-) TimerEvent: {}
+[33.068430] (-) TimerEvent: {}
+[33.169327] (-) TimerEvent: {}
+[33.226301] (msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs/msg/detail/target_depth__type_support.cpp.o\x1b[0m\n'}
+[33.269525] (-) TimerEvent: {}
+[33.310843] (msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs/msg/target_depth__type_support.cpp.o\x1b[0m\n'}
+[33.331453] (msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[33.369772] (-) TimerEvent: {}
+[33.411901] (msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[33.470031] (-) TimerEvent: {}
+[33.572811] (-) TimerEvent: {}
+[33.611097] (msgs) StdoutLine: {'line': b'[ 74%] Built target msgs__rosidl_typesupport_introspection_cpp\n'}
+[33.673008] (-) TimerEvent: {}
+[33.701991] (msgs) StdoutLine: {'line': b'[ 74%] Built target msgs__rosidl_typesupport_cpp\n'}
+[33.773267] (-) TimerEvent: {}
+[33.868243] (msgs) StdoutLine: {'line': b'[ 74%] Built target msgs\n'}
+[33.873470] (-) TimerEvent: {}
+[33.974253] (-) TimerEvent: {}
+[34.042081] (msgs) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[34.074490] (-) TimerEvent: {}
+[34.175294] (-) TimerEvent: {}
+[34.275982] (-) TimerEvent: {}
+[34.376729] (-) TimerEvent: {}
+[34.477481] (-) TimerEvent: {}
+[34.578247] (-) TimerEvent: {}
+[34.679044] (-) TimerEvent: {}
+[34.779733] (-) TimerEvent: {}
+[34.880394] (-) TimerEvent: {}
+[34.981081] (-) TimerEvent: {}
+[35.081777] (-) TimerEvent: {}
+[35.182505] (-) TimerEvent: {}
+[35.283530] (-) TimerEvent: {}
+[35.387195] (-) TimerEvent: {}
+[35.464322] (msgs) StdoutLine: {'line': b'[ 77%] Built target msgs__py\n'}
+[35.487382] (-) TimerEvent: {}
+[35.588131] (-) TimerEvent: {}
+[35.617724] (msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/msgs__rosidl_generator_py.dir/rosidl_generator_py/msgs/msg/_target_depth_s.c.o\x1b[0m\n'}
+[35.688324] (-) TimerEvent: {}
+[35.720662] (msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmsgs__rosidl_generator_py.so\x1b[0m\n'}
+[35.788541] (-) TimerEvent: {}
+[35.889401] (-) TimerEvent: {}
+[35.990254] (-) TimerEvent: {}
+[36.022900] (msgs) StdoutLine: {'line': b'[ 82%] Built target msgs__rosidl_generator_py\n'}
+[36.090546] (-) TimerEvent: {}
+[36.184908] (msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[36.189387] (msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[36.190336] (msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[36.191216] (-) TimerEvent: {}
+[36.292031] (-) TimerEvent: {}
+[36.294264] (msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/msgs/msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[36.295522] (msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/msgs/msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[36.296412] (msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/msgs/msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[36.392234] (-) TimerEvent: {}
+[36.493818] (-) TimerEvent: {}
+[36.552836] (msgs) StdoutLine: {'line': b'[100%] Built target msgs_s__rosidl_typesupport_c\n'}
+[36.567752] (msgs) StdoutLine: {'line': b'[100%] Built target msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[36.594018] (-) TimerEvent: {}
+[36.601314] (msgs) StdoutLine: {'line': b'[100%] Built target msgs_s__rosidl_typesupport_introspection_c\n'}
+[36.678824] (msgs) CommandEnded: {'returncode': 0}
+[36.681320] (msgs) JobProgress: {'identifier': 'msgs', 'progress': 'install'}
+[36.694206] (-) TimerEvent: {}
+[36.744463] (msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC/ros_ws', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy'}), 'shell': False}
+[36.794469] (-) TimerEvent: {}
+[36.809273] (msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.810384] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/ament_index/resource_index/rosidl_interfaces/msgs\n'}
+[36.812351] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/msg/TargetDepth.json\n'}
+[36.813559] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs\n'}
+[36.814330] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg\n'}
+[36.815106] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail\n'}
+[36.815812] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__struct.h\n'}
+[36.816977] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.c\n'}
+[36.818040] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__functions.c\n'}
+[36.819232] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__functions.h\n'}
+[36.820365] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__description.c\n'}
+[36.821613] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.h\n'}
+[36.822769] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/target_depth.h\n'}
+[36.823874] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[36.825449] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/library_path.sh\n'}
+[36.826904] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/library_path.dsv\n'}
+[36.829001] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_generator_c.so\n'}
+[36.832869] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_generator_c.so" to ""\n'}
+[36.833664] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs\n'}
+[36.834224] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg\n'}
+[36.834679] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[36.835272] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail\n'}
+[36.835895] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_fastrtps_c.h\n'}
+[36.837092] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_c.so\n'}
+[36.840564] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[36.841459] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs\n'}
+[36.842413] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg\n'}
+[36.842943] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[36.843646] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail\n'}
+[36.844549] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__traits.hpp\n'}
+[36.845509] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.hpp\n'}
+[36.846535] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__builder.hpp\n'}
+[36.847896] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__struct.hpp\n'}
+[36.848960] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/target_depth.hpp\n'}
+[36.850088] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs\n'}
+[36.850783] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg\n'}
+[36.851329] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[36.852119] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail\n'}
+[36.852728] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/dds_fastrtps\n'}
+[36.853336] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[36.854769] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[36.857877] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[36.858671] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs\n'}
+[36.859232] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg\n'}
+[36.859679] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[36.860235] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail\n'}
+[36.860806] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.c\n'}
+[36.861877] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_introspection_c.h\n'}
+[36.863345] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_c.so\n'}
+[36.866324] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[36.867038] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_c.so\n'}
+[36.869696] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_c.so" to ""\n'}
+[36.870389] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs\n'}
+[36.871019] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg\n'}
+[36.871562] (msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail\n'}
+[36.872100] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_introspection_cpp.hpp\n'}
+[36.872660] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.cpp\n'}
+[36.874119] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_cpp.so\n'}
+[36.877172] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[36.877866] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_cpp.so\n'}
+[36.880482] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_cpp.so" to ""\n'}
+[36.881143] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/pythonpath.sh\n'}
+[36.882160] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/pythonpath.dsv\n'}
+[36.883384] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs-0.0.0-py3.12.egg-info\n'}
+[36.884270] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[36.885407] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[36.886561] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[36.887661] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[36.889224] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs\n'}
+[36.890035] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[36.892670] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_c.so\n'}
+[36.894591] (-) TimerEvent: {}
+[36.895123] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg\n'}
+[36.895890] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg/_target_depth.py\n'}
+[36.896825] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg/_target_depth_s.c\n'}
+[36.897868] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg/__init__.py\n'}
+[36.898904] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[36.900204] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[36.901423] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[36.903252] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[36.904363] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/__init__.py\n'}
+[36.994750] (-) TimerEvent: {}
+[37.095429] (-) TimerEvent: {}
+[37.139180] (msgs) StdoutLine: {'line': b"Listing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs'...\n"}
+[37.140804] (msgs) StdoutLine: {'line': b"Compiling '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/__init__.py'...\n"}
+[37.141996] (msgs) StdoutLine: {'line': b"Listing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg'...\n"}
+[37.143776] (msgs) StdoutLine: {'line': b"Compiling '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg/__init__.py'...\n"}
+[37.145111] (msgs) StdoutLine: {'line': b"Compiling '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msg/_target_depth.py'...\n"}
+[37.173856] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[37.176698] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[37.178365] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[37.181748] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[37.183604] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_c.so\n'}
+[37.187057] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages/msgs/msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[37.187857] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_generator_py.so\n'}
+[37.191376] (msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_generator_py.so" to ""\n'}
+[37.192177] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/ament_index/resource_index/rust_packages/msgs\n'}
+[37.193311] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust\n'}
+[37.194021] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/build.rs\n'}
+[37.195002] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/Cargo.toml\n'}
+[37.195483] (-) TimerEvent: {}
+[37.195948] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/src\n'}
+[37.196706] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/src/lib.rs\n'}
+[37.197771] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/src/msg.rs\n'}
+[37.199070] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/src/msg\n'}
+[37.199935] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/rust/src/msg/rmw.rs\n'}
+[37.201765] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/msg/TargetDepth.idl\n'}
+[37.203487] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/msg/TargetDepth.msg\n'}
+[37.205117] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/ament_index/resource_index/package_run_dependencies/msgs\n'}
+[37.206743] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/ament_index/resource_index/parent_prefix_path/msgs\n'}
+[37.208125] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/ament_prefix_path.sh\n'}
+[37.209398] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/ament_prefix_path.dsv\n'}
+[37.210676] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/path.sh\n'}
+[37.212199] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/path.dsv\n'}
+[37.213471] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/local_setup.bash\n'}
+[37.214946] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/local_setup.sh\n'}
+[37.216337] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/local_setup.zsh\n'}
+[37.217562] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/local_setup.dsv\n'}
+[37.218758] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.dsv\n'}
+[37.220251] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/ament_index/resource_index/packages/msgs\n'}
+[37.221786] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_generator_cExport.cmake\n'}
+[37.223256] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[37.225020] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[37.226600] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[37.228224] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_generator_cppExport.cmake\n'}
+[37.229780] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[37.231284] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[37.232859] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[37.234336] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[37.235907] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_cExport.cmake\n'}
+[37.237278] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[37.238791] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[37.240275] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[37.241786] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_cppExport.cmake\n'}
+[37.243208] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[37.244728] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_generator_pyExport.cmake\n'}
+[37.246143] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/export_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[37.247546] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[37.248922] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.250296] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.251653] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.253044] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[37.254345] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[37.255676] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[37.257083] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[37.258367] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgsConfig.cmake\n'}
+[37.259362] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/cmake/msgsConfig-version.cmake\n'}
+[37.260553] (msgs) StdoutLine: {'line': b'-- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/package.xml\n'}
+[37.270519] (msgs) CommandEnded: {'returncode': 0}
+[37.295749] (-) TimerEvent: {}
+[37.377369] (msgs) JobEnded: {'identifier': 'msgs', 'rc': 0}
+[37.380485] (-) EventReactorShutdown: {}

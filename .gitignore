@@ -1,7 +1,6 @@
 # ROS2 build artifacts
 ros_ws/build/
 ros_ws/install/
-ros_ws/log/
 
 # Python
 __pycache__/
@@ -25,6 +24,9 @@ Thumbs.db
 # Video
 *.mp4
 *.avi
+
+# Bag recordings
+analysis/bag_files/
 
 # Firmware
 *.hex

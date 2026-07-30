@@ -1,0 +1,23 @@
+# Global parameters for all subsystems
+control:
+  depth_pid:
+    kp: 50.0
+    ki: 0.0
+    kd: 0.5
+    target_depth: -2.0
+  heading_pid:
+    kp: 2.5
+    ki: 0.1
+    kd: 0.03
+
+cv:
+  camera_topic: "/camera"
+  tag_families: "tag36h11"
+  tag_size: 0.05
+
+flashing:
+  flash_distance: 1.0
+  flash_interval: 0.5
+
+hardware:
+  udp_params: "udpin:0.0.0.0:14550"

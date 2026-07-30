@@ -1,0 +1,129 @@
+[3.610s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake /home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs -DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs
+[4.895s] -- The C compiler identification is GNU 13.3.0
+[5.857s] -- The CXX compiler identification is GNU 13.3.0
+[6.373s] -- Detecting C compiler ABI info
+[7.775s] -- Detecting C compiler ABI info - done
+[7.979s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[7.993s] -- Detecting C compile features
+[8.008s] -- Detecting C compile features - done
+[8.263s] -- Detecting CXX compiler ABI info
+[9.928s] -- Detecting CXX compiler ABI info - done
+[9.997s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[10.002s] -- Detecting CXX compile features
+[10.010s] -- Detecting CXX compile features - done
+[10.132s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[12.388s] -- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter 
+[15.875s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[17.333s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[18.032s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[18.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.261s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[21.232s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[31.312s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[38.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[42.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.681s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[44.067s] -- Found PythonExtra: /home/ngt/.virtualenvs/ardusub/bin/python3  
+[48.247s] -- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[48.983s] -- Found Python3: /home/ngt/.virtualenvs/ardusub/bin/python3 (found version "3.12.3") found components: Interpreter 
+[49.054s] -- Configuring done (45.3s)
+[49.500s] -- Generating done (0.4s)
+[49.617s] -- Build files have been written to: /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs
+[49.655s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake /home/ngt/ZENS-Final-AUVC/ros_ws/src/msgs -DCMAKE_INSTALL_PREFIX=/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs
+[49.664s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs -- -j4 -l4
+[50.162s] [  2%] Built target msgs__rs
+[50.421s] [  8%] Built target ament_cmake_python_copy_msgs
+[50.604s] [ 11%] Built target msgs__rosidl_generator_type_description
+[52.724s] running egg_info
+[53.006s] writing msgs.egg-info/PKG-INFO
+[53.008s] writing dependency_links to msgs.egg-info/dependency_links.txt
+[53.009s] writing top-level names to msgs.egg-info/top_level.txt
+[54.870s] reading manifest file 'msgs.egg-info/SOURCES.txt'
+[54.874s] writing manifest file 'msgs.egg-info/SOURCES.txt'
+[55.151s] [ 34%] Built target ament_cmake_python_build_msgs_egg
+[55.359s] [ 37%] Built target msgs__cpp
+[55.572s] [ 51%] Built target msgs__rosidl_generator_c
+[55.783s] [ 60%] Built target msgs__rosidl_typesupport_fastrtps_c
+[55.983s] [ 60%] Built target msgs__rosidl_typesupport_c
+[56.248s] [ 60%] Built target msgs__rosidl_typesupport_introspection_cpp
+[56.429s] [ 62%] Built target msgs__rosidl_typesupport_cpp
+[56.602s] [ 65%] [32m[1mLinking C shared library libmsgs__rosidl_typesupport_introspection_c.so[0m
+[56.878s] [ 68%] Built target msgs__rosidl_typesupport_introspection_c
+[56.971s] [ 68%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[58.522s] [ 71%] [32mBuilding CXX object CMakeFiles/msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs/msg/detail/dds_fastrtps/target_depth__type_support.cpp.o[0m
+[58.671s] [ 74%] [32m[1mLinking CXX shared library libmsgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[59.073s] [ 74%] Built target msgs__rosidl_typesupport_fastrtps_cpp
+[59.249s] [ 74%] Built target msgs
+[59.440s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[61.350s] [ 77%] Built target msgs__py
+[61.536s] [ 80%] [32mBuilding C object CMakeFiles/msgs__rosidl_generator_py.dir/rosidl_generator_py/msgs/msg/_target_depth_s.c.o[0m
+[61.689s] [ 82%] [32m[1mLinking C shared library libmsgs__rosidl_generator_py.so[0m
+[62.080s] [ 82%] Built target msgs__rosidl_generator_py
+[62.282s] [ 85%] [32mBuilding C object CMakeFiles/msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[62.442s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/msgs/msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[62.722s] [ 88%] Built target msgs_s__rosidl_typesupport_fastrtps_c
+[62.890s] [ 91%] [32mBuilding C object CMakeFiles/msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[63.025s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/msgs/msgs_s__rosidl_typesupport_c.so[0m
+[63.300s] [ 94%] Built target msgs_s__rosidl_typesupport_c
+[63.511s] [ 97%] [32mBuilding C object CMakeFiles/msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[63.755s] [100%] [32m[1mLinking C shared module rosidl_generator_py/msgs/msgs_s__rosidl_typesupport_introspection_c.so[0m
+[64.033s] [100%] Built target msgs_s__rosidl_typesupport_introspection_c
+[64.127s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs -- -j4 -l4
+[64.228s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs
+[64.333s] -- Install configuration: ""
+[64.335s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/ament_index/resource_index/rosidl_interfaces/msgs
+[64.336s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/msg/TargetDepth.json
+[64.340s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs
+[64.343s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg
+[64.343s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail
+[64.344s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__struct.h
+[64.350s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.c
+[64.351s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__functions.c
+[64.357s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__functions.h
+[64.362s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__description.c
+[64.363s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.h
+[64.363s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/target_depth.h
+[64.364s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_generator_c__visibility_control.h
+[64.369s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/library_path.sh
+[64.370s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/share/msgs/environment/library_path.dsv
+[64.371s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_generator_c.so
+[64.371s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs
+[64.375s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg
+[64.377s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[64.378s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail
+[64.378s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_fastrtps_c.h
+[64.379s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_c.so
+[64.382s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs
+[64.383s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg
+[64.385s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[64.386s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail
+[64.392s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__traits.hpp
+[64.393s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.hpp
+[64.398s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__builder.hpp
+[64.399s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__struct.hpp
+[64.404s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/target_depth.hpp
+[64.408s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs
+[64.411s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg
+[64.413s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[64.417s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail
+[64.420s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/dds_fastrtps
+[64.420s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_fastrtps_cpp.hpp
+[64.421s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_cpp.so
+[64.421s] -- Set non-toolchain portion of runtime path of "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[64.431s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs
+[64.432s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg
+[64.432s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[64.433s] -- Up-to-date: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail
+[64.437s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__type_support.c
+[64.438s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/include/msgs/msgs/msg/detail/target_depth__rosidl_typesupport_introspection_c.h
+[64.438s] -- Installing: /home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_c.so
+[64.449s] [31mCMake Error at cmake_install.cmake:157 (file):
+[64.450s]   file INSTALL cannot copy file
+[64.451s]   "/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs/libmsgs__rosidl_typesupport_introspection_c.so"
+[64.458s]   to
+[64.459s]   "/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_c.so":
+[64.460s]   No such file or directory.
+[64.460s] 
+[64.466s] [0m
+[64.467s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs

@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.004612] (-) JobUnselected: {'identifier': 'bringup'}
+[0.004983] (-) JobUnselected: {'identifier': 'control'}
+[0.005152] (-) JobUnselected: {'identifier': 'flashing'}
+[0.005303] (-) JobUnselected: {'identifier': 'hardware'}
+[0.005573] (-) JobUnselected: {'identifier': 'msgs'}
+[0.005787] (cv) JobQueued: {'identifier': 'cv', 'dependencies': OrderedDict()}
+[0.005954] (cv) JobStarted: {'identifier': 'cv'}
+[0.104075] (-) TimerEvent: {}
+[0.204960] (-) TimerEvent: {}
+[0.306842] (-) TimerEvent: {}
+[0.410559] (-) TimerEvent: {}
+[0.512873] (-) TimerEvent: {}
+[0.614847] (-) TimerEvent: {}
+[0.716088] (-) TimerEvent: {}
+[0.818832] (-) TimerEvent: {}
+[0.923820] (-) TimerEvent: {}
+[1.024546] (-) TimerEvent: {}
+[1.125399] (-) TimerEvent: {}
+[1.226248] (-) TimerEvent: {}
+[1.327818] (-) TimerEvent: {}
+[1.430098] (-) TimerEvent: {}
+[1.533834] (-) TimerEvent: {}
+[1.634835] (-) TimerEvent: {}
+[1.735565] (-) TimerEvent: {}
+[1.837359] (-) TimerEvent: {}
+[1.938607] (-) TimerEvent: {}
+[2.039951] (-) TimerEvent: {}
+[2.141038] (-) TimerEvent: {}
+[2.244738] (-) TimerEvent: {}
+[2.351048] (-) TimerEvent: {}
+[2.452089] (-) TimerEvent: {}
+[2.554197] (-) TimerEvent: {}
+[2.654938] (-) TimerEvent: {}
+[2.756210] (-) TimerEvent: {}
+[2.857832] (-) TimerEvent: {}
+[2.962846] (-) TimerEvent: {}
+[3.063730] (-) TimerEvent: {}
+[3.164622] (-) TimerEvent: {}
+[3.270820] (-) TimerEvent: {}
+[3.371841] (-) TimerEvent: {}
+[3.476802] (-) TimerEvent: {}
+[3.577597] (-) TimerEvent: {}
+[3.678780] (-) TimerEvent: {}
+[3.779784] (-) TimerEvent: {}
+[3.881577] (-) TimerEvent: {}
+[3.985011] (-) TimerEvent: {}
+[4.087808] (-) TimerEvent: {}
+[4.188541] (-) TimerEvent: {}
+[4.289513] (-) TimerEvent: {}
+[4.392775] (-) TimerEvent: {}
+[4.493508] (-) TimerEvent: {}
+[4.594258] (-) TimerEvent: {}
+[4.695125] (-) TimerEvent: {}
+[4.800810] (-) TimerEvent: {}
+[4.901742] (-) TimerEvent: {}
+[5.002805] (-) TimerEvent: {}
+[5.104085] (-) TimerEvent: {}
+[5.205311] (-) TimerEvent: {}
+[5.306528] (-) TimerEvent: {}
+[5.407178] (-) TimerEvent: {}
+[5.508622] (-) TimerEvent: {}
+[5.610451] (-) TimerEvent: {}
+[5.712031] (-) TimerEvent: {}
+[5.812807] (-) TimerEvent: {}
+[5.913445] (-) TimerEvent: {}
+[6.014128] (-) TimerEvent: {}
+[6.114753] (-) TimerEvent: {}
+[6.217902] (-) TimerEvent: {}
+[6.318975] (-) TimerEvent: {}
+[6.420363] (-) TimerEvent: {}
+[6.521043] (-) TimerEvent: {}
+[6.621731] (-) TimerEvent: {}
+[6.722334] (-) TimerEvent: {}
+[6.822982] (-) TimerEvent: {}
+[6.923609] (-) TimerEvent: {}
+[7.024612] (-) TimerEvent: {}
+[7.126926] (-) TimerEvent: {}
+[7.228436] (-) TimerEvent: {}
+[7.330770] (-) TimerEvent: {}
+[7.435331] (-) TimerEvent: {}
+[7.536187] (-) TimerEvent: {}
+[7.636779] (-) TimerEvent: {}
+[7.737306] (-) TimerEvent: {}
+[7.837967] (-) TimerEvent: {}
+[7.938836] (-) TimerEvent: {}
+[8.015828] (cv) Command: {'cmd': ['/home/ngt/.virtualenvs/ardusub/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cv', 'build', '--build-base', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build', 'install', '--record', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log', '--install-scripts', '$base/lib/cv', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv', 'env': {'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC/ros_ws', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-6679c99f-bec7-4c54-8839-292ecb92e790.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/home/ngt/.virtualenvs/ardusub/bin/python3', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.039015] (-) TimerEvent: {}
+[8.139747] (-) TimerEvent: {}
+[8.240482] (-) TimerEvent: {}
+[8.345788] (-) TimerEvent: {}
+[8.446395] (-) TimerEvent: {}
+[8.547053] (-) TimerEvent: {}
+[8.647673] (-) TimerEvent: {}
+[8.748278] (-) TimerEvent: {}
+[8.849205] (-) TimerEvent: {}
+[8.949741] (-) TimerEvent: {}
+[9.050301] (-) TimerEvent: {}
+[9.150989] (-) TimerEvent: {}
+[9.251524] (-) TimerEvent: {}
+[9.352093] (-) TimerEvent: {}
+[9.452620] (-) TimerEvent: {}
+[9.553210] (-) TimerEvent: {}
+[9.653822] (-) TimerEvent: {}
+[9.754343] (-) TimerEvent: {}
+[9.854968] (-) TimerEvent: {}
+[9.937532] (cv) StdoutLine: {'line': b'running egg_info\n'}
+[9.939251] (cv) StdoutLine: {'line': b'creating ../../build/cv/cv.egg-info\n'}
+[9.955115] (-) TimerEvent: {}
+[10.055680] (-) TimerEvent: {}
+[10.078468] (cv) StdoutLine: {'line': b'writing ../../build/cv/cv.egg-info/PKG-INFO\n'}
+[10.079740] (cv) StdoutLine: {'line': b'writing dependency_links to ../../build/cv/cv.egg-info/dependency_links.txt\n'}
+[10.080745] (cv) StdoutLine: {'line': b'writing entry points to ../../build/cv/cv.egg-info/entry_points.txt\n'}
+[10.081595] (cv) StdoutLine: {'line': b'writing requirements to ../../build/cv/cv.egg-info/requires.txt\n'}
+[10.082207] (cv) StdoutLine: {'line': b'writing top-level names to ../../build/cv/cv.egg-info/top_level.txt\n'}
+[10.155809] (-) TimerEvent: {}
+[10.256339] (-) TimerEvent: {}
+[10.356986] (-) TimerEvent: {}
+[10.457509] (-) TimerEvent: {}
+[10.558068] (-) TimerEvent: {}
+[10.658599] (-) TimerEvent: {}
+[10.758693] (cv) StdoutLine: {'line': b"writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'\n"}
+[10.759286] (-) TimerEvent: {}
+[10.859749] (-) TimerEvent: {}
+[10.960553] (-) TimerEvent: {}
+[11.065796] (-) TimerEvent: {}
+[11.168931] (-) TimerEvent: {}
+[11.273251] (-) TimerEvent: {}
+[11.283871] (cv) StdoutLine: {'line': b"reading manifest file '../../build/cv/cv.egg-info/SOURCES.txt'\n"}
+[11.291356] (cv) StdoutLine: {'line': b"writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'\n"}
+[11.300093] (cv) StdoutLine: {'line': b'running build\n'}
+[11.302132] (cv) StdoutLine: {'line': b'running build_py\n'}
+[11.307839] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build\n'}
+[11.311619] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib\n'}
+[11.312059] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.312356] (cv) StdoutLine: {'line': b'copying cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.314290] (cv) StdoutLine: {'line': b'copying cv/apriltag_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.315386] (cv) StdoutLine: {'line': b'copying cv/yolo_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.316535] (cv) StdoutLine: {'line': b'copying cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.318083] (cv) StdoutLine: {'line': b'copying cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.318485] (cv) StdoutLine: {'line': b'copying cv/camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv\n'}
+[11.319721] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.320809] (cv) StdoutLine: {'line': b'copying cv/nodes/detection_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.321348] (cv) StdoutLine: {'line': b'copying cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.322446] (cv) StdoutLine: {'line': b'copying cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.323768] (cv) StdoutLine: {'line': b'copying cv/nodes/web_streamer_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.324193] (cv) StdoutLine: {'line': b'copying cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.325068] (cv) StdoutLine: {'line': b'copying cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes\n'}
+[11.326238] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts\n'}
+[11.326727] (cv) StdoutLine: {'line': b'copying cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts\n'}
+[11.328019] (cv) StdoutLine: {'line': b'copying cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts\n'}
+[11.328387] (cv) StdoutLine: {'line': b'copying cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts\n'}
+[11.329335] (cv) StdoutLine: {'line': b'running install\n'}
+[11.354971] (cv) StdoutLine: {'line': b'running install_lib\n'}
+[11.373376] (-) TimerEvent: {}
+[11.473952] (-) TimerEvent: {}
+[11.489858] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.490559] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.491591] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/apriltag_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.492653] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/yolo_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.493880] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.494613] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/detection_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.495647] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.496723] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.497807] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/web_streamer_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.498736] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.499677] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes\n'}
+[11.500432] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.501370] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts\n'}
+[11.501932] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts\n'}
+[11.502754] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts\n'}
+[11.503559] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts\n'}
+[11.504253] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.505021] (cv) StdoutLine: {'line': b'copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv\n'}
+[11.507949] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/visualizer.py to visualizer.cpython-312.pyc\n'}
+[11.511791] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/apriltag_detection.py to apriltag_detection.cpython-312.pyc\n'}
+[11.513988] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/yolo_detection.py to yolo_detection.cpython-312.pyc\n'}
+[11.518755] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/detection_node.py to detection_node.cpython-312.pyc\n'}
+[11.525955] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/tag_heading_node.py to tag_heading_node.cpython-312.pyc\n'}
+[11.530034] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/image_saver_node.py to image_saver_node.cpython-312.pyc\n'}
+[11.532940] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/web_streamer_node.py to web_streamer_node.cpython-312.pyc\n'}
+[11.536604] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/fake_camera_node.py to fake_camera_node.cpython-312.pyc\n'}
+[11.539563] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/__init__.py to __init__.cpython-312.pyc\n'}
+[11.540937] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/video_logger.py to video_logger.cpython-312.pyc\n'}
+[11.543604] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/detect_from_image.py to detect_from_image.cpython-312.pyc\n'}
+[11.546552] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/calibrate_camera.py to calibrate_camera.cpython-312.pyc\n'}
+[11.550002] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/__init__.py to __init__.cpython-312.pyc\n'}
+[11.551180] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/__init__.py to __init__.cpython-312.pyc\n'}
+[11.552754] (cv) StdoutLine: {'line': b'byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/camera.py to camera.cpython-312.pyc\n'}
+[11.556728] (cv) StdoutLine: {'line': b'running install_data\n'}
+[11.557605] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index\n'}
+[11.558300] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index\n'}
+[11.558834] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index/packages\n'}
+[11.559234] (cv) StdoutLine: {'line': b'copying resource/cv -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index/packages\n'}
+[11.559822] (cv) StdoutLine: {'line': b'copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv\n'}
+[11.560422] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch\n'}
+[11.561155] (cv) StdoutLine: {'line': b'copying launch/tag_heading.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch\n'}
+[11.561805] (cv) StdoutLine: {'line': b'copying launch/detection.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch\n'}
+[11.562377] (cv) StdoutLine: {'line': b'copying launch/web_streamer.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch\n'}
+[11.563258] (cv) StdoutLine: {'line': b'copying launch/test_detection.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch\n'}
+[11.564076] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config\n'}
+[11.565046] (cv) StdoutLine: {'line': b'copying config/auv_labels.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config\n'}
+[11.566095] (cv) StdoutLine: {'line': b'copying config/detector_params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config\n'}
+[11.567206] (cv) StdoutLine: {'line': b'creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/models\n'}
+[11.568173] (cv) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.574141] (-) TimerEvent: {}
+[11.674772] (-) TimerEvent: {}
+[11.711347] (cv) StdoutLine: {'line': b'Copying ../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info\n'}
+[11.716701] (cv) StdoutLine: {'line': b'running install_scripts\n'}
+[11.774931] (-) TimerEvent: {}
+[11.875493] (-) TimerEvent: {}
+[11.977132] (-) TimerEvent: {}
+[12.080164] (-) TimerEvent: {}
+[12.142225] (cv) StdoutLine: {'line': b'Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.143132] (cv) StdoutLine: {'line': b'Installing detect_from_image script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.144018] (cv) StdoutLine: {'line': b'Installing detection_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.144805] (cv) StdoutLine: {'line': b'Installing fake_camera_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.145548] (cv) StdoutLine: {'line': b'Installing image_saver_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.146314] (cv) StdoutLine: {'line': b'Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.147059] (cv) StdoutLine: {'line': b'Installing web_streamer_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[12.149583] (cv) StdoutLine: {'line': b"writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log'\n"}
+[12.180534] (-) TimerEvent: {}
+[12.281601] (-) TimerEvent: {}
+[12.323344] (cv) CommandEnded: {'returncode': 0}
+[12.375731] (cv) JobEnded: {'identifier': 'cv', 'rc': 0}
+[12.378842] (-) EventReactorShutdown: {}

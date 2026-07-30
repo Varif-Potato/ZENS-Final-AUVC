@@ -1,0 +1,708 @@
+[0.000000] (-) TimerEvent: {}
+[0.001013] (bringup) JobQueued: {'identifier': 'bringup', 'dependencies': OrderedDict()}
+[0.002066] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.002600] (cv) JobQueued: {'identifier': 'cv', 'dependencies': OrderedDict()}
+[0.002698] (flashing) JobQueued: {'identifier': 'flashing', 'dependencies': OrderedDict()}
+[0.002835] (hardware) JobQueued: {'identifier': 'hardware', 'dependencies': OrderedDict()}
+[0.003576] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.003754] (bringup) JobStarted: {'identifier': 'bringup'}
+[0.058845] (control) JobStarted: {'identifier': 'control'}
+[0.099154] (-) TimerEvent: {}
+[0.108717] (cv) JobStarted: {'identifier': 'cv'}
+[0.159610] (flashing) JobStarted: {'identifier': 'flashing'}
+[0.199318] (-) TimerEvent: {}
+[0.300003] (-) TimerEvent: {}
+[0.400708] (-) TimerEvent: {}
+[0.501476] (-) TimerEvent: {}
+[0.602321] (-) TimerEvent: {}
+[0.703112] (-) TimerEvent: {}
+[0.805954] (-) TimerEvent: {}
+[0.906764] (-) TimerEvent: {}
+[1.008303] (-) TimerEvent: {}
+[1.109663] (-) TimerEvent: {}
+[1.213088] (-) TimerEvent: {}
+[1.315926] (-) TimerEvent: {}
+[1.416898] (-) TimerEvent: {}
+[1.520207] (-) TimerEvent: {}
+[1.622911] (-) TimerEvent: {}
+[1.723587] (-) TimerEvent: {}
+[1.825174] (-) TimerEvent: {}
+[1.927463] (-) TimerEvent: {}
+[2.034194] (-) TimerEvent: {}
+[2.134927] (-) TimerEvent: {}
+[2.236971] (-) TimerEvent: {}
+[2.337833] (-) TimerEvent: {}
+[2.441718] (-) TimerEvent: {}
+[2.548915] (-) TimerEvent: {}
+[2.649666] (-) TimerEvent: {}
+[2.753944] (-) TimerEvent: {}
+[2.854930] (-) TimerEvent: {}
+[2.957961] (-) TimerEvent: {}
+[3.058744] (-) TimerEvent: {}
+[3.161937] (-) TimerEvent: {}
+[3.262665] (-) TimerEvent: {}
+[3.366184] (-) TimerEvent: {}
+[3.466990] (-) TimerEvent: {}
+[3.569486] (-) TimerEvent: {}
+[3.672294] (-) TimerEvent: {}
+[3.775821] (-) TimerEvent: {}
+[3.877904] (-) TimerEvent: {}
+[3.979020] (-) TimerEvent: {}
+[4.080949] (-) TimerEvent: {}
+[4.183977] (-) TimerEvent: {}
+[4.285768] (-) TimerEvent: {}
+[4.388480] (-) TimerEvent: {}
+[4.491689] (-) TimerEvent: {}
+[4.592846] (-) TimerEvent: {}
+[4.695297] (-) TimerEvent: {}
+[4.797125] (-) TimerEvent: {}
+[4.899445] (-) TimerEvent: {}
+[5.001396] (-) TimerEvent: {}
+[5.102145] (-) TimerEvent: {}
+[5.203121] (-) TimerEvent: {}
+[5.306229] (-) TimerEvent: {}
+[5.406991] (-) TimerEvent: {}
+[5.509331] (-) TimerEvent: {}
+[5.612162] (-) TimerEvent: {}
+[5.713470] (-) TimerEvent: {}
+[5.817239] (-) TimerEvent: {}
+[5.918226] (-) TimerEvent: {}
+[6.019429] (-) TimerEvent: {}
+[6.122002] (-) TimerEvent: {}
+[6.223344] (-) TimerEvent: {}
+[6.326034] (-) TimerEvent: {}
+[6.431274] (-) TimerEvent: {}
+[6.532704] (-) TimerEvent: {}
+[6.633586] (-) TimerEvent: {}
+[6.735045] (-) TimerEvent: {}
+[6.836305] (-) TimerEvent: {}
+[6.937570] (-) TimerEvent: {}
+[7.039281] (-) TimerEvent: {}
+[7.140887] (-) TimerEvent: {}
+[7.242603] (-) TimerEvent: {}
+[7.345918] (-) TimerEvent: {}
+[7.446620] (-) TimerEvent: {}
+[7.548997] (-) TimerEvent: {}
+[7.651001] (-) TimerEvent: {}
+[7.752607] (-) TimerEvent: {}
+[7.854701] (-) TimerEvent: {}
+[7.960666] (-) TimerEvent: {}
+[8.061473] (-) TimerEvent: {}
+[8.164072] (-) TimerEvent: {}
+[8.269983] (-) TimerEvent: {}
+[8.370906] (-) TimerEvent: {}
+[8.474065] (-) TimerEvent: {}
+[8.579103] (-) TimerEvent: {}
+[8.685970] (-) TimerEvent: {}
+[8.789986] (-) TimerEvent: {}
+[8.890940] (-) TimerEvent: {}
+[8.991820] (-) TimerEvent: {}
+[9.095950] (-) TimerEvent: {}
+[9.201940] (-) TimerEvent: {}
+[9.302741] (-) TimerEvent: {}
+[9.405980] (-) TimerEvent: {}
+[9.506967] (-) TimerEvent: {}
+[9.610956] (-) TimerEvent: {}
+[9.713978] (-) TimerEvent: {}
+[9.814742] (-) TimerEvent: {}
+[9.920939] (-) TimerEvent: {}
+[10.023940] (-) TimerEvent: {}
+[10.124828] (-) TimerEvent: {}
+[10.225600] (-) TimerEvent: {}
+[10.332956] (-) TimerEvent: {}
+[10.435945] (-) TimerEvent: {}
+[10.538934] (-) TimerEvent: {}
+[10.639880] (-) TimerEvent: {}
+[10.742938] (-) TimerEvent: {}
+[10.845941] (-) TimerEvent: {}
+[10.946759] (-) TimerEvent: {}
+[11.047969] (-) TimerEvent: {}
+[11.153929] (-) TimerEvent: {}
+[11.254725] (-) TimerEvent: {}
+[11.357942] (-) TimerEvent: {}
+[11.458946] (-) TimerEvent: {}
+[11.564933] (-) TimerEvent: {}
+[11.666941] (-) TimerEvent: {}
+[11.768451] (-) TimerEvent: {}
+[11.872624] (-) TimerEvent: {}
+[11.973665] (-) TimerEvent: {}
+[12.077354] (-) TimerEvent: {}
+[12.181214] (-) TimerEvent: {}
+[12.284505] (-) TimerEvent: {}
+[12.388965] (-) TimerEvent: {}
+[12.495957] (-) TimerEvent: {}
+[12.598937] (-) TimerEvent: {}
+[12.700926] (-) TimerEvent: {}
+[12.802999] (-) TimerEvent: {}
+[12.904999] (-) TimerEvent: {}
+[13.008690] (-) TimerEvent: {}
+[13.110943] (-) TimerEvent: {}
+[13.211837] (-) TimerEvent: {}
+[13.316429] (-) TimerEvent: {}
+[13.422981] (-) TimerEvent: {}
+[13.523944] (-) TimerEvent: {}
+[13.628197] (-) TimerEvent: {}
+[13.731121] (-) TimerEvent: {}
+[13.832115] (-) TimerEvent: {}
+[13.938292] (-) TimerEvent: {}
+[14.039376] (-) TimerEvent: {}
+[14.142238] (-) TimerEvent: {}
+[14.245940] (-) TimerEvent: {}
+[14.348945] (-) TimerEvent: {}
+[14.452929] (-) TimerEvent: {}
+[14.556928] (-) TimerEvent: {}
+[14.657757] (-) TimerEvent: {}
+[14.759669] (-) TimerEvent: {}
+[14.862281] (-) TimerEvent: {}
+[14.969195] (-) TimerEvent: {}
+[15.069950] (-) TimerEvent: {}
+[15.173930] (-) TimerEvent: {}
+[15.275951] (-) TimerEvent: {}
+[15.381939] (-) TimerEvent: {}
+[15.482885] (-) TimerEvent: {}
+[15.587934] (-) TimerEvent: {}
+[15.693322] (-) TimerEvent: {}
+[15.794219] (-) TimerEvent: {}
+[15.896963] (-) TimerEvent: {}
+[16.004996] (-) TimerEvent: {}
+[16.105870] (-) TimerEvent: {}
+[16.210923] (-) TimerEvent: {}
+[16.313942] (-) TimerEvent: {}
+[16.414757] (-) TimerEvent: {}
+[16.517923] (-) TimerEvent: {}
+[16.623941] (-) TimerEvent: {}
+[16.724884] (-) TimerEvent: {}
+[16.829936] (-) TimerEvent: {}
+[16.930701] (-) TimerEvent: {}
+[17.032988] (-) TimerEvent: {}
+[17.137952] (-) TimerEvent: {}
+[17.241948] (-) TimerEvent: {}
+[17.342715] (-) TimerEvent: {}
+[17.451948] (-) TimerEvent: {}
+[17.552895] (-) TimerEvent: {}
+[17.659932] (-) TimerEvent: {}
+[17.764216] (-) TimerEvent: {}
+[17.865150] (-) TimerEvent: {}
+[17.968638] (-) TimerEvent: {}
+[18.076939] (-) TimerEvent: {}
+[18.177752] (-) TimerEvent: {}
+[18.281946] (-) TimerEvent: {}
+[18.384943] (-) TimerEvent: {}
+[18.488954] (-) TimerEvent: {}
+[18.589942] (-) TimerEvent: {}
+[18.697284] (-) TimerEvent: {}
+[18.799928] (-) TimerEvent: {}
+[18.902960] (-) TimerEvent: {}
+[19.010949] (-) TimerEvent: {}
+[19.112981] (-) TimerEvent: {}
+[19.214149] (-) TimerEvent: {}
+[19.321929] (-) TimerEvent: {}
+[19.422687] (-) TimerEvent: {}
+[19.525936] (-) TimerEvent: {}
+[19.629107] (-) TimerEvent: {}
+[19.731937] (-) TimerEvent: {}
+[19.835952] (-) TimerEvent: {}
+[19.936734] (-) TimerEvent: {}
+[20.039951] (-) TimerEvent: {}
+[20.144936] (-) TimerEvent: {}
+[20.245744] (-) TimerEvent: {}
+[20.351913] (-) TimerEvent: {}
+[20.452651] (-) TimerEvent: {}
+[20.558051] (-) TimerEvent: {}
+[20.661940] (-) TimerEvent: {}
+[20.770945] (-) TimerEvent: {}
+[20.871732] (-) TimerEvent: {}
+[20.977937] (-) TimerEvent: {}
+[21.080952] (-) TimerEvent: {}
+[21.182146] (-) TimerEvent: {}
+[21.287326] (-) TimerEvent: {}
+[21.390402] (-) TimerEvent: {}
+[21.493968] (-) TimerEvent: {}
+[21.597191] (-) TimerEvent: {}
+[21.701913] (-) TimerEvent: {}
+[21.802643] (-) TimerEvent: {}
+[21.909115] (-) TimerEvent: {}
+[22.009956] (-) TimerEvent: {}
+[22.112944] (-) TimerEvent: {}
+[22.216253] (-) TimerEvent: {}
+[22.321941] (-) TimerEvent: {}
+[22.422606] (-) TimerEvent: {}
+[22.494924] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build', 'install', '--record', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log', '--install-scripts', '$base/lib/control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control', 'env': {'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[22.526060] (-) TimerEvent: {}
+[22.628942] (-) TimerEvent: {}
+[22.734127] (-) TimerEvent: {}
+[22.839942] (-) TimerEvent: {}
+[22.944967] (-) TimerEvent: {}
+[23.045947] (-) TimerEvent: {}
+[23.150928] (-) TimerEvent: {}
+[23.255337] (flashing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/flashing', 'build', '--build-base', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build', 'install', '--record', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log', '--install-scripts', '$base/lib/flashing', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing', 'env': {'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[23.266400] (-) TimerEvent: {}
+[23.376188] (-) TimerEvent: {}
+[23.478312] (-) TimerEvent: {}
+[23.586985] (-) TimerEvent: {}
+[23.691432] (-) TimerEvent: {}
+[23.798820] (-) TimerEvent: {}
+[23.903933] (-) TimerEvent: {}
+[24.004883] (-) TimerEvent: {}
+[24.110979] (-) TimerEvent: {}
+[24.214947] (-) TimerEvent: {}
+[24.326031] (-) TimerEvent: {}
+[24.349160] (cv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cv', 'build', '--build-base', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build', 'install', '--record', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log', '--install-scripts', '$base/lib/cv', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv', 'env': {'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[24.428375] (-) TimerEvent: {}
+[24.534065] (-) TimerEvent: {}
+[24.640964] (-) TimerEvent: {}
+[24.742995] (-) TimerEvent: {}
+[24.848268] (-) TimerEvent: {}
+[24.935575] (bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bringup', 'build', '--build-base', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build', 'install', '--record', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log', '--install-scripts', '$base/lib/bringup', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup', 'env': {'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[24.960940] (-) TimerEvent: {}
+[25.061843] (-) TimerEvent: {}
+[25.166204] (-) TimerEvent: {}
+[25.269948] (-) TimerEvent: {}
+[25.370837] (-) TimerEvent: {}
+[25.473960] (-) TimerEvent: {}
+[25.575981] (-) TimerEvent: {}
+[25.684463] (-) TimerEvent: {}
+[25.785204] (-) TimerEvent: {}
+[25.893014] (-) TimerEvent: {}
+[26.001955] (-) TimerEvent: {}
+[26.103971] (-) TimerEvent: {}
+[26.205990] (-) TimerEvent: {}
+[26.308240] (-) TimerEvent: {}
+[26.416213] (-) TimerEvent: {}
+[26.519983] (-) TimerEvent: {}
+[26.622452] (-) TimerEvent: {}
+[26.728938] (-) TimerEvent: {}
+[26.833976] (-) TimerEvent: {}
+[26.942921] (-) TimerEvent: {}
+[27.048937] (-) TimerEvent: {}
+[27.151937] (-) TimerEvent: {}
+[27.254937] (-) TimerEvent: {}
+[27.360387] (-) TimerEvent: {}
+[27.463362] (-) TimerEvent: {}
+[27.570953] (-) TimerEvent: {}
+[27.673933] (-) TimerEvent: {}
+[27.778930] (-) TimerEvent: {}
+[27.879681] (-) TimerEvent: {}
+[27.988936] (-) TimerEvent: {}
+[28.091928] (-) TimerEvent: {}
+[28.196959] (-) TimerEvent: {}
+[28.298949] (-) TimerEvent: {}
+[28.405262] (-) TimerEvent: {}
+[28.516943] (-) TimerEvent: {}
+[28.617744] (-) TimerEvent: {}
+[28.720943] (-) TimerEvent: {}
+[28.826932] (-) TimerEvent: {}
+[28.927745] (-) TimerEvent: {}
+[29.029959] (-) TimerEvent: {}
+[29.136019] (-) TimerEvent: {}
+[29.239254] (-) TimerEvent: {}
+[29.346917] (-) TimerEvent: {}
+[29.451925] (-) TimerEvent: {}
+[29.552749] (-) TimerEvent: {}
+[29.655931] (-) TimerEvent: {}
+[29.760951] (-) TimerEvent: {}
+[29.863917] (-) TimerEvent: {}
+[29.969921] (-) TimerEvent: {}
+[30.070737] (-) TimerEvent: {}
+[30.173963] (-) TimerEvent: {}
+[30.277983] (-) TimerEvent: {}
+[30.378832] (-) TimerEvent: {}
+[30.487929] (-) TimerEvent: {}
+[30.589921] (-) TimerEvent: {}
+[30.690691] (-) TimerEvent: {}
+[30.796062] (-) TimerEvent: {}
+[30.901967] (-) TimerEvent: {}
+[31.010037] (-) TimerEvent: {}
+[31.111408] (-) TimerEvent: {}
+[31.219930] (flashing) StdoutLine: {'line': b'running egg_info\n'}
+[31.220845] (-) TimerEvent: {}
+[31.326937] (-) TimerEvent: {}
+[31.435980] (-) TimerEvent: {}
+[31.536926] (-) TimerEvent: {}
+[31.640978] (-) TimerEvent: {}
+[31.744161] (-) TimerEvent: {}
+[31.853020] (-) TimerEvent: {}
+[31.956946] (-) TimerEvent: {}
+[32.061968] (-) TimerEvent: {}
+[32.165922] (-) TimerEvent: {}
+[32.269942] (-) TimerEvent: {}
+[32.324949] (flashing) StdoutLine: {'line': b'writing ../../build/flashing/flashing.egg-info/PKG-INFO\n'}
+[32.343102] (flashing) StdoutLine: {'line': b'writing dependency_links to ../../build/flashing/flashing.egg-info/dependency_links.txt\n'}
+[32.343869] (flashing) StdoutLine: {'line': b'writing entry points to ../../build/flashing/flashing.egg-info/entry_points.txt\n'}
+[32.350301] (flashing) StdoutLine: {'line': b'writing requirements to ../../build/flashing/flashing.egg-info/requires.txt\n'}
+[32.351127] (flashing) StdoutLine: {'line': b'writing top-level names to ../../build/flashing/flashing.egg-info/top_level.txt\n'}
+[32.375986] (-) TimerEvent: {}
+[32.476864] (-) TimerEvent: {}
+[32.573588] (control) StdoutLine: {'line': b'running egg_info\n'}
+[32.579932] (-) TimerEvent: {}
+[32.680831] (-) TimerEvent: {}
+[32.786698] (-) TimerEvent: {}
+[32.887498] (-) TimerEvent: {}
+[32.995150] (-) TimerEvent: {}
+[33.101964] (-) TimerEvent: {}
+[33.205916] (-) TimerEvent: {}
+[33.309940] (-) TimerEvent: {}
+[33.413431] (-) TimerEvent: {}
+[33.419031] (cv) StdoutLine: {'line': b'running egg_info\n'}
+[33.517926] (-) TimerEvent: {}
+[33.618947] (-) TimerEvent: {}
+[33.642869] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[33.643721] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[33.660950] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[33.669949] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[33.672009] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[33.725990] (-) TimerEvent: {}
+[33.828939] (-) TimerEvent: {}
+[33.932984] (-) TimerEvent: {}
+[34.036318] (-) TimerEvent: {}
+[34.146936] (-) TimerEvent: {}
+[34.247756] (-) TimerEvent: {}
+[34.357961] (cv) StdoutLine: {'line': b'writing ../../build/cv/cv.egg-info/PKG-INFO\n'}
+[34.359095] (-) TimerEvent: {}
+[34.364975] (cv) StdoutLine: {'line': b'writing dependency_links to ../../build/cv/cv.egg-info/dependency_links.txt\n'}
+[34.383945] (cv) StdoutLine: {'line': b'writing entry points to ../../build/cv/cv.egg-info/entry_points.txt\n'}
+[34.384767] (cv) StdoutLine: {'line': b'writing requirements to ../../build/cv/cv.egg-info/requires.txt\n'}
+[34.385438] (cv) StdoutLine: {'line': b'writing top-level names to ../../build/cv/cv.egg-info/top_level.txt\n'}
+[34.457458] (bringup) StdoutLine: {'line': b'running egg_info\n'}
+[34.459473] (-) TimerEvent: {}
+[34.569931] (-) TimerEvent: {}
+[34.672952] (-) TimerEvent: {}
+[34.778948] (-) TimerEvent: {}
+[34.881959] (-) TimerEvent: {}
+[34.989007] (-) TimerEvent: {}
+[35.091935] (-) TimerEvent: {}
+[35.192889] (-) TimerEvent: {}
+[35.298346] (-) TimerEvent: {}
+[35.404986] (-) TimerEvent: {}
+[35.424882] (bringup) StdoutLine: {'line': b'writing ../../build/bringup/bringup.egg-info/PKG-INFO\n'}
+[35.436413] (bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt\n'}
+[35.446341] (bringup) StdoutLine: {'line': b'writing requirements to ../../build/bringup/bringup.egg-info/requires.txt\n'}
+[35.449326] (bringup) StdoutLine: {'line': b'writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt\n'}
+[35.505584] (-) TimerEvent: {}
+[35.606424] (-) TimerEvent: {}
+[35.710095] (-) TimerEvent: {}
+[35.811942] (-) TimerEvent: {}
+[35.912735] (-) TimerEvent: {}
+[36.020379] (-) TimerEvent: {}
+[36.123916] (-) TimerEvent: {}
+[36.228555] (-) TimerEvent: {}
+[36.329519] (-) TimerEvent: {}
+[36.435929] (-) TimerEvent: {}
+[36.538935] (-) TimerEvent: {}
+[36.639940] (-) TimerEvent: {}
+[36.744312] (-) TimerEvent: {}
+[36.848031] (-) TimerEvent: {}
+[36.950943] (-) TimerEvent: {}
+[37.052992] (-) TimerEvent: {}
+[37.155259] (-) TimerEvent: {}
+[37.259326] (-) TimerEvent: {}
+[37.362453] (-) TimerEvent: {}
+[37.465939] (-) TimerEvent: {}
+[37.569002] (-) TimerEvent: {}
+[37.670674] (-) TimerEvent: {}
+[37.774938] (-) TimerEvent: {}
+[37.877943] (-) TimerEvent: {}
+[37.983018] (-) TimerEvent: {}
+[38.088915] (-) TimerEvent: {}
+[38.191677] (-) TimerEvent: {}
+[38.210177] (flashing) StdoutLine: {'line': b"reading manifest file '../../build/flashing/flashing.egg-info/SOURCES.txt'\n"}
+[38.222043] (flashing) StdoutLine: {'line': b"writing manifest file '../../build/flashing/flashing.egg-info/SOURCES.txt'\n"}
+[38.226694] (flashing) StdoutLine: {'line': b'running build\n'}
+[38.230760] (flashing) StdoutLine: {'line': b'running build_py\n'}
+[38.241540] (flashing) StdoutLine: {'line': b'running install\n'}
+[38.296949] (-) TimerEvent: {}
+[38.368086] (flashing) StdoutLine: {'line': b'running install_lib\n'}
+[38.398969] (-) TimerEvent: {}
+[38.505108] (-) TimerEvent: {}
+[38.609836] (-) TimerEvent: {}
+[38.712938] (-) TimerEvent: {}
+[38.815079] (-) TimerEvent: {}
+[38.917954] (-) TimerEvent: {}
+[39.020951] (-) TimerEvent: {}
+[39.125655] (-) TimerEvent: {}
+[39.225938] (flashing) StdoutLine: {'line': b'running install_data\n'}
+[39.226716] (-) TimerEvent: {}
+[39.227334] (flashing) StdoutLine: {'line': b'running install_egg_info\n'}
+[39.339925] (-) TimerEvent: {}
+[39.440871] (-) TimerEvent: {}
+[39.543941] (-) TimerEvent: {}
+[39.648941] (-) TimerEvent: {}
+[39.662945] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[39.670267] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[39.684945] (control) StdoutLine: {'line': b'running build\n'}
+[39.685670] (control) StdoutLine: {'line': b'running build_py\n'}
+[39.692935] (control) StdoutLine: {'line': b'running install\n'}
+[39.755256] (-) TimerEvent: {}
+[39.815942] (control) StdoutLine: {'line': b'running install_lib\n'}
+[39.860946] (-) TimerEvent: {}
+[39.965943] (-) TimerEvent: {}
+[40.068953] (-) TimerEvent: {}
+[40.174951] (-) TimerEvent: {}
+[40.192931] (flashing) StdoutLine: {'line': b"removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[40.216975] (flashing) StdoutLine: {'line': b'Copying ../../build/flashing/flashing.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing-0.0.0-py3.12.egg-info\n'}
+[40.263938] (flashing) StdoutLine: {'line': b'running install_scripts\n'}
+[40.279935] (-) TimerEvent: {}
+[40.383946] (-) TimerEvent: {}
+[40.489248] (-) TimerEvent: {}
+[40.592937] (-) TimerEvent: {}
+[40.693898] (-) TimerEvent: {}
+[40.705926] (cv) StdoutLine: {'line': b"reading manifest file '../../build/cv/cv.egg-info/SOURCES.txt'\n"}
+[40.731182] (cv) StdoutLine: {'line': b"writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'\n"}
+[40.731959] (cv) StdoutLine: {'line': b'running build\n'}
+[40.732545] (cv) StdoutLine: {'line': b'running build_py\n'}
+[40.768969] (cv) StdoutLine: {'line': b'running install\n'}
+[40.796978] (-) TimerEvent: {}
+[40.825391] (control) StdoutLine: {'line': b'running install_data\n'}
+[40.826725] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[40.887436] (cv) StdoutLine: {'line': b'running install_lib\n'}
+[40.901954] (-) TimerEvent: {}
+[41.004952] (-) TimerEvent: {}
+[41.110038] (-) TimerEvent: {}
+[41.214140] (-) TimerEvent: {}
+[41.320028] (-) TimerEvent: {}
+[41.424016] (-) TimerEvent: {}
+[41.492949] (bringup) StdoutLine: {'line': b"reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'\n"}
+[41.512933] (bringup) StdoutLine: {'line': b"writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'\n"}
+[41.517965] (bringup) StdoutLine: {'line': b'running build\n'}
+[41.527461] (bringup) StdoutLine: {'line': b'running build_py\n'}
+[41.529409] (-) TimerEvent: {}
+[41.539739] (bringup) StdoutLine: {'line': b'running install\n'}
+[41.630338] (-) TimerEvent: {}
+[41.698942] (bringup) StdoutLine: {'line': b'running install_lib\n'}
+[41.735931] (-) TimerEvent: {}
+[41.838956] (-) TimerEvent: {}
+[41.884935] (control) StdoutLine: {'line': b"removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[41.900026] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info\n'}
+[41.938966] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[41.939745] (-) TimerEvent: {}
+[42.047085] (-) TimerEvent: {}
+[42.080954] (cv) StdoutLine: {'line': b'running install_data\n'}
+[42.096276] (cv) StdoutLine: {'line': b'copying config/detector_params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config\n'}
+[42.108928] (cv) StdoutLine: {'line': b'running install_egg_info\n'}
+[42.149393] (-) TimerEvent: {}
+[42.250309] (-) TimerEvent: {}
+[42.358550] (-) TimerEvent: {}
+[42.467329] (-) TimerEvent: {}
+[42.503921] (flashing) StdoutLine: {'line': b'Installing flashing_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/flashing\n'}
+[42.516248] (flashing) StdoutLine: {'line': b"writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log'\n"}
+[42.572751] (-) TimerEvent: {}
+[42.678235] (-) TimerEvent: {}
+[42.782044] (-) TimerEvent: {}
+[42.786991] (bringup) StdoutLine: {'line': b'running install_data\n'}
+[42.797246] (bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[42.883414] (-) TimerEvent: {}
+[42.990959] (-) TimerEvent: {}
+[43.096963] (-) TimerEvent: {}
+[43.198055] (-) TimerEvent: {}
+[43.301942] (-) TimerEvent: {}
+[43.374011] (cv) StdoutLine: {'line': b"removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[43.388448] (cv) StdoutLine: {'line': b'Copying ../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info\n'}
+[43.405988] (-) TimerEvent: {}
+[43.424401] (cv) StdoutLine: {'line': b'running install_scripts\n'}
+[43.458001] (flashing) CommandEnded: {'returncode': 0}
+[43.509945] (-) TimerEvent: {}
+[43.542160] (bringup) StdoutLine: {'line': b"removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[43.542858] (bringup) StdoutLine: {'line': b'Copying ../../build/bringup/bringup.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.0-py3.12.egg-info\n'}
+[43.566550] (bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[43.611232] (-) TimerEvent: {}
+[43.718616] (flashing) JobEnded: {'identifier': 'flashing', 'rc': 0}
+[43.725395] (-) TimerEvent: {}
+[43.726405] (hardware) JobStarted: {'identifier': 'hardware'}
+[43.839282] (-) TimerEvent: {}
+[43.945566] (-) TimerEvent: {}
+[44.048696] (-) TimerEvent: {}
+[44.154481] (-) TimerEvent: {}
+[44.261015] (-) TimerEvent: {}
+[44.362403] (-) TimerEvent: {}
+[44.463368] (-) TimerEvent: {}
+[44.530306] (control) StdoutLine: {'line': b'Installing depth_pid script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control\n'}
+[44.531090] (control) StdoutLine: {'line': b'Installing heading_pid script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control\n'}
+[44.549029] (control) StdoutLine: {'line': b'Installing self_arm script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control\n'}
+[44.550153] (control) StdoutLine: {'line': b'Installing self_disarm script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control\n'}
+[44.566954] (control) StdoutLine: {'line': b"writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log'\n"}
+[44.567710] (-) TimerEvent: {}
+[44.668990] (-) TimerEvent: {}
+[44.772758] (-) TimerEvent: {}
+[44.876011] (-) TimerEvent: {}
+[44.982917] (-) TimerEvent: {}
+[45.083921] (-) TimerEvent: {}
+[45.187995] (-) TimerEvent: {}
+[45.294932] (-) TimerEvent: {}
+[45.403940] (-) TimerEvent: {}
+[45.504814] (-) TimerEvent: {}
+[45.562479] (bringup) StdoutLine: {'line': b"writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log'\n"}
+[45.604915] (cv) StdoutLine: {'line': b'Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.609199] (-) TimerEvent: {}
+[45.613910] (cv) StdoutLine: {'line': b'Installing detect_from_image script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.626619] (cv) StdoutLine: {'line': b'Installing detection_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.627885] (cv) StdoutLine: {'line': b'Installing fake_camera_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.646417] (cv) StdoutLine: {'line': b'Installing image_saver_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.647540] (cv) StdoutLine: {'line': b'Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.663272] (cv) StdoutLine: {'line': b'Installing web_streamer_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv\n'}
+[45.664901] (cv) StdoutLine: {'line': b"writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log'\n"}
+[45.711021] (-) TimerEvent: {}
+[45.817932] (-) TimerEvent: {}
+[45.919457] (-) TimerEvent: {}
+[46.025244] (-) TimerEvent: {}
+[46.134943] (-) TimerEvent: {}
+[46.240940] (-) TimerEvent: {}
+[46.342185] (-) TimerEvent: {}
+[46.444202] (-) TimerEvent: {}
+[46.550928] (-) TimerEvent: {}
+[46.651715] (-) TimerEvent: {}
+[46.752823] (-) TimerEvent: {}
+[46.854992] (-) TimerEvent: {}
+[46.956948] (-) TimerEvent: {}
+[47.061298] (-) TimerEvent: {}
+[47.168885] (-) TimerEvent: {}
+[47.275929] (-) TimerEvent: {}
+[47.382947] (-) TimerEvent: {}
+[47.483898] (-) TimerEvent: {}
+[47.586917] (-) TimerEvent: {}
+[47.691941] (-) TimerEvent: {}
+[47.794921] (-) TimerEvent: {}
+[47.897049] (-) TimerEvent: {}
+[47.999951] (-) TimerEvent: {}
+[48.104923] (-) TimerEvent: {}
+[48.207930] (-) TimerEvent: {}
+[48.311940] (-) TimerEvent: {}
+[48.414936] (-) TimerEvent: {}
+[48.516943] (-) TimerEvent: {}
+[48.620933] (-) TimerEvent: {}
+[48.728997] (-) TimerEvent: {}
+[48.829865] (-) TimerEvent: {}
+[48.934931] (-) TimerEvent: {}
+[49.037711] (-) TimerEvent: {}
+[49.141510] (-) TimerEvent: {}
+[49.247988] (-) TimerEvent: {}
+[49.349869] (-) TimerEvent: {}
+[49.452944] (-) TimerEvent: {}
+[49.557947] (-) TimerEvent: {}
+[49.658912] (-) TimerEvent: {}
+[49.762966] (-) TimerEvent: {}
+[49.876068] (-) TimerEvent: {}
+[49.976946] (-) TimerEvent: {}
+[50.020249] (control) CommandEnded: {'returncode': 0}
+[50.084900] (-) TimerEvent: {}
+[50.149701] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[50.151748] (cv) CommandEnded: {'returncode': 0}
+[50.187247] (-) TimerEvent: {}
+[50.283530] (cv) JobEnded: {'identifier': 'cv', 'rc': 0}
+[50.297187] (-) TimerEvent: {}
+[50.298058] (bringup) CommandEnded: {'returncode': 0}
+[50.400656] (-) TimerEvent: {}
+[50.431958] (bringup) JobEnded: {'identifier': 'bringup', 'rc': 0}
+[50.436493] (msgs) JobStarted: {'identifier': 'msgs'}
+[50.511267] (-) TimerEvent: {}
+[50.611507] (msgs) JobProgress: {'identifier': 'msgs', 'progress': 'cmake'}
+[50.611722] (-) TimerEvent: {}
+[50.637022] (msgs) JobProgress: {'identifier': 'msgs', 'progress': 'build'}
+[50.650893] (msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', '--', '-j4', '-l4'], 'cwd': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'ngt', 'SSH_CLIENT': '192.168.3.1 57380 22', 'WORKON_HOME': '/home/ngt/.virtualenvs', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib:/home/ngt/auvc_ws/install/example_custom_srv/lib:/home/ngt/pid_ws/install/target_depth_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'GZ_TRANSPORT_ID': '192.168.3.1', 'HOME': '/home/ngt', 'OLDPWD': '/home/ngt/ZENS-Final-AUVC', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-c36d1267-8c0c-4f6f-8794-5027b6826c7d.sock', 'ZSH': '/home/ngt/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GZ_TRANSPORT_PUB_PORT': '11345', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ardusub) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'VSCODE_GIT_ASKPASS_NODE': '/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'GZ_TRANSPORT_SUB_PORT': '11346', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install:/home/ngt/auvc_ws/install:/home/ngt/cv_ws/install:/home/ngt/pid_ws/install:/home/ngt/auv_dancing/install', 'LOGNAME': 'ngt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/ngt', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '4', 'TERM': 'xterm-256color', 'PATH': '/home/ngt/.virtualenvs/ardusub/bin:/home/ngt/.opencode/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ngt/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ngt/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/ngt/.local/bin:/home/ngt/ardupilot/Tools/autotest', 'XDG_RUNTIME_DIR': '/run/user/1004', 'GZ_PARTITION': 'my_sim', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ngt/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-15e54b3cb67be4e0.txt', 'PYTHONSTARTUP': '/home/ngt/.vscode-server/data/User/workspaceStorage/ebe247280dad30c76e3d7235d970e14f/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ardusub', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-75828e3940.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/target_depth_msgs:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/ngt/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VIRTUAL_ENV': '/home/ngt/.virtualenvs/ardusub', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs', 'SSH_CONNECTION': '192.168.3.1 57380 192.168.3.2 22', 'COPILOT_DEBUG_NONCE': 'ecfdf1043499788fb94714472659d404', 'ZDOTDIR': '/home/ngt', 'PYTHONPATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_virtualenvs/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_pid/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial_ardusub/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/tutorial/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/rosmav/lib/python3.12/site-packages:/home/ngt/auvc_ws/install/example_custom_srv/lib/python3.12/site-packages:/home/ngt/cv_ws/install/cv/lib/python3.12/site-packages:/home/ngt/pid_ws/install/target_depth_msgs/lib/python3.12/site-packages:/home/ngt/pid_ws/install/pid/lib/python3.12/site-packages:/home/ngt/auv_dancing/install/tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ngt/ZENS-Final-AUVC/ros_ws/install/msgs:/home/ngt/auvc_ws/install/example_custom_srv:/home/ngt/pid_ws/install/target_depth_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ngt/ZENS-Final-AUVC/ros_ws/install/hardware:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup:/home/ngt/auvc_ws/install/tutorial_virtualenvs:/home/ngt/auvc_ws/install/tutorial_pid:/home/ngt/auvc_ws/install/tutorial_ardusub:/home/ngt/auvc_ws/install/tutorial:/home/ngt/auvc_ws/install/rosmav:/home/ngt/cv_ws/install/cv:/home/ngt/pid_ws/install/pid:/home/ngt/auv_dancing/install/tutorial:/opt/ros/jazzy'}), 'shell': False}
+[50.715946] (-) TimerEvent: {}
+[50.820974] (-) TimerEvent: {}
+[50.922971] (-) TimerEvent: {}
+[51.028933] (-) TimerEvent: {}
+[51.131948] (-) TimerEvent: {}
+[51.232902] (-) TimerEvent: {}
+[51.338946] (-) TimerEvent: {}
+[51.440053] (-) TimerEvent: {}
+[51.547911] (-) TimerEvent: {}
+[51.649956] (-) TimerEvent: {}
+[51.750919] (-) TimerEvent: {}
+[51.856934] (-) TimerEvent: {}
+[51.927045] (msgs) StdoutLine: {'line': b'[  2%] Built target msgs__rosidl_generator_type_description\n'}
+[51.965385] (-) TimerEvent: {}
+[52.066344] (-) TimerEvent: {}
+[52.170239] (-) TimerEvent: {}
+[52.273987] (-) TimerEvent: {}
+[52.376951] (-) TimerEvent: {}
+[52.387955] (msgs) StderrLine: {'line': b"failed to create symbolic link '/home/ngt/ZENS-Final-AUVC/ros_ws/build/msgs/ament_cmake_python/msgs/msgs' because existing path cannot be removed: Is a directory\n"}
+[52.397957] (msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_msgs] Error 1\n'}
+[52.406924] (msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/ament_cmake_python_symlink_msgs.dir/all] Error 2\n'}
+[52.407718] (msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[52.444121] (msgs) CommandEnded: {'returncode': 2}
+[52.480972] (-) TimerEvent: {}
+[52.582249] (-) TimerEvent: {}
+[52.627197] (msgs) JobEnded: {'identifier': 'msgs', 'rc': 2}
+[52.693941] (-) TimerEvent: {}
+[52.796082] (-) TimerEvent: {}
+[52.901947] (-) TimerEvent: {}
+[53.002824] (-) TimerEvent: {}
+[53.107105] (-) TimerEvent: {}
+[53.208940] (-) TimerEvent: {}
+[53.314210] (-) TimerEvent: {}
+[53.415153] (-) TimerEvent: {}
+[53.521933] (-) TimerEvent: {}
+[53.622728] (-) TimerEvent: {}
+[53.726922] (-) TimerEvent: {}
+[53.828391] (-) TimerEvent: {}
+[53.933243] (-) TimerEvent: {}
+[54.037004] (-) TimerEvent: {}
+[54.138863] (-) TimerEvent: {}
+[54.246978] (-) TimerEvent: {}
+[54.350422] (-) TimerEvent: {}
+[54.452164] (-) TimerEvent: {}
+[54.557200] (-) TimerEvent: {}
+[54.659938] (-) TimerEvent: {}
+[54.762966] (-) TimerEvent: {}
+[54.863767] (-) TimerEvent: {}
+[54.969960] (-) TimerEvent: {}
+[55.070674] (-) TimerEvent: {}
+[55.171547] (-) TimerEvent: {}
+[55.274604] (-) TimerEvent: {}
+[55.379070] (-) TimerEvent: {}
+[55.479873] (-) TimerEvent: {}
+[55.580717] (-) TimerEvent: {}
+[55.686072] (-) TimerEvent: {}
+[55.788470] (-) TimerEvent: {}
+[55.890949] (-) TimerEvent: {}
+[55.996932] (-) TimerEvent: {}
+[56.097752] (-) TimerEvent: {}
+[56.198615] (-) TimerEvent: {}
+[56.299464] (-) TimerEvent: {}
+[56.407925] (-) TimerEvent: {}
+[56.508720] (-) TimerEvent: {}
+[56.609627] (-) TimerEvent: {}
+[56.713954] (-) TimerEvent: {}
+[56.814699] (-) TimerEvent: {}
+[56.915715] (-) TimerEvent: {}
+[57.020029] (-) TimerEvent: {}
+[57.121607] (-) TimerEvent: {}
+[57.225218] (-) TimerEvent: {}
+[57.329522] (-) TimerEvent: {}
+[57.435426] (-) TimerEvent: {}
+[57.537975] (-) TimerEvent: {}
+[57.638687] (-) TimerEvent: {}
+[57.742615] (-) TimerEvent: {}
+[57.846963] (-) TimerEvent: {}
+[57.947855] (-) TimerEvent: {}
+[58.052140] (-) TimerEvent: {}
+[58.154628] (-) TimerEvent: {}
+[58.260012] (-) TimerEvent: {}
+[58.362954] (-) TimerEvent: {}
+[58.465939] (-) TimerEvent: {}
+[58.569105] (-) TimerEvent: {}
+[58.675047] (-) TimerEvent: {}
+[58.780222] (-) TimerEvent: {}
+[58.881097] (-) TimerEvent: {}
+[58.982120] (-) TimerEvent: {}
+[59.085490] (-) TimerEvent: {}
+[59.188953] (-) TimerEvent: {}
+[59.289759] (-) TimerEvent: {}
+[59.390617] (-) TimerEvent: {}
+[59.492236] (-) TimerEvent: {}
+[59.595263] (-) TimerEvent: {}
+[59.696066] (-) TimerEvent: {}
+[59.797542] (-) TimerEvent: {}
+[59.899872] (-) TimerEvent: {}
+[60.001512] (-) TimerEvent: {}
+[60.105259] (-) TimerEvent: {}
+[60.206462] (-) TimerEvent: {}
+[60.309474] (-) TimerEvent: {}
+[60.412130] (-) TimerEvent: {}
+[60.516948] (-) TimerEvent: {}
+[60.617929] (-) TimerEvent: {}
+[60.722010] (-) TimerEvent: {}
+[60.823445] (-) TimerEvent: {}
+[60.898053] (hardware) JobEnded: {'identifier': 'hardware', 'rc': 'SIGINT'}
+[60.913408] (-) EventReactorShutdown: {}

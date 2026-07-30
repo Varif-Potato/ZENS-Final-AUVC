@@ -1,0 +1,24 @@
+launch:
+  - arg:
+      name: "enabled"
+      default: "true"
+      description: "Enable ROS 2 bag recording of all topics"
+
+  - let:
+      name: "output_path"
+      value: "$(env HOME)/analysis/bag_files/$(command 'date +%Y%m%d_%H%M%S')"
+
+  - log:
+      message: "Bag recording ENABLED — recording ALL topics to: $(var output_path)"
+      if: "$(var enabled)"
+
+  - log:
+      message: "Bag recording DISABLED (pass enable_bag_recording:=true to enable)"
+      unless: "$(var enabled)"
+
+  - executable:
+      cmd: "ros2 bag record -a -s mcap --compression-mode file --compression-format zstd --compression-queue-size 50 -o $(var output_path)"
+      name: "rosbag2_recorder"
+      output: "screen"
+      shell: "false"
+      if: "$(var enabled)"

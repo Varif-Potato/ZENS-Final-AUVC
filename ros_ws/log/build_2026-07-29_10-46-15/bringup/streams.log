@@ -1,0 +1,38 @@
+[13.853s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build
+[18.008s] running develop
+[21.172s] Removing /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup.egg-link (link to .)
+[21.467s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build
+[21.478s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data --force
+[25.108s] running egg_info
+[25.442s] writing ../../build/bringup/bringup.egg-info/PKG-INFO
+[25.447s] writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt
+[25.448s] writing requirements to ../../build/bringup/bringup.egg-info/requires.txt
+[25.449s] writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt
+[27.599s] reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[27.603s] writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[27.608s] running build
+[27.608s] running build_py
+[27.609s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build
+[27.613s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build/lib
+[27.614s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build/lib/bringup
+[27.615s] copying bringup/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build/lib/bringup
+[27.615s] running install
+[27.643s] running install_lib
+[28.009s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup
+[28.011s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build/lib/bringup/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup
+[28.017s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup/__init__.py to __init__.cpython-312.pyc
+[28.020s] running install_data
+[28.022s] copying resource/bringup -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/ament_index/resource_index/packages
+[28.024s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup
+[28.026s] copying launch/cv.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.031s] copying launch/web_streamer.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.032s] copying launch/hardware.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.034s] copying launch/all_systems.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.037s] copying launch/bag_recording.launch.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.043s] copying launch/control.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.044s] copying config/params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/config
+[28.051s] running install_egg_info
+[28.636s] Copying ../../build/bringup/bringup.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.0-py3.12.egg-info
+[28.644s] running install_scripts
+[29.801s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log'
+[31.983s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/bringup' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/install.log --install-scripts $base/lib/bringup --single-version-externally-managed install_data --force

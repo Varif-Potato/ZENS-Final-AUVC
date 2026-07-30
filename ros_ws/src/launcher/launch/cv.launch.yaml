@@ -1,0 +1,17 @@
+launch:
+  - arg:
+      name: "camera_topic"
+      default: "/camera"
+      description: "Camera image topic"
+
+  - node:
+      pkg: "cv"
+      exec: "detection_node"
+      name: "detection_node"
+      output: "screen"
+      emulate_tty: "true"
+      param:
+        - name: "config_dir"
+          value: "$(find-pkg-share cv)/config"
+        - name: "camera_topic"
+          value: "$(var camera_topic)"

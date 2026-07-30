@@ -1,0 +1,22 @@
+[14.403s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build --no-deps symlink_data --force
+[21.851s] running develop
+[26.771s] running egg_info
+[27.302s] writing bringup.egg-info/PKG-INFO
+[27.309s] writing dependency_links to bringup.egg-info/dependency_links.txt
+[27.310s] writing requirements to bringup.egg-info/requires.txt
+[27.311s] writing top-level names to bringup.egg-info/top_level.txt
+[28.226s] reading manifest file 'bringup.egg-info/SOURCES.txt'
+[28.234s] writing manifest file 'bringup.egg-info/SOURCES.txt'
+[28.720s] running build_ext
+[28.721s] Creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages/bringup.egg-link (link to .)
+[28.725s] 
+[28.726s] Installed /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup
+[28.732s] running symlink_data
+[28.733s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/resource/bringup -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/ament_index/resource_index/packages
+[28.737s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup
+[28.744s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/launch/cv.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.751s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/launch/web_streamer.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.752s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/launch/hardware.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.753s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/launch/all_systems.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch
+[28.761s] error: [Errno 2] No such file or directory: '/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/share/bringup/launch/bag_recording.launch.py'
+[29.119s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup' returned '1': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/bringup/build --no-deps symlink_data --force

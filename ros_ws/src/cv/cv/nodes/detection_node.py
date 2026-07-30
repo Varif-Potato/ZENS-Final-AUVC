@@ -1,6 +1,8 @@
 import os
 os.environ["OPENCV_OPENCL_RUNTIME"] = ""
 
+import math
+import numpy as np
 import threading
 from pathlib import Path
 import cv2
@@ -14,7 +16,6 @@ from cv_bridge import CvBridge
 from cv.apriltag_detection import AprilTagDetector
 from cv.camera import CameraCalibration
 from cv.visualizer import detect_and_annotate, draw_yolo_detections
-from cv.video_logger import VideoLogger
 from cv.yolo_detection import YOLODetector
 
 import ament_index_python
@@ -63,11 +64,23 @@ class DetectionNode(Node):
                 f"Loaded camera calibration from {camera_info_path}"
             )
         else:
-            self.camera = None
-            self.get_logger().warn(
-                f"No camera calibration at {camera_info_path} — "
-                "pose estimation disabled"
-            )
+            camera_config = detector_params.get("apriltag_detector", {}).get("camera", {})
+            if camera_config:
+                self.camera = CameraCalibration(
+                    fx=camera_config.get("fx", 0.0),
+                    fy=camera_config.get("fy", 0.0),
+                    cx=camera_config.get("cx", 0.0),
+                    cy=camera_config.get("cy", 0.0),
+                )
+                self.get_logger().info(
+                    "Loaded camera calibration from detector_params.yaml"
+                )
+            else:
+                self.camera = None
+                self.get_logger().warn(
+                    f"No camera calibration at {camera_info_path} — "
+                    "pose estimation disabled"
+                )
 
         # ---- YOLO setup ----
         yolo_conf = detector_params.get("yolo_detector", {})
@@ -77,13 +90,8 @@ class DetectionNode(Node):
         if self.yolo_enabled:
             model_rel = yolo_conf.get("model_path", "models/auv_detector.onnx")
             model_path = str(Path(config_dir).parent / model_rel)
-            labels_path = yolo_conf.get(
-                "labels_path", "config/auv_labels.yaml"
-            )
-            labels_abs = os.path.join(config_dir, os.path.basename(labels_path))
-
             if os.path.exists(model_path):
-                class_names = self._load_labels(labels_abs)
+                class_names = yolo_conf.get("labels", ["auv"])
                 self.yolo = YOLODetector(
                     model_path=model_path,
                     class_names=class_names,
@@ -137,12 +145,6 @@ class DetectionNode(Node):
         with open(path) as f:
             return yaml.safe_load(f) or {}
 
-    def _load_labels(self, path):
-        import yaml
-        with open(path) as f:
-            data = yaml.safe_load(f) or {}
-        return data.get("names", ["auv"])
-
     # -----------------------------------------------------------------
 
     def callback(self, msg):
@@ -190,6 +192,8 @@ class DetectionNode(Node):
                     "id": t.tag_id,
                     "corners": t.corners.tolist(),
                     "center": t.center.tolist() if hasattr(t, "center") else None,
+                    "translation": t.pose_t.flatten().tolist() if hasattr(t, 'pose_t') and t.pose_t is not None else None,
+                    "distance": float(np.linalg.norm(t.pose_t)) if hasattr(t, 'pose_t') and t.pose_t is not None else None,
                 }
                 for t in tags
             ]
@@ -226,6 +230,9 @@ class DetectionNode(Node):
         else:
             ids = [tag.tag_id for tag in tags]
             parts.append(f"AprilTags: {ids}")
+            if hasattr(tags[0], 'pose_t') and tags[0].pose_t is not None:
+                dists = [f"{math.sqrt(float(t.pose_t[0,0])**2 + float(t.pose_t[1,0])**2 + float(t.pose_t[2,0])**2):.2f}m" for t in tags]
+                parts.append(f"distances: {dists}")
 
         if self.yolo_enabled:
             parts.append("YOLO: active")

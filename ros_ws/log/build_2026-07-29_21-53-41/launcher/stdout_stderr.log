@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/launcher/launcher.egg-info
+writing ../../build/launcher/launcher.egg-info/PKG-INFO
+writing dependency_links to ../../build/launcher/launcher.egg-info/dependency_links.txt
+writing requirements to ../../build/launcher/launcher.egg-info/requires.txt
+writing top-level names to ../../build/launcher/launcher.egg-info/top_level.txt
+writing manifest file '../../build/launcher/launcher.egg-info/SOURCES.txt'
+reading manifest file '../../build/launcher/launcher.egg-info/SOURCES.txt'
+writing manifest file '../../build/launcher/launcher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build/lib
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build/lib/launcher
+copying launcher/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build/lib/launcher
+running install
+running install_lib
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages/launcher
+copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build/lib/launcher/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages/launcher
+byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages/launcher/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/ament_index
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/ament_index/resource_index
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/ament_index/resource_index/packages
+copying resource/launcher -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/ament_index/resource_index/packages
+copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+copying launch/cv.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+copying launch/web_streamer.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+copying launch/hardware.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+copying launch/all_systems.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+copying launch/control.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+copying launch/bag_recording.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/config
+copying config/params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/config
+running install_egg_info
+Copying ../../build/launcher/launcher.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages/launcher-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/install.log'

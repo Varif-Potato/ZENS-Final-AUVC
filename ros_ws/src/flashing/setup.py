@@ -20,6 +20,7 @@ setup(
     entry_points={
         "console_scripts": [
             "flashing_node = flashing.flashing_node:main",
+            "lights = flashing.lights:main",
         ],
     },
 )

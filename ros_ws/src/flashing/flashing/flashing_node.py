@@ -2,7 +2,7 @@ import json
 import math
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String, Bool
+from std_msgs.msg import String, Int16
 
 
 class FlashingNode(Node):
@@ -27,8 +27,8 @@ class FlashingNode(Node):
         )
 
         self.lights_pub = self.create_publisher(
-            Bool,
-            "/lights",
+            Int16,
+            "/target_lights",
             10,
         )
 
@@ -84,8 +84,8 @@ class FlashingNode(Node):
         self._publish_lights()
 
     def _publish_lights(self):
-        msg = Bool()
-        msg.data = self.lights_on
+        msg = Int16()
+        msg.data = 1900 if self.lights_on else 1100
         self.lights_pub.publish(msg)
 
     def destroy_node(self):

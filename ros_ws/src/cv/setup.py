@@ -25,10 +25,7 @@ setup(
     entry_points={
         "console_scripts": [
             "detection_node = cv.nodes.detection_node:main",
-            "fake_camera_node = cv.nodes.fake_camera_node:main",
-            "image_saver_node = cv.nodes.image_saver_node:main",
             "calibrate_camera = cv.scripts.calibrate_camera:main",
-            "detect_from_image = cv.scripts.detect_from_image:main",
             "tag_heading_node = cv.nodes.tag_heading_node:main",
             "web_streamer_node = cv.nodes.web_streamer_node:main",
         ],

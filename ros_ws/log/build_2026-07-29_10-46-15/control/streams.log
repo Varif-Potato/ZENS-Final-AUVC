@@ -1,0 +1,40 @@
+[14.005s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build
+[18.223s] running develop
+[21.702s] Removing /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control.egg-link (link to .)
+[22.039s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build
+[22.045s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data --force
+[25.788s] running egg_info
+[26.190s] writing ../../build/control/control.egg-info/PKG-INFO
+[26.194s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[26.197s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[26.199s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[26.199s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[28.705s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[28.719s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[28.732s] running build
+[28.733s] running build_py
+[28.733s] running install
+[28.817s] running install_lib
+[29.384s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control
+[29.386s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build/lib/control/self_arm.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control
+[29.386s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build/lib/control/heading_pid.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control
+[29.394s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build/lib/control/self_disarm.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control
+[29.396s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build/lib/control/depth_pid.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control
+[29.396s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build/lib/control/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control
+[29.403s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control/self_arm.py to self_arm.cpython-312.pyc
+[29.412s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control/heading_pid.py to heading_pid.cpython-312.pyc
+[29.421s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control/self_disarm.py to self_disarm.cpython-312.pyc
+[29.431s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control/depth_pid.py to depth_pid.cpython-312.pyc
+[29.445s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control/__init__.py to __init__.cpython-312.pyc
+[29.453s] running install_data
+[29.455s] copying resource/control -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/ament_index/resource_index/packages
+[29.460s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control
+[29.461s] running install_egg_info
+[30.089s] Copying ../../build/control/control.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info
+[30.101s] running install_scripts
+[31.034s] Installing depth_pid script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[31.043s] Installing heading_pid script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[31.044s] Installing self_arm script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[31.049s] Installing self_disarm script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[31.052s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log'
+[31.884s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data --force

@@ -1,0 +1,95 @@
+[8.014s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[9.932s] running egg_info
+[9.934s] creating ../../build/cv/cv.egg-info
+[10.073s] writing ../../build/cv/cv.egg-info/PKG-INFO
+[10.074s] writing dependency_links to ../../build/cv/cv.egg-info/dependency_links.txt
+[10.075s] writing entry points to ../../build/cv/cv.egg-info/entry_points.txt
+[10.076s] writing requirements to ../../build/cv/cv.egg-info/requires.txt
+[10.077s] writing top-level names to ../../build/cv/cv.egg-info/top_level.txt
+[10.753s] writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[11.279s] reading manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[11.287s] writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[11.296s] running build
+[11.301s] running build_py
+[11.305s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build
+[11.306s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib
+[11.306s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.307s] copying cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.309s] copying cv/apriltag_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.310s] copying cv/yolo_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.312s] copying cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.312s] copying cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.313s] copying cv/camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv
+[11.315s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.315s] copying cv/nodes/detection_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.316s] copying cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.318s] copying cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.318s] copying cv/nodes/web_streamer_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.318s] copying cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.320s] copying cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes
+[11.321s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts
+[11.322s] copying cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts
+[11.322s] copying cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts
+[11.323s] copying cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts
+[11.324s] running install
+[11.349s] running install_lib
+[11.484s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.485s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/visualizer.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.486s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/apriltag_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.487s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/yolo_detection.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.488s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.489s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/detection_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.490s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/tag_heading_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.491s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/image_saver_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.492s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/web_streamer_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.493s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/fake_camera_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.494s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/nodes/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes
+[11.495s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/video_logger.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.496s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts
+[11.496s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/detect_from_image.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts
+[11.497s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/calibrate_camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts
+[11.498s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts
+[11.499s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.499s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/camera.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv
+[11.502s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/visualizer.py to visualizer.cpython-312.pyc
+[11.506s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/apriltag_detection.py to apriltag_detection.cpython-312.pyc
+[11.508s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/yolo_detection.py to yolo_detection.cpython-312.pyc
+[11.513s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/detection_node.py to detection_node.cpython-312.pyc
+[11.520s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/tag_heading_node.py to tag_heading_node.cpython-312.pyc
+[11.524s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/image_saver_node.py to image_saver_node.cpython-312.pyc
+[11.527s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/web_streamer_node.py to web_streamer_node.cpython-312.pyc
+[11.531s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/fake_camera_node.py to fake_camera_node.cpython-312.pyc
+[11.534s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/nodes/__init__.py to __init__.cpython-312.pyc
+[11.535s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/video_logger.py to video_logger.cpython-312.pyc
+[11.538s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/detect_from_image.py to detect_from_image.cpython-312.pyc
+[11.541s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/calibrate_camera.py to calibrate_camera.cpython-312.pyc
+[11.544s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/__init__.py to __init__.cpython-312.pyc
+[11.546s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/__init__.py to __init__.cpython-312.pyc
+[11.547s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/camera.py to camera.cpython-312.pyc
+[11.551s] running install_data
+[11.552s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index
+[11.553s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index
+[11.553s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index/packages
+[11.554s] copying resource/cv -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index/packages
+[11.554s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv
+[11.555s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch
+[11.556s] copying launch/tag_heading.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch
+[11.556s] copying launch/detection.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch
+[11.557s] copying launch/web_streamer.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch
+[11.558s] copying launch/test_detection.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch
+[11.559s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config
+[11.560s] copying config/auv_labels.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config
+[11.561s] copying config/detector_params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config
+[11.562s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/models
+[11.563s] running install_egg_info
+[11.706s] Copying ../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info
+[11.711s] running install_scripts
+[12.137s] Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.138s] Installing detect_from_image script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.138s] Installing detection_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.139s] Installing fake_camera_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.140s] Installing image_saver_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.141s] Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.141s] Installing web_streamer_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.144s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log'
+[12.318s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /home/ngt/.virtualenvs/ardusub/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data

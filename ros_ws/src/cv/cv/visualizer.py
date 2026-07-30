@@ -19,9 +19,13 @@ def draw_tags(frame, tags):
                 tuple(tag.corners[idx, :].astype(int)),
                 (0, 255, 0),
             )
+        label = str(tag.tag_id)
+        if hasattr(tag, 'pose_t') and tag.pose_t is not None:
+            dist = float(np.linalg.norm(tag.pose_t))
+            label = f"{tag.tag_id} {dist:.2f}m"
         cv2.putText(
             color_img,
-            str(tag.tag_id),
+            label,
             org=(
                 tag.corners[0, 0].astype(int) + 10,
                 tag.corners[0, 1].astype(int) + 10,
