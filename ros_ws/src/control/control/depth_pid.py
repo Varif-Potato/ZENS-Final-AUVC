@@ -14,7 +14,10 @@ class depthhold(Node):
         self.declare_parameter("max_depth", -3.00)
         self.declare_parameter("min_depth", 0.00)
         self.declare_parameter("speed", 300.0)
+<<<<<<< HEAD
         self.declare_parameter("target_depth", -2.0)
+=======
+>>>>>>> a79785bb7f0d52b7f280f7edc1af97171da8657f
         self.currentPos = 0
         self.dt = 0.1
         self.targetPos = -0.0
@@ -58,11 +61,19 @@ class depthhold(Node):
         self.errorPre = 0.0
         self.get_logger().info(f"New Target Depth: {self.targetPos:.2f} m")
     def depthPublish(self):
+<<<<<<< HEAD
         target_param = self.get_parameter("target_depth").value
         self.PIDController(
             max(min(target_param, self.get_parameter("min_depth").value), self.get_parameter("max_depth").value),
             self.get_parameter("kP").value,
             self.get_parameter("kI").value,
+=======
+    
+        self.PIDController(
+            max(min(self.targetPos, self.get_parameter("min_depth").value), self.get_parameter("max_depth").value), 
+            self.get_parameter("kP").value, 
+            self.get_parameter("kI").value, 
+>>>>>>> a79785bb7f0d52b7f280f7edc1af97171da8657f
             self.get_parameter("kD").value
         )
         self.get_logger().info(f"Published PID, depth {self.meter} m")
