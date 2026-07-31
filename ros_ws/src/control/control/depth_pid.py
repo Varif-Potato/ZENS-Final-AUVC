@@ -8,6 +8,12 @@ from std_msgs.msg import Float32
 class depthhold(Node):
     def __init__(self):
         super().__init__("depthhold")
+        self.declare_parameter("kP", 50.0)
+        self.declare_parameter("kI", 2.0)
+        self.declare_parameter("kD", 0.75)
+        self.declare_parameter("max_depth", -3.00)
+        self.declare_parameter("min_depth", 0.00)
+        self.declare_parameter("speed", 300.0)
         self.currentPos = 0
         self.dt = 0.1
         self.targetPos = -0.0
@@ -15,7 +21,7 @@ class depthhold(Node):
         self.errorPre = 0.0
         self.meter = 0.0
         self.processVar = 0.0
-        self.targetSpeed = 0.0
+        
         self.manual_pub = self.create_publisher(
             ManualControl,
             "/manual_control",
@@ -25,12 +31,6 @@ class depthhold(Node):
             Float32,
             "/target_depth",
             self.targetSetting, 
-            10
-        )
-        self.targetFor_sub = self.create_subscription(
-            Float32,
-            "target_for",
-            self.targetFor,
             10
         )
         self.sub = self.create_subscription(
@@ -45,34 +45,43 @@ class depthhold(Node):
         )
         
     def depthMeters(self, msg):
-        self.meter = -((msg.fluid_pressure -101325) / (1000.0 * 9.81))
-        self.currentPos = 0.2 * self.meter + (1 - 0.2) * self.currentPos
+        self.meter = -((msg.fluid_pressure - 101325) / (1000.0 * 9.81))
+        self.currentPos = 0.5 * self.meter + (0.5) * self.currentPos
         self.get_logger().info(f"Depth: {self.meter}, ProcessVar: {self.processVar}")
     def targetFor(self, msg):
         self.targetSpeed = msg.data
         self.get_logger().info(f"Target Speed {self.targetSpeed} %")
     def targetSetting(self, msg):
         self.targetPos = msg.data
+        self.errorAcu = 0.0
+        self.errorPre = 0.0
         self.get_logger().info(f"New Target Depth: {self.targetPos:.2f} m")
     def depthPublish(self):
     
-        self.PIDController(self.targetPos, 50.0, 2.0, 10.0)
+        self.PIDController(
+            max(min(self.targetPos, self.get_parameter("min_depth").value), self.get_parameter("max_depth").value), 
+            self.get_parameter("kP").value, 
+            self.get_parameter("kI").value, 
+            self.get_parameter("kD").value
+        )
         self.get_logger().info(f"Published PID, depth {self.meter} m")
         
     def PIDController(self, target, kP, kI, kD):
         msg = ManualControl()
         error = target - self.currentPos
-        self.errorAcu += error * self.dt
+        if abs(error) < 1.0:
+            self.errorAcu += error * self.dt
+        else:
+            self.errorAcu = 0.0
         self.currentkP = kP * error
-        self.currentkI = kI * self.errorAcu
+        self.currentkI = kI * max(min(self.errorAcu, 400.0), -400.0)
         self.currentkD = kD * (error - self.errorPre) / self.dt
         self.errorPre = error
         
 
-        self.processVar = (self.currentkP + self.currentkI + self.currentkD) - 10.0
+        self.processVar = (self.currentkP + self.currentkI + self.currentkD) - 20.0
         
-        msg.x = self.targetSpeed * 2.5
-        msg.z = self.processVar
+        msg.z = max(-self.get_parameter("speed").value, min(self.get_parameter("speed").value, self.processVar))
             
         
         self.manual_pub.publish(msg)
