@@ -1,0 +1,59 @@
+launch:
+
+  - arg:
+      name: "record"
+      default: "false"
+      description: "Record sensor topics to rosbag"
+
+  - arg:
+      name: "bag_name"
+      default: "ZENS_AUVC_TEAM"
+      description: "Name of the output bag"
+
+  - executable:
+      cmd: "ros2 bag record -s mcap -o $(var bag_name) -topics /target_angle /target_depth /target_speed /heading /current_for /depth"
+      output: "screen"
+      if: "$(var record)"
+  
+  - node:
+      pkg: "finalChallenge"
+      exec: "arming"
+      name: "arming"
+      namespace: ""
+  - node:
+      pkg: "finalChallenge"
+      exec: "depthhold"
+      name: "depthhold"
+      param:
+      - name: "kP"
+        value: 50.0
+      - name: "kI"
+        value: 2.0
+      - name: "kD"
+        value: 0.75
+      - name: "max_depth"
+        value: -3.00
+      - name: "min_depth"
+        value: 0.00
+      - name: "speed"
+        value: 300.0
+      namespace: ""
+
+  - node: 
+      pkg: "finalChallenge"
+      exec: "rotatehold"
+      name: "rotatehold"
+      param:
+      - name: "kP"
+        value: 1.4
+      - name: "kI"
+        value: 0.0
+      - name: "kD"
+        value: 0.05
+      - name: "speed"
+        value: 300.0
+      - name: "min_thrust"
+        value: -300.0
+      - name: "max_thrust"
+        value: 300.0
+      namespace: ""
