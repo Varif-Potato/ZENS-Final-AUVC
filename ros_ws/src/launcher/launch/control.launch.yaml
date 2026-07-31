@@ -4,9 +4,13 @@ launch:
       exec: "depth_pid"
       name: "depth_pid"
       output: "screen"
+      param:
+        - from: "/home/ngt/ZENS-Final-AUVC/ros_ws/src/launcher/config/params.yaml"
 
   - node:
       pkg: "control"
       exec: "heading_pid"
       name: "heading_pid"
       output: "screen"
+      param:
+        - from: "$(find-pkg-share launcher)/config/params.yaml"

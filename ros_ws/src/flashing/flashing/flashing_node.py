@@ -1,5 +1,4 @@
 import json
-import math
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String, Int16
@@ -47,16 +46,13 @@ class FlashingNode(Node):
         self.tag_near = False
 
         for tag in detections:
-            center = tag.get("center")
-            if center:
-                cx, cy = center
-                distance = math.sqrt(cx**2 + cy**2)
-                if distance < self.flash_distance:
-                    self.tag_near = True
-                    self.get_logger().info(
-                        f"Tag {tag['id']} within {self.flash_distance}m — flashing"
-                    )
-                    break
+            distance = tag.get("distance")
+            if distance is not None and distance < self.flash_distance:
+                self.tag_near = True
+                self.get_logger().info(
+                    f"Tag {tag['id']} at {distance:.2f}m within {self.flash_distance}m — flashing"
+                )
+                break
 
         if self.tag_near and not was_near:
             self._start_flashing()

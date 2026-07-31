@@ -15,9 +15,9 @@ apriltag_detector:
 
 yolo_detector:
   enabled: true
-  model_path: models/auv_detector_v2.onnx
+  model_path: models/auv_detector_v3.onnx
   labels: ["auv"]
   conf_threshold: 0.25
   iou_threshold: 0.45
-  input_width: 320
-  input_height: 320
+  input_width: 256
+  input_height: 256

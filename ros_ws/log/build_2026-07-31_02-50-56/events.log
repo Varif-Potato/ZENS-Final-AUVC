@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.001009] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.002000] (cv) JobQueued: {'identifier': 'cv', 'dependencies': OrderedDict()}
+[0.002135] (flashing) JobQueued: {'identifier': 'flashing', 'dependencies': OrderedDict()}
+[0.002215] (launcher) JobQueued: {'identifier': 'launcher', 'dependencies': OrderedDict()}
+[0.002287] (control) JobStarted: {'identifier': 'control'}
+[0.058483] (cv) JobStarted: {'identifier': 'cv'}
+[0.099232] (-) TimerEvent: {}
+[0.110925] (flashing) JobStarted: {'identifier': 'flashing'}
+[0.173176] (launcher) JobStarted: {'identifier': 'launcher'}
+[0.202186] (-) TimerEvent: {}
+[0.302961] (-) TimerEvent: {}
+[0.403766] (-) TimerEvent: {}
+[0.504544] (-) TimerEvent: {}
+[0.605213] (-) TimerEvent: {}
+[0.705929] (-) TimerEvent: {}
+[0.806729] (-) TimerEvent: {}
+[0.907478] (-) TimerEvent: {}
+[1.008178] (-) TimerEvent: {}
+[1.108955] (-) TimerEvent: {}
+[1.209694] (-) TimerEvent: {}
+[1.310360] (-) TimerEvent: {}
+[1.411069] (-) TimerEvent: {}
+[1.511859] (-) TimerEvent: {}
+[1.613079] (-) TimerEvent: {}
+[1.713957] (-) TimerEvent: {}
+[1.814719] (-) TimerEvent: {}
+[1.915420] (-) TimerEvent: {}
+[2.016113] (-) TimerEvent: {}
+[2.116792] (-) TimerEvent: {}
+[2.217553] (-) TimerEvent: {}
+[2.318248] (-) TimerEvent: {}
+[2.418947] (-) TimerEvent: {}
+[2.520307] (-) TimerEvent: {}
+[2.620953] (-) TimerEvent: {}
+[2.721651] (-) TimerEvent: {}
+[2.822411] (-) TimerEvent: {}
+[2.823766] (cv) JobEnded: {'identifier': 'cv', 'rc': 0}
+[2.922603] (-) TimerEvent: {}
+[3.023361] (-) TimerEvent: {}
+[3.124009] (-) TimerEvent: {}
+[3.224666] (-) TimerEvent: {}
+[3.325350] (-) TimerEvent: {}
+[3.425979] (-) TimerEvent: {}
+[3.526713] (-) TimerEvent: {}
+[3.627454] (-) TimerEvent: {}
+[3.728113] (-) TimerEvent: {}
+[3.829144] (-) TimerEvent: {}
+[3.929851] (-) TimerEvent: {}
+[4.030659] (-) TimerEvent: {}
+[4.131411] (-) TimerEvent: {}
+[4.232652] (-) TimerEvent: {}
+[4.276410] (control) JobEnded: {'identifier': 'control', 'rc': 'SIGINT'}
+[4.279884] (launcher) JobEnded: {'identifier': 'launcher', 'rc': 'SIGINT'}
+[4.281486] (flashing) JobEnded: {'identifier': 'flashing', 'rc': 'SIGINT'}
+[4.291087] (-) EventReactorShutdown: {}

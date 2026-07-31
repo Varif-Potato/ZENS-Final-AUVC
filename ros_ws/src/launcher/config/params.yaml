@@ -1,23 +1,32 @@
 # Global parameters for all subsystems
-control:
-  depth_pid:
-    kp: 50.0
-    ki: 0.0
-    kd: 0.5
-    target_depth: -2.0
-  heading_pid:
+# Valid ROS 2 parameters file: each section is a node name, then ros__parameters.
+depth_pid:
+  ros__parameters:
+    kP: 50.0
+    kI: 2.0
+    kD: 0.75
+    max_depth: -3.00
+    min_depth: 0.00
+    speed: 300.0
+    target_depth: -1.5
+
+heading_pid:
+  ros__parameters:
     kp: 2.5
     ki: 0.1
     kd: 0.03
 
 cv:
-  camera_topic: "/camera"
-  tag_families: "tag36h11"
-  tag_size: 0.05
+  ros__parameters:
+    camera_topic: "/camera"
+    tag_families: "tag36h11"
+    tag_size: 0.1
 
 flashing:
-  flash_distance: 1.0
-  flash_interval: 0.5
+  ros__parameters:
+    flash_distance: 1.0
+    flash_interval: 1.0
 
 hardware:
-  udp_params: "udpin:0.0.0.0:14550"
+  ros__parameters:
+    udp_params: "udpin:0.0.0.0:14550"

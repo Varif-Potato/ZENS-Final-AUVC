@@ -1,0 +1,24 @@
+[18.592s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build --no-deps symlink_data --force
+[23.153s] running develop
+[27.425s] running egg_info
+[27.753s] writing cv.egg-info/PKG-INFO
+[27.756s] writing dependency_links to cv.egg-info/dependency_links.txt
+[27.762s] writing entry points to cv.egg-info/entry_points.txt
+[27.764s] writing requirements to cv.egg-info/requires.txt
+[27.764s] writing top-level names to cv.egg-info/top_level.txt
+[28.435s] reading manifest file 'cv.egg-info/SOURCES.txt'
+[28.447s] writing manifest file 'cv.egg-info/SOURCES.txt'
+[28.808s] running build_ext
+[28.812s] Creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv.egg-link (link to .)
+[28.816s] Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[28.822s] Installing detection_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[28.825s] Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[28.826s] Installing web_streamer_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[28.829s] 
+[28.830s] Installed /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv
+[28.831s] running symlink_data
+[28.836s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/resource/cv -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/ament_index/resource_index/packages
+[28.836s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv
+[28.837s] symbolically linking /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/launch/tag_heading.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/launch
+[28.838s] error: can't copy '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/launch/detection.launch.yaml': doesn't exist or not a regular file
+[29.166s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv' returned '1': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build --no-deps symlink_data --force

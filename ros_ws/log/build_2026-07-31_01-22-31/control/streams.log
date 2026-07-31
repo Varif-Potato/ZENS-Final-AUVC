@@ -1,0 +1,30 @@
+[19.493s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build
+[25.575s] running develop
+[32.172s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build
+[32.183s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data --force
+[38.227s] running egg_info
+[38.527s] writing ../../build/control/control.egg-info/PKG-INFO
+[38.531s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[38.532s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[38.532s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[38.533s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[41.152s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[41.155s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[41.158s] running build
+[41.160s] running build_py
+[41.164s] running install
+[41.245s] running install_lib
+[41.746s] running install_data
+[41.747s] copying resource/control -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/ament_index/resource_index/packages
+[41.751s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/share/control
+[41.751s] running install_egg_info
+[42.178s] removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info' (and everything under it)
+[42.195s] Copying ../../build/control/control.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages/control-0.0.0-py3.12.egg-info
+[42.225s] running install_scripts
+[43.068s] Installing depth_pid script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[43.075s] Installing finalController script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[43.076s] Installing heading_pid script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[43.087s] Installing self_arm script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[43.088s] Installing self_disarm script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/control
+[43.090s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log'
+[43.307s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data --force

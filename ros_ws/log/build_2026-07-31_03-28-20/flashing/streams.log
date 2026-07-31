@@ -1,0 +1,34 @@
+[15.029s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build
+[20.635s] running develop
+[24.291s] Removing /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing.egg-link (link to .)
+[24.673s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build
+[24.683s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data --force
+[29.602s] running egg_info
+[29.977s] writing ../../build/flashing/flashing.egg-info/PKG-INFO
+[29.985s] writing dependency_links to ../../build/flashing/flashing.egg-info/dependency_links.txt
+[29.986s] writing entry points to ../../build/flashing/flashing.egg-info/entry_points.txt
+[29.987s] writing requirements to ../../build/flashing/flashing.egg-info/requires.txt
+[29.993s] writing top-level names to ../../build/flashing/flashing.egg-info/top_level.txt
+[33.013s] reading manifest file '../../build/flashing/flashing.egg-info/SOURCES.txt'
+[33.017s] writing manifest file '../../build/flashing/flashing.egg-info/SOURCES.txt'
+[33.022s] running build
+[33.026s] running build_py
+[33.033s] running install
+[33.083s] running install_lib
+[33.613s] creating /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing
+[33.618s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build/lib/flashing/lights.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing
+[33.622s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build/lib/flashing/flashing_node.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing
+[33.623s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build/lib/flashing/__init__.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing
+[33.636s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing/lights.py to lights.cpython-312.pyc
+[33.674s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing/flashing_node.py to flashing_node.cpython-312.pyc
+[33.686s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing/__init__.py to __init__.cpython-312.pyc
+[33.695s] running install_data
+[33.710s] copying resource/flashing -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/ament_index/resource_index/packages
+[33.711s] copying package.xml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/share/flashing
+[33.723s] running install_egg_info
+[34.270s] Copying ../../build/flashing/flashing.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages/flashing-0.0.0-py3.12.egg-info
+[34.285s] running install_scripts
+[35.164s] Installing flashing_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/flashing
+[35.166s] Installing lights script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/flashing
+[35.171s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log'
+[35.409s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/flashing' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/flashing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flashing build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/flashing/install.log --install-scripts $base/lib/flashing --single-version-externally-managed install_data --force

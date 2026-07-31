@@ -98,8 +98,8 @@ class DetectionNode(Node):
                     conf_threshold=yolo_conf.get("conf_threshold", 0.25),
                     iou_threshold=yolo_conf.get("iou_threshold", 0.45),
                     input_size=(
-                        yolo_conf.get("input_width", 416),
-                        yolo_conf.get("input_height", 416),
+                        yolo_conf.get("input_width", 256),
+                        yolo_conf.get("input_height", 256),
                     ),
                 )
                 self.get_logger().info(
@@ -185,19 +185,18 @@ class DetectionNode(Node):
         self.annotated_pub.publish(annotated_msg)
 
         # --- Publish AprilTag detections (JSON) ---
-        if tags:
-            import json
-            detections = [
-                {
-                    "id": t.tag_id,
-                    "corners": t.corners.tolist(),
-                    "center": t.center.tolist() if hasattr(t, "center") else None,
-                    "translation": t.pose_t.flatten().tolist() if hasattr(t, 'pose_t') and t.pose_t is not None else None,
-                    "distance": float(np.linalg.norm(t.pose_t)) if hasattr(t, 'pose_t') and t.pose_t is not None else None,
-                }
-                for t in tags
-            ]
-            self.detections_pub.publish(String(data=json.dumps(detections)))
+        import json
+        detections = [
+            {
+                "id": t.tag_id,
+                "corners": t.corners.tolist(),
+                "center": t.center.tolist() if hasattr(t, "center") else None,
+                "translation": t.pose_t.flatten().tolist() if hasattr(t, 'pose_t') and t.pose_t is not None else None,
+                "distance": float(np.linalg.norm(t.pose_t)) if hasattr(t, 'pose_t') and t.pose_t is not None else None,
+            }
+            for t in tags
+        ]
+        self.detections_pub.publish(String(data=json.dumps(detections)))
 
         # --- Publish YOLO detections (JSON) ---
         if yolo_results:

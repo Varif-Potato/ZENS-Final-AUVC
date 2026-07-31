@@ -27,11 +27,11 @@ class Lights(Node):
         msg = OverrideRCIn()
         
         msg.channels = [OverrideRCIn.CHAN_NOCHANGE] * 18
-        msg.channels[7] = self.lightPWM 
+        msg.channels[8] = self.lightPWM 
         
         self.light_pub.publish(msg)
-     
-           
+
+
     def set_lights(self, msg):
         self.lightPWM = msg.data
         if self.lightPWM == 0:

@@ -1,0 +1,36 @@
+[17.205s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[19.739s] Traceback (most recent call last):
+[19.739s]   File "/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv/setup.py", line 7, in <module>
+[19.740s]     setup(
+[19.747s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[19.767s]     return distutils.core.setup(**attrs)
+[19.773s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[19.780s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 172, in setup
+[19.790s]     ok = dist.parse_command_line()
+[19.800s]          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[19.811s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 475, in parse_command_line
+[19.848s]     args = self._parse_command_opts(parser, args)
+[19.851s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[19.860s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1133, in _parse_command_opts
+[20.024s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[20.028s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.036s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 534, in _parse_command_opts
+[20.120s]     cmd_class = self.get_command_class(command)
+[20.121s]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.122s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 980, in get_command_class
+[20.153s]     self.cmdclass[command] = cmdclass = ep.load()
+[20.154s]                                         ^^^^^^^^^
+[20.159s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+[20.168s]     module = import_module(match.group('module'))
+[20.169s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.176s]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+[20.179s]     return _bootstrap._gcd_import(name[level:], package, level)
+[20.181s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.182s]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[20.183s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[20.184s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[20.185s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[20.186s]   File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+[20.187s]   File "<frozen importlib._bootstrap_external>", line 1124, in get_code
+[20.188s]   File "<frozen importlib._bootstrap_external>", line 753, in _compile_bytecode
+[20.189s] KeyboardInterrupt

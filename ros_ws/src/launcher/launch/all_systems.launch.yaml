@@ -1,44 +1,59 @@
 launch:
-  # Enable/disable bag recording (default: record everything)
   - arg:
-      name: "enable_bag_recording"
+      name: "record"
       default: "true"
+      description: "Record sensor topics to a rosbag"
 
-  # Hardware and camera interfaces
+  - arg:
+      name: "bag_name"
+      default: "ZENS"
+      description: "Name of the output bag directory"
+
+  - node:
+      pkg: "control"
+      exec: "self_arm"
+      name: "self_arm"
+      output: "screen"
+
   - include:
       file: "$(find-pkg-share launcher)/launch/hardware.launch.yaml"
 
-  # PID controllers (depth hold + heading hold)
   - include:
       file: "$(find-pkg-share launcher)/launch/control.launch.yaml"
 
-  # AprilTag computer vision (also runs YOLO if enabled)
   - include:
       file: "$(find-pkg-share launcher)/launch/cv.launch.yaml"
 
-  # AprilTag computer vision web viewer
   - include:
       file: "$(find-pkg-share launcher)/launch/web_streamer.launch.yaml"
 
-  # AprilTag heading tracking (turns ROV towards detected tag)
   - include:
-      file: "$(find-pkg-share cv)/launch/tag_heading.launch.py"
+      file: "$(find-pkg-share cv)/launch/tag_heading.launch.yaml"
 
-  # Flashing lights decision maker (auto-starts when tag < 1m)
+  - node:
+      pkg: "control"
+      exec: "finalController"
+      name: "finalController"
+      output: "screen"
+
   - node:
       pkg: "flashing"
       exec: "flashing_node"
       name: "flashing_node"
       output: "screen"
 
-  # Lights actuator (drives RC override from /target_lights commands)
   - node:
       pkg: "flashing"
       exec: "lights"
       name: "lights"
       output: "screen"
 
-  # ROS 2 bag recording — all topics, MCAP format, zstd compression
-  - include:
-      file: "$(find-pkg-share launcher)/launch/bag_recording.launch.py"
-      if: "$(var enable_bag_recording)"
+  - let:
+      name: "output_path"
+      value: "$(env HOME)/analysis/bag_files/$(var bag_name)_$(command 'date +%Y-%m-%d_%H:%M:%S')"
+
+  - executable:
+      cmd: "ros2 bag record -s mcap -o $(var output_path) --topics /imu /pressure /temperature /heading /battery_state /camera /apriltags/annotated /apriltags/detections /yolo/detections /manual_control /target_angle /target_depth /target_lights /override_rc"
+      name: "ros2bag_logger"
+      output: "screen"
+      if: "$(var record)"

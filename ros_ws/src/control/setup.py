@@ -23,6 +23,7 @@ setup(
             "depth_pid = control.depth_pid:main",
             "self_arm = control.self_arm:main",
             "self_disarm = control.self_disarm:main",
+            "finalController = control.finalController:main",
         ],
     },
 )

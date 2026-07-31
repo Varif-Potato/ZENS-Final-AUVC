@@ -1,0 +1,22 @@
+[29.614s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/launcher': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launcher build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/install.log --install-scripts $base/lib/launcher --single-version-externally-managed install_data
+[43.125s] running egg_info
+[44.612s] writing ../../build/launcher/launcher.egg-info/PKG-INFO
+[44.623s] writing dependency_links to ../../build/launcher/launcher.egg-info/dependency_links.txt
+[44.641s] writing requirements to ../../build/launcher/launcher.egg-info/requires.txt
+[44.642s] writing top-level names to ../../build/launcher/launcher.egg-info/top_level.txt
+[56.198s] reading manifest file '../../build/launcher/launcher.egg-info/SOURCES.txt'
+[56.224s] writing manifest file '../../build/launcher/launcher.egg-info/SOURCES.txt'
+[56.234s] running build
+[56.252s] running build_py
+[56.252s] running install
+[56.499s] running install_lib
+[58.406s] running install_data
+[58.425s] copying launch/all_systems.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+[58.446s] copying launch/control.launch.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/launch
+[58.460s] copying config/params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/share/launcher/config
+[58.461s] running install_egg_info
+[60.579s] removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages/launcher-0.0.0-py3.12.egg-info' (and everything under it)
+[60.584s] Copying ../../build/launcher/launcher.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages/launcher-0.0.0-py3.12.egg-info
+[60.640s] running install_scripts
+[66.063s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/install.log'
+[67.787s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/launcher' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launcher build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/launcher/install.log --install-scripts $base/lib/launcher --single-version-externally-managed install_data

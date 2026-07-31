@@ -1,0 +1,33 @@
+[7.732s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data
+[10.138s] running egg_info
+[10.348s] writing ../../build/cv/cv.egg-info/PKG-INFO
+[10.350s] writing dependency_links to ../../build/cv/cv.egg-info/dependency_links.txt
+[10.353s] writing entry points to ../../build/cv/cv.egg-info/entry_points.txt
+[10.354s] writing requirements to ../../build/cv/cv.egg-info/requires.txt
+[10.355s] writing top-level names to ../../build/cv/cv.egg-info/top_level.txt
+[11.784s] reading manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[11.795s] writing manifest file '../../build/cv/cv.egg-info/SOURCES.txt'
+[11.796s] running build
+[11.797s] running build_py
+[11.802s] copying cv/scripts/benchmark_int8.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts
+[11.806s] copying cv/scripts/quantize_onnx.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts
+[11.808s] running install
+[11.842s] running install_lib
+[12.060s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/benchmark_int8.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts
+[12.061s] copying /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build/lib/cv/scripts/quantize_onnx.py -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts
+[12.068s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/benchmark_int8.py to benchmark_int8.cpython-312.pyc
+[12.078s] byte-compiling /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv/scripts/quantize_onnx.py to quantize_onnx.cpython-312.pyc
+[12.085s] running install_data
+[12.086s] copying config/detector_params.yaml -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/config
+[12.088s] copying models/auv_detector_v3_int8.onnx -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/models
+[12.109s] copying models/auv_detector_v3.onnx -> /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/share/cv/models
+[12.174s] running install_egg_info
+[12.376s] removing '/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info' (and everything under it)
+[12.382s] Copying ../../build/cv/cv.egg-info to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages/cv-0.0.0-py3.12.egg-info
+[12.396s] running install_scripts
+[12.966s] Installing calibrate_camera script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.968s] Installing detection_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.970s] Installing tag_heading_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.971s] Installing web_streamer_node script to /home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/cv
+[12.975s] writing list of installed files to '/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log'
+[13.148s] Invoked command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/cv' returned '0': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/cv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/cv/install.log --install-scripts $base/lib/cv --single-version-externally-managed install_data

@@ -1,0 +1,51 @@
+[16.038s] Invoking command in '/home/ngt/ZENS-Final-AUVC/ros_ws/src/control': PYTHONPATH=/home/ngt/ZENS-Final-AUVC/ros_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngt/ZENS-Final-AUVC/ros_ws/install/control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/build install --record /home/ngt/ZENS-Final-AUVC/ros_ws/build/control/install.log --install-scripts $base/lib/control --single-version-externally-managed install_data
+[19.877s] Traceback (most recent call last):
+[19.884s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 819, in read_text
+[19.888s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[19.894s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[19.898s]   File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+[19.990s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[19.993s]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[19.996s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[20.000s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[20.004s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.008s] FileNotFoundError: [Errno 2] No such file or directory: '/usr/lib/python3/dist-packages/bleach-6.1.0.egg-info/entry_points.txt'
+[20.011s] 
+[20.017s] During handling of the above exception, another exception occurred:
+[20.019s] 
+[20.024s] Traceback (most recent call last):
+[20.026s]   File "/home/ngt/ZENS-Final-AUVC/ros_ws/src/control/setup.py", line 5, in <module>
+[20.031s]     setup(
+[20.036s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[20.041s]     return distutils.core.setup(**attrs)
+[20.046s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.050s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 172, in setup
+[20.052s]     ok = dist.parse_command_line()
+[20.057s]          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.061s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 475, in parse_command_line
+[20.069s]     args = self._parse_command_opts(parser, args)
+[20.076s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.155s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1133, in _parse_command_opts
+[20.156s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[20.162s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.164s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 534, in _parse_command_opts
+[20.169s]     cmd_class = self.get_command_class(command)
+[20.170s]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.171s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 978, in get_command_class
+[20.173s]     eps = metadata.entry_points(group='distutils.commands', name=command)
+[20.174s]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.176s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[20.186s]     return EntryPoints(eps).select(**params)
+[20.189s]            ^^^^^^^^^^^^^^^^
+[20.190s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+[20.192s]     dist.entry_points for dist in _unique(distributions())
+[20.193s]     ^^^^^^^^^^^^^^^^^
+[20.195s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 471, in entry_points
+[20.251s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[20.251s]                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[20.252s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 812, in read_text
+[20.256s]     with suppress(
+[20.256s]   File "/usr/lib/python3.12/contextlib.py", line 446, in __exit__
+[20.257s]     def __exit__(self, exctype, excinst, exctb):
+[20.258s] 
+[20.260s] KeyboardInterrupt

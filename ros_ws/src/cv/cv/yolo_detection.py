@@ -6,7 +6,7 @@ import time
 
 class YOLODetector:
     def __init__(self, model_path, class_names, conf_threshold=0.25,
-                 iou_threshold=0.45, input_size=(320, 320)):
+                 iou_threshold=0.45, input_size=(256, 256)):
         self.class_names = class_names
         self.num_classes = len(class_names)
         self.conf_threshold = conf_threshold
